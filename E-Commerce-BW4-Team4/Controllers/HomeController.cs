@@ -17,6 +17,27 @@ namespace E_Commerce_BW4_Team4.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public IActionResult Amministratore()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Amministratore(string Username)
+        {
+            TempData["Username"] = Username;
+            return RedirectToAction("GestioneAmministratore");
+        }
+
+        public IActionResult GestioneAmministratore()
+        {
+            var Username = TempData["Username"] as string;
+            ViewBag.Username = Username;
+            return View();
+        }
+
+
 
         public IActionResult Privacy()
         {
