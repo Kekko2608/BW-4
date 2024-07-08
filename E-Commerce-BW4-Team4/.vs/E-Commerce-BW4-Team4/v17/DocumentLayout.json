@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\",
+  "WorkspaceRootPath": "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
@@ -18,6 +18,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
