@@ -10,9 +10,6 @@
         public string CodiceABarre { get; set; }
         public bool Disponibilita { get; set; }
         public decimal Prezzo { get; set; }
-        public int IdPiattaforma { get; set; }
-        public int IdGenere { get; set; }
-        public int IdImmagini { get; set; }
         public Piattaforma Piattaforma { get; set; }
         public Genere Genere { get; set; }
         public Immagine Immagine { get; set; }
