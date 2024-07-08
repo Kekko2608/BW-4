@@ -1,3 +1,5 @@
+using E_Commerce_BW4_Team4.Services;
+
 namespace E_Commerce_BW4_Team4
 {
     public class Program
@@ -6,8 +8,12 @@ namespace E_Commerce_BW4_Team4
         {
             var builder = WebApplication.CreateBuilder(args);
 
+
             // Add services to the container.
-            builder.Services.AddControllersWithViews();
+            builder.Services
+                .AddScoped<IProdottoService, ProdottoService>()
+                .AddControllersWithViews();
+                
 
             var app = builder.Build();
 

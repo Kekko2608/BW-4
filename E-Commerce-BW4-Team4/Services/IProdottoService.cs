@@ -7,7 +7,7 @@ namespace E_Commerce_BW4_Team4.Services
         IEnumerable<Prodotto> GetAllProducts();
         void Create(Prodotto prodotto);
         void Update(Prodotto prodotto);
-        void Delete(IdProdotto);
-        Prodotto GetById(IdProdotto);
+        void Delete(int IdProdotto);
+        Prodotto GetById(int IdProdotto);
     }
 }

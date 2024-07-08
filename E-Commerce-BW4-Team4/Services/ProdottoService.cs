@@ -1,11 +1,16 @@
 ﻿using E_Commerce_BW4_Team4.Models;
+using System.Data.SqlClient;
 
 namespace E_Commerce_BW4_Team4.Services
 {
-    public class ProdottoService : IProdottoService
+    public class ProdottoService : SqlServerServiceBase, IProdottoService
     {
         // LISTA PRODOTTI 
         public static List<Prodotto> _prodotto = new List<Prodotto>();
+
+        public ProdottoService(IConfiguration config) : base(config)
+        {
+        }
 
         // RECUPERA TUTTI I PRODOTTI
         public IEnumerable<Prodotto> GetAllProducts()
@@ -16,7 +21,7 @@ namespace E_Commerce_BW4_Team4.Services
         // ID PRODOTTO
         public Prodotto GetById(int IdProdotto)
         {
-            return _prodotto.FirstOrDefault(p => p.IdProdotto == IdProdotto)
+            return _prodotto.FirstOrDefault(p => p.IdProdotto == IdProdotto);
         }
 
         // CREATE ARTICOLO
@@ -25,16 +30,16 @@ namespace E_Commerce_BW4_Team4.Services
             var query = "INSERT INTO Prodotti (NomeProdotto, DescrizioneProdotto, Brand, PEGI, CodiceABarre, Disponibilita, Prezzo, IdPiattaforma, IdGenere, IdImmagini) " +
                         "VALUES (@NomeProdotto, @DescrizioneProdotto, @Brand, @PEGI, @CodiceABarre, @Disponibilita, @Prezzo, @IdPiattaforma, @IdGenere, @IdImmagini)";
             var cmd = GetCommand(query);
-            cmd.Parameters.AddWithValue("@NomeProdotto", prodotto.NomeProdotto);
-            cmd.Parameters.AddWithValue("@DescrizioneProdotto", prodotto.DescrizioneProdotto);
-            cmd.Parameters.AddWithValue("@Brand", prodotto.Brand);
-            cmd.Parameters.AddWithValue("@PEGI", prodotto.PEGI);
-            cmd.Parameters.AddWithValue("@CodiceABarre", prodotto.CodiceABarre);
-            cmd.Parameters.AddWithValue("@Disponibilita", prodotto.Disponibilita);
-            cmd.Parameters.AddWithValue("@Prezzo", prodotto.Prezzo);
-            cmd.Parameters.AddWithValue("@IdPiattaforma", prodotto.Piattaforma);
-            cmd.Parameters.AddWithValue("@IdGenere", prodotto.Genere);
-            cmd.Parameters.AddWithValue("@IdImmagini", prodotto.Immagine);
+            cmd.Parameters.Add(new SqlParameter("@NomeProdotto", prodotto.NomeProdotto));
+            cmd.Parameters.Add(new SqlParameter("@DescrizioneProdotto", prodotto.DescrizioneProdotto));
+            cmd.Parameters.Add(new SqlParameter("@Brand", prodotto.Brand));
+            cmd.Parameters.Add(new SqlParameter("@PEGI", prodotto.PEGI));
+            cmd.Parameters.Add(new SqlParameter("@CodiceABarre", prodotto.CodiceABarre));
+            cmd.Parameters.Add(new SqlParameter("@Disponibilita", prodotto.Disponibilita));
+            cmd.Parameters.Add(new SqlParameter("@Prezzo", prodotto.Prezzo));
+            cmd.Parameters.Add(new SqlParameter("@IdPiattaforma", prodotto.Piattaforma));
+            cmd.Parameters.Add(new SqlParameter("@IdGenere", prodotto.Genere));
+            cmd.Parameters.Add(new SqlParameter("@IdImmagini", prodotto.Immagine));
 
             using var conn = GetConnection();
             cmd.Connection = conn;
@@ -54,6 +59,9 @@ namespace E_Commerce_BW4_Team4.Services
             }
         }
 
-        
+        public void Update(Prodotto prodotto)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
