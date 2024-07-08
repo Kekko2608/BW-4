@@ -1,0 +1,41 @@
+﻿INSERT INTO [dbo].[Generi] (TipoDiGenere) VALUES
+('Azione'), ('Avventura'), ('Sport'), ('Simulazione'), ('Strategia'),
+('RPG'), ('Corse'), ('Horror'), ('Puzzle'), ('Musicale');
+------------------
+INSERT INTO [dbo].[Piattaforme] (NomePiattaforma) VALUES
+('PlayStation 5'), ('Xbox Series X'), ('Nintendo Switch'), ('PC'),
+('PlayStation 4'), ('Xbox One'), ('iOS'), ('Android'), ('MacOS'), ('Linux');
+------------------
+INSERT INTO [dbo].[Immagini] (ImmagineCopertina, ImmagineSecondaria1, ImmagineSecondaria2, ImmagineSecondaria3) VALUES
+('url_copertina_1.jpg', 'url_sec1_1.jpg', 'url_sec2_1.jpg', 'url_sec3_1.jpg'),
+('url_copertina_2.jpg', 'url_sec1_2.jpg', 'url_sec2_2.jpg', 'url_sec3_2.jpg'),
+('url_copertina_3.jpg', 'url_sec1_3.jpg', 'url_sec2_3.jpg', 'url_sec3_3.jpg'),
+('url_copertina_4.jpg', 'url_sec1_4.jpg', 'url_sec2_4.jpg', 'url_sec3_4.jpg'),
+('url_copertina_5.jpg', 'url_sec1_5.jpg', 'url_sec2_5.jpg', 'url_sec3_5.jpg'),
+('url_copertina_6.jpg', 'url_sec1_6.jpg', 'url_sec2_6.jpg', 'url_sec3_6.jpg'),
+('url_copertina_7.jpg', 'url_sec1_7.jpg', 'url_sec2_7.jpg', 'url_sec3_7.jpg'),
+('url_copertina_8.jpg', 'url_sec1_8.jpg', 'url_sec2_8.jpg', 'url_sec3_8.jpg'),
+('url_copertina_9.jpg', 'url_sec1_9.jpg', 'url_sec2_9.jpg', 'url_sec3_9.jpg'),
+('url_copertina_10.jpg', 'url_sec1_10.jpg', 'url_sec2_10.jpg', 'url_sec3_10.jpg');
+------------------
+INSERT INTO [dbo].[Prodotti] (
+    NomeProdotto, DescrizioneProdotto, Brand, PEGI, CodiceABarre, Disponibilita, Prezzo, IdPiattaforma, IdGenere, IdImmagini
+) VALUES
+('The Last of Us Part II', 'Survival action game set in a post-apocalyptic world.', 'Naughty Dog', '18', '1234567890123', 1, 59.99, 5, 2, 1),
+('FIFA 22', 'The latest installment in the long-running football series.', 'EA Sports', '3', '1234567890124', 1, 59.99, 3, 3, 2),
+('Cyberpunk 2077', 'Open-world RPG set in a dystopian future.', 'CD Projekt Red', '18', '1234567890125', 1, 49.99, 4, 6, 3),
+('Mario Kart 8 Deluxe', 'Fun and competitive racing game with famous Nintendo characters.', 'Nintendo', '3', '1234567890126', 1, 59.99, 3, 7, 4),
+('Ghost of Tsushima', 'Samurai action-adventure game in feudal Japan.', 'Sucker Punch', '18', '1234567890127', 1, 59.99, 5, 1, 5),
+('Resident Evil Village', 'Horror survival game in a creepy European village.', 'Capcom', '18', '1234567890128', 1, 59.99, 5, 8, 6),
+('Assassin’s Creed Valhalla', 'Action RPG game exploring the Viking invasion of Britain.', 'Ubisoft', '18', '1234567890129', 1, 59.99, 5, 1, 7),
+('The Witcher 3: Wild Hunt', 'Fantasy RPG following the story of Geralt of Rivia.', 'CD Projekt', '18', '1234567890130', 1, 49.99, 4, 6, 8),
+('Portal 2', 'Puzzle-platform game focusing on teleportation.', 'Valve', '12', '1234567890131', 1, 19.99, 4, 9, 9),
+('Beat Saber', 'Rhythm game where players slash beats of music.', 'Beat Games', '3', '1234567890132', 1, 29.99, 9, 10, 10);
+------------------
+INSERT INTO [dbo].[Carrello] (PrezzoTotale) VALUES
+(0), (0), (0), (0), (0), (0), (0), (0), (0), (0);
+------------------
+-- Creazione di ordini che collegano i prodotti ai carrelli
+INSERT INTO [dbo].[Ordini] (IdProdotti, IdCarrello) VALUES
+(1, 1), (2, 2), (3, 3), (4, 4), (5, 5),
+(6, 6), (7, 7), (8, 8), (9, 9), (10, 10);
