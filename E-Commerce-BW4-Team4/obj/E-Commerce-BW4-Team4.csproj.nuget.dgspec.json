@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\E-Commerce-BW4-Team4.csproj": {}
+    "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\E-Commerce-BW4-Team4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\E-Commerce-BW4-Team4.csproj": {
+    "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\E-Commerce-BW4-Team4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\E-Commerce-BW4-Team4.csproj",
+        "projectUniqueName": "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\E-Commerce-BW4-Team4.csproj",
         "projectName": "E-Commerce-BW4-Team4",
-        "projectPath": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\E-Commerce-BW4-Team4.csproj",
-        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\obj\\",
+        "projectPath": "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\E-Commerce-BW4-Team4.csproj",
+        "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
