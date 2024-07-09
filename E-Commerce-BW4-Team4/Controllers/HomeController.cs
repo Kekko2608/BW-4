@@ -23,7 +23,7 @@ namespace E_Commerce_BW4_Team4.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(_prodottoService.GetAllProducts());
         }
         [HttpGet]
         public IActionResult Amministratore()

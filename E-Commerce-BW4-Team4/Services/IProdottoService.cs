@@ -4,7 +4,7 @@ namespace E_Commerce_BW4_Team4.Services
 {
     public interface IProdottoService
     {
-        IEnumerable<Prodotto> GetAllProducts();
+        IEnumerable<ProdottoCompleto> GetAllProducts();
         void Create(Prodotto prodotto);
         void Update(Prodotto prodotto);
         void Delete(int IdProdotto);
