@@ -3,6 +3,8 @@
     public class Carrello
     {
         public int IdCarrello { get; set; }
-        public decimal PrezzoTotale { get; set; }
+        public int Quantita { get; set; } = 1;
+        public DateTime DatadelCarrello { get; set; } = DateTime.Now;
+
     }
 }
