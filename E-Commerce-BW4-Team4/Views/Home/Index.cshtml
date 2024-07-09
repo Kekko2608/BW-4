@@ -1,15 +1,27 @@
-﻿@model IEnumerable<ProdottoCompleto>
+﻿@model IEnumerable<E_Commerce_BW4_Team4.Models.ProdottoViewModel>
+
 @{
     ViewData["Title"] = "EPICGAMES";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
-<div>
-    @foreach (var Prodotto in Model)
-    {
-        @Prodotto.NomeProdotto
-    }
+<h1>Benvenuto in EpiGames</h1>
+
+<div class="container">
+    <div class="row">
+        @foreach (var Prodotto in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="@Prodotto.CoverImagePath" class="card-img-top" alt="Immagine di copertina del prodotto">
+                    <div class="card-body">
+                        <h5 class="card-title">@Prodotto.NomeProdotto</h5>
+                        <p class="card-text">@Prodotto.DescrizioneProdotto</p>
+                        <p class="card-text"><strong>Disponibilità:</strong> @Prodotto.Disponibilita</p>
+                        <p class="card-text"><strong>Prezzo:</strong> @Prodotto.Prezzo.ToString("C")</p>
+                        <a class="btn btn-primary">Acquista</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>

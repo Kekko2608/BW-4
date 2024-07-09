@@ -64,7 +64,6 @@ CREATE TABLE [dbo].[Prodotti] (
     [Prezzo]              MONEY          NOT NULL,
     [IdPiattaforma]       INT            NOT NULL,
     [IdGenere]            INT            NOT NULL,
-    [IdImmagini]          INT            NOT NULL,
     PRIMARY KEY CLUSTERED ([IdProdotto] ASC),
     CONSTRAINT [FK_Prodotti_Genere] FOREIGN KEY ([IdGenere]) REFERENCES [dbo].[Generi] ([IdGenere]),
     CONSTRAINT [FK_Prodotti_Piattafome] FOREIGN KEY ([IdPiattaforma]) REFERENCES [dbo].[Piattaforme] ([IdPiattaforma]),
