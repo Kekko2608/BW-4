@@ -1,10 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\",
+  "WorkspaceRootPath": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\maria\\desktop\\bw-4\\e-commerce-bw4-team4\\models\\immagine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:models\\immagine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\services\\ipiattaformaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:services\\ipiattaformaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\services\\igeneriservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:services\\igeneriservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\services\\prodottoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:services\\prodottoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\services\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:services\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\services\\generiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:services\\generiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\services\\iprodottoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:services\\iprodottoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\services\\sqlserverservicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:services\\sqlserverservicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,9 +45,62 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 1009,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 1971,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-08T19:49:04.242Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IPiattaformaService.cs",
+              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\IPiattaformaService.cs",
+              "RelativeDocumentMoniker": "Services\\IPiattaformaService.cs",
+              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\IPiattaformaService.cs",
+              "RelativeToolTip": "Services\\IPiattaformaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T20:10:30.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGeneriService.cs",
+              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\IGeneriService.cs",
+              "RelativeDocumentMoniker": "Services\\IGeneriService.cs",
+              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\IGeneriService.cs",
+              "RelativeToolTip": "Services\\IGeneriService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T20:06:28.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GeneriService.cs",
+              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\GeneriService.cs",
+              "RelativeDocumentMoniker": "Services\\GeneriService.cs",
+              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\GeneriService.cs",
+              "RelativeToolTip": "Services\\GeneriService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T20:06:22.799Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -25,20 +110,74 @@
               "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceBase.cs",
+              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\ServiceBase.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceBase.cs",
+              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\ServiceBase.cs",
+              "RelativeToolTip": "Services\\ServiceBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T20:01:57.849Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Immagine.cs",
-              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Models\\Immagine.cs",
-              "RelativeDocumentMoniker": "Models\\Immagine.cs",
-              "ToolTip": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Models\\Immagine.cs",
-              "RelativeToolTip": "Models\\Immagine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "DocumentIndex": 2,
+              "Title": "ProdottoService.cs",
+              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\ProdottoService.cs",
+              "RelativeDocumentMoniker": "Services\\ProdottoService.cs",
+              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\ProdottoService.cs",
+              "RelativeToolTip": "Services\\ProdottoService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowC0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T14:51:37.012Z",
+              "WhenOpened": "2024-07-08T19:43:54.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:51:26.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SqlServerServiceBase.cs",
+              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\SqlServerServiceBase.cs",
+              "RelativeDocumentMoniker": "Services\\SqlServerServiceBase.cs",
+              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\SqlServerServiceBase.cs",
+              "RelativeToolTip": "Services\\SqlServerServiceBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:48:55.798Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 47,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProdottoService.cs",
+              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\IProdottoService.cs",
+              "RelativeDocumentMoniker": "Services\\IProdottoService.cs",
+              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\IProdottoService.cs",
+              "RelativeToolTip": "Services\\IProdottoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T20:03:14.176Z",
               "EditorCaption": ""
             }
           ]

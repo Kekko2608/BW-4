@@ -17,51 +17,51 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = E_Commerce_BW4_Team4
 build_property.RootNamespace = E_Commerce_BW4_Team4
-build_property.ProjectDir = C:\Users\maria\Desktop\BW-4\E-Commerce-BW4-Team4\
+build_property.ProjectDir = D:\Github project\BW-4\E-Commerce-BW4-Team4\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\maria\Desktop\BW-4\E-Commerce-BW4-Team4
+build_property.MSBuildProjectDirectory = D:\Github project\BW-4\E-Commerce-BW4-Team4
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/maria/Desktop/BW-4/E-Commerce-BW4-Team4/Views/Home/Amministratore.cshtml]
+[D:/Github project/BW-4/E-Commerce-BW4-Team4/Views/Home/Amministratore.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbW1pbmlzdHJhdG9yZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maria/Desktop/BW-4/E-Commerce-BW4-Team4/Views/Home/CreaProdotto.cshtml]
+[D:/Github project/BW-4/E-Commerce-BW4-Team4/Views/Home/CreaProdotto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhUHJvZG90dG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maria/Desktop/BW-4/E-Commerce-BW4-Team4/Views/Home/GestioneAmministratore.cshtml]
+[D:/Github project/BW-4/E-Commerce-BW4-Team4/Views/Home/GestioneAmministratore.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXN0aW9uZUFtbWluaXN0cmF0b3JlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maria/Desktop/BW-4/E-Commerce-BW4-Team4/Views/Home/Index.cshtml]
+[D:/Github project/BW-4/E-Commerce-BW4-Team4/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maria/Desktop/BW-4/E-Commerce-BW4-Team4/Views/Home/Privacy.cshtml]
+[D:/Github project/BW-4/E-Commerce-BW4-Team4/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maria/Desktop/BW-4/E-Commerce-BW4-Team4/Views/Shared/Error.cshtml]
+[D:/Github project/BW-4/E-Commerce-BW4-Team4/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maria/Desktop/BW-4/E-Commerce-BW4-Team4/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Github project/BW-4/E-Commerce-BW4-Team4/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maria/Desktop/BW-4/E-Commerce-BW4-Team4/Views/_ViewImports.cshtml]
+[D:/Github project/BW-4/E-Commerce-BW4-Team4/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maria/Desktop/BW-4/E-Commerce-BW4-Team4/Views/_ViewStart.cshtml]
+[D:/Github project/BW-4/E-Commerce-BW4-Team4/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maria/Desktop/BW-4/E-Commerce-BW4-Team4/Views/Shared/_Layout.cshtml]
+[D:/Github project/BW-4/E-Commerce-BW4-Team4/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nacss335nr

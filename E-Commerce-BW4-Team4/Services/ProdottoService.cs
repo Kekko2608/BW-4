@@ -42,9 +42,9 @@ namespace E_Commerce_BW4_Team4.Services
             cmd.Parameters.Add(new SqlParameter("@IdImmagini", prodotto.Immagine));
 
             using var conn = GetConnection();
-            cmd.Connection = conn;
             conn.Open();
             var result = cmd.ExecuteNonQuery();
+   
             if (result != 1)
                 throw new Exception("Creazione non completata");
         }
