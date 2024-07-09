@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\franc\\desktop\\bw-4\\bw-4\\e-commerce-bw4-team4\\views\\home\\gestioneamministratore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\gestioneamministratore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\franc\\desktop\\bw-4\\bw-4\\e-commerce-bw4-team4\\services\\piattaformaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:services\\piattaformaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\franc\\desktop\\bw-4\\bw-4\\e-commerce-bw4-team4\\views\\home\\carrello.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\carrello.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\franc\\desktop\\bw-4\\bw-4\\e-commerce-bw4-team4\\views\\home\\gestioneamministratore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\gestioneamministratore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\franc\\desktop\\bw-4\\bw-4\\e-commerce-bw4-team4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +19,12 @@
       "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\amministratore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\franc\\desktop\\bw-4\\bw-4\\e-commerce-bw4-team4\\services\\piattaformaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:services\\piattaformaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\franc\\desktop\\bw-4\\bw-4\\e-commerce-bw4-team4\\services\\igeneriservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:services\\igeneriservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\franc\\desktop\\bw-4\\bw-4\\e-commerce-bw4-team4\\views\\home\\carrello.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\carrello.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\franc\\desktop\\bw-4\\bw-4\\e-commerce-bw4-team4\\services\\generiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1207,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,19 +55,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Carrello.cshtml",
-              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Carrello.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Carrello.cshtml",
-              "ToolTip": "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Carrello.cshtml",
-              "RelativeToolTip": "Views\\Home\\Carrello.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T13:40:08.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "GestioneAmministratore.cshtml",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\GestioneAmministratore.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\GestioneAmministratore.cshtml",
@@ -75,8 +62,7 @@
               "RelativeToolTip": "Views\\Home\\GestioneAmministratore.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T13:08:13.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T13:08:13.638Z"
             },
             {
               "$type": "Document",
@@ -86,10 +72,9 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA3wCcAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T13:00:12.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T13:00:12.267Z"
             },
             {
               "$type": "Document",
@@ -101,12 +86,11 @@
               "RelativeToolTip": "Views\\Home\\Amministratore.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T12:55:06.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T12:55:06.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "IGeneriService.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\Services\\IGeneriService.cs",
               "RelativeDocumentMoniker": "Services\\IGeneriService.cs",
@@ -114,12 +98,11 @@
               "RelativeToolTip": "Services\\IGeneriService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T12:44:25.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T12:44:25.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "PiattaformaService.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\Services\\PiattaformaService.cs",
               "RelativeDocumentMoniker": "Services\\PiattaformaService.cs",
@@ -129,6 +112,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-08T12:39:18.043Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Carrello.cshtml",
+              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Carrello.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Carrello.cshtml",
+              "ToolTip": "C:\\Users\\franc\\Desktop\\BW-4\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Carrello.cshtml",
+              "RelativeToolTip": "Views\\Home\\Carrello.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T13:40:08.796Z"
             },
             {
               "$type": "Document",
