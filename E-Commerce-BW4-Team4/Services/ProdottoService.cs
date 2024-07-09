@@ -1,5 +1,6 @@
 ﻿using E_Commerce_BW4_Team4.Models;
 using System.Data.SqlClient;
+using System.Data.Common;
 
 namespace E_Commerce_BW4_Team4.Services
 {
@@ -13,9 +14,34 @@ namespace E_Commerce_BW4_Team4.Services
         }
 
         // RECUPERA TUTTI I PRODOTTI
-        public IEnumerable<Prodotto> GetAllProducts()
+        public ProdottoCompleto  Create(DbDataReader reader)
         {
-            return _prodotto;
+            return new ProdottoCompleto
+            {
+                NomeProdotto = reader.GetString(0),
+                DescrizioneProdotto = reader.GetString(1),
+                Brand = reader.GetString(2),
+                PEGI = reader.GetString(3),
+                Disponibilita = reader.GetBoolean(4),
+                Prezzo = reader.GetDecimal(5),
+                TipoDiGenere = reader.GetString(6),
+                NomePiattaforma = reader.GetString(7)
+            };
+        }
+        public IEnumerable<ProdottoCompleto> GetAllProducts()
+        {
+            var query = "SELECT p.NomeProdotto, p.DescrizioneProdotto, p.Brand, p.PEGI, p.Disponibilita, p.Prezzo, g.TipoDiGenere, pt.NomePiattaforma FROM Prodotti as p JOIN Generi as g ON p.IdGenere = g.IdGenere " +
+            "JOIN Piattaforme as pt ON p.IdPiattaforma = pt.IdPiattaforma";
+
+            var cmd = GetCommand(query);
+            using var conn = GetConnection();
+            conn.Open();
+            var reader = cmd.ExecuteReader();
+            var ListaProdotti = new List<ProdottoCompleto>();
+            while (reader.Read())
+                ListaProdotti.Add(Create(reader));
+            return ListaProdotti;
+            
         }
 
         // ID PRODOTTO
