@@ -10,11 +10,15 @@ namespace E_Commerce_BW4_Team4.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IProdottoService _prodottoService;
+        private readonly IPiattaformaService _piattaformaService;
+        private readonly IGeneriService _generiService;
 
-        public HomeController(ILogger<HomeController> logger, IProdottoService prodottoService)
+        public HomeController(ILogger<HomeController> logger, IProdottoService prodottoService, IPiattaformaService piattaformaService, IGeneriService generiService)
         {
             _logger = logger;
             _prodottoService = prodottoService;
+            _piattaformaService = piattaformaService;
+            _generiService = generiService;
         }
 
         public IActionResult Index()
@@ -35,11 +39,16 @@ namespace E_Commerce_BW4_Team4.Controllers
         //-------------------------------------------------------------
         public IActionResult CreaProdotto()
         {
+            var TuttiIGeneri = _generiService.GetAllGeneri();
+            var TutteLePiattaforme = _piattaformaService.GetAllPiattaforme();
+            ViewBag.TuttiIGeneri = TuttiIGeneri;
+            ViewBag.TutteLePiattaforme = TutteLePiattaforme;
             return View(new Prodotto());
         }
         [HttpPost]
         public IActionResult CreaProdotto(Prodotto prodotto)
-        {
+        {   
+           
             _prodottoService.Create(prodotto);
             return RedirectToAction("GestioneAmministratore");
         }
