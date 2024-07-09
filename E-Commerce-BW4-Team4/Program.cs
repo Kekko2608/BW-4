@@ -12,6 +12,8 @@ namespace E_Commerce_BW4_Team4
             // Add services to the container.
             builder.Services
                 .AddScoped<IProdottoService, ProdottoService>()
+                .AddScoped<IGeneriService, GeneriService>()
+                .AddScoped<IPiattaformaService, PiattaformaService>()
                 .AddControllersWithViews();
                 
 
