@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\",
+  "WorkspaceRootPath": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\maria\\desktop\\bw-4\\e-commerce-bw4-team4\\views\\home\\creaprodotto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\creaprodotto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\maria\\desktop\\bw-4\\e-commerce-bw4-team4\\services\\prodottoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\services\\prodottoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:services\\prodottoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\maria\\desktop\\bw-4\\e-commerce-bw4-team4\\services\\iprodottoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:services\\iprodottoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\maria\\desktop\\bw-4\\e-commerce-bw4-team4\\models\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:models\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 761,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,59 +31,33 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreaProdotto.cshtml",
-              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\CreaProdotto.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\CreaProdotto.cshtml",
-              "ToolTip": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\CreaProdotto.cshtml",
-              "RelativeToolTip": "Views\\Home\\CreaProdotto.cshtml",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAGYAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T10:35:15.669Z",
+              "Title": "ProdottoService.cs",
+              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\ProdottoService.cs",
+              "RelativeDocumentMoniker": "Services\\ProdottoService.cs",
+              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\ProdottoService.cs",
+              "RelativeToolTip": "Services\\ProdottoService.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAWwCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T11:49:43.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProdottoService.cs",
-              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Services\\ProdottoService.cs",
-              "RelativeDocumentMoniker": "Services\\ProdottoService.cs",
-              "ToolTip": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Services\\ProdottoService.cs",
-              "RelativeToolTip": "Services\\ProdottoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAACbAAAA",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAwDIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T10:32:59.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IProdottoService.cs",
-              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Services\\IProdottoService.cs",
-              "RelativeDocumentMoniker": "Services\\IProdottoService.cs",
-              "ToolTip": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Services\\IProdottoService.cs",
-              "RelativeToolTip": "Services\\IProdottoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T10:32:55.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Prodotto.cs",
-              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Models\\Prodotto.cs",
-              "RelativeDocumentMoniker": "Models\\Prodotto.cs",
-              "ToolTip": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Models\\Prodotto.cs",
-              "RelativeToolTip": "Models\\Prodotto.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAzwA4AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T10:32:32.079Z",
+              "WhenOpened": "2024-07-09T11:14:57.068Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 258,
+          "DockedWidth": 1405,
           "SelectedChildIndex": -1,
           "Children": [
             {

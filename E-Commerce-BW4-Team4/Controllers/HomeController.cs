@@ -47,8 +47,15 @@ namespace E_Commerce_BW4_Team4.Controllers
         }
         [HttpPost]
         public IActionResult CreaProdotto(Prodotto prodotto)
-        {   
-           
+        {
+            int idGenereSelezionato = Convert.ToInt32(Request.Form["Genere"]);
+
+            prodotto.Genere = idGenereSelezionato;
+
+            int idPiattaformaSelezionata = Convert.ToInt32(Request.Form["Piattaforma"]);
+
+            prodotto.Piattaforma = idPiattaformaSelezionata;
+
             _prodottoService.Create(prodotto);
             return RedirectToAction("GestioneAmministratore");
         }

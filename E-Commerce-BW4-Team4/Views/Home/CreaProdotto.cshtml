@@ -36,8 +36,10 @@
                 @foreach (var genere in ViewBag.TuttiIGeneri)
                 {
                     <div class="form-group col-md-6 my-3">
-                        <label>@genere.TipoDiGenere</label>
-                        <input type="checkbox" name="generi" value="@genere.TipoDiGenere" />
+                        <label>
+                            <input type="checkbox" name="Genere" value="@genere.IdGenere" />
+                            @genere.TipoDiGenere
+                        </label>
                     </div>
                 }
             </div>
@@ -50,8 +52,10 @@
                 {
                             
                  <li>
-                            <label>@piattaforma.NomePiattaforma</label>
-                            <input type="radio" name="generi" value="@piattaforma.NomePiattaforma" />
+                            <label>
+                                <input type="radio" name="Piattaforma" value="@piattaforma.IdPiattaforma" />
+                                @piattaforma.NomePiattaforma
+                            </label>
                  </li>
                 
                        
