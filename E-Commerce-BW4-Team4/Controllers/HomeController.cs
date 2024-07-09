@@ -2,7 +2,7 @@ using E_Commerce_BW4_Team4.Models;
 using E_Commerce_BW4_Team4.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using Microsoft.AspNetCore.Http;
+
 
 namespace E_Commerce_BW4_Team4.Controllers
 {
@@ -23,22 +23,20 @@ namespace E_Commerce_BW4_Team4.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(_prodottoService.GetAllProducts());
         }
-
         [HttpGet]
         public IActionResult Amministratore()
         {
             return View();
         }
-
         [HttpPost]
         public IActionResult Amministratore(string Username)
         {
             TempData["Username"] = Username;
             return RedirectToAction("GestioneAmministratore");
         }
-
+        //-------------------------------------------------------------
         public IActionResult CreaProdotto()
         {
             var TuttiIGeneri = _generiService.GetAllGeneri();
@@ -47,7 +45,6 @@ namespace E_Commerce_BW4_Team4.Controllers
             ViewBag.TutteLePiattaforme = TutteLePiattaforme;
             return View(new Prodotto());
         }
-
         [HttpPost]
         public IActionResult CreaProdotto(Prodotto prodotto, IFormFile ImageA, IFormFile ImageB, IFormFile ImageC, IFormFile ImageD)
         {
@@ -77,10 +74,7 @@ namespace E_Commerce_BW4_Team4.Controllers
             return View();
         }
 
-        public IActionResult Carrello()
-        {
-            return View();
-        }
+
 
         public IActionResult Privacy()
         {
