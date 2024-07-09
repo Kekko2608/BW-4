@@ -4,106 +4,99 @@
     ViewData["Title"] = "CreaProdotto";
 }
 
-<h1>CreaProdotto</h1>
+<h1 class="my-4">Crea Prodotto</h1>
 
 <h4>Prodotto</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="CreaProdotto">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+    <div class="col-md-6">
+        <form asp-action="CreaProdotto" enctype="multipart/form-data" class="needs-validation custom-form" novalidate>
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <div class="form-group mb-3">
                 <label asp-for="NomeProdotto" class="control-label"></label>
                 <input asp-for="NomeProdotto" class="form-control" />
                 <span asp-validation-for="NomeProdotto" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label asp-for="DescrizioneProdotto" class="control-label"></label>
-                <textarea asp-for="DescrizioneProdotto" class="form-control" rows="20" cols="50"  /></textarea>
+                <textarea asp-for="DescrizioneProdotto" class="form-control" rows="5"></textarea>
                 <span asp-validation-for="DescrizioneProdotto" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label asp-for="Brand" class="control-label"></label>
                 <input asp-for="Brand" class="form-control" />
                 <span asp-validation-for="Brand" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label asp-for="PEGI" class="control-label"></label>
                 <input asp-for="PEGI" class="form-control" />
                 <span asp-validation-for="PEGI" class="text-danger"></span>
             </div>
-            <div class="form-row">
-                @foreach (var genere in ViewBag.TuttiIGeneri)
-                {
-                    <div class="form-group col-md-6 my-3">
-                        <label>
-                            <input type="checkbox" name="Genere" value="@genere.IdGenere" />
-                            @genere.TipoDiGenere
-                        </label>
-                    </div>
-                }
+            <div class="form-group mb-3">
+                <label>Generi</label>
+                <div class="d-flex flex-wrap">
+                    @foreach (var genere in ViewBag.TuttiIGeneri)
+                    {
+                        <div class="form-check me-3">
+                            <input type="checkbox" name="Genere" value="@genere.IdGenere" class="form-check-input" />
+                            <label class="form-check-label">@genere.TipoDiGenere</label>
+                        </div>
+                    }
+                </div>
             </div>
-            <div class="form-row dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown button
-                </button>
-                <ul class="dropdown-menu">
-                    @foreach (var piattaforma in ViewBag.TutteLePiattaforme)
-                {
-                            
-                 <li>
-                            <label>
-                                <input type="radio" name="Piattaforma" value="@piattaforma.IdPiattaforma" />
-                                @piattaforma.NomePiattaforma
-                            </label>
-                 </li>
-                
-                       
-                }
-                </ul>
+            <div class="form-group mb-3">
+                <label>Piattaforma</label>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Seleziona Piattaforma
+                    </button>
+                    <ul class="dropdown-menu">
+                        @foreach (var piattaforma in ViewBag.TutteLePiattaforme)
+                        {
+                            <li>
+                                <label class="dropdown-item">
+                                    <input type="radio" name="Piattaforma" value="@piattaforma.IdPiattaforma" />
+                                    @piattaforma.NomePiattaforma
+                                </label>
+                            </li>
+                        }
+                    </ul>
+                </div>
             </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label asp-for="CodiceABarre" class="control-label"></label>
                 <input asp-for="CodiceABarre" class="form-control" />
                 <span asp-validation-for="CodiceABarre" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
+            <div class="form-group form-check mb-3">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="Disponibilita" /> @Html.DisplayNameFor(model => model.Disponibilita)
                 </label>
             </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label asp-for="Prezzo" class="control-label"></label>
                 <input asp-for="Prezzo" type="number" class="form-control" />
                 <span asp-validation-for="Prezzo" class="text-danger"></span>
             </div>
-            <div class="form-row">
-                <div class="form-group col-md-6 my-3">
-                    <label class="control-label">Scegli Img Copertina</label>
-                    <input type="file" class="form-control-file" />
-                    <span class="text-danger"></span>
-                </div>
+            <div class="form-group mb-3">
+                <label class="control-label">Scegli Img Copertina</label>
+                <input type="file" name="ImageA" class="form-control-file" />
+                <span class="text-danger"></span>
             </div>
-            <div class="form-row">
-                <div class="form-group col-md-6 my-3">
-                    <label class="control-label">Scegli 1 Img</label>
-                    <input type="file" class="form-control-file" />
-                    <span class="text-danger"></span>
-                </div>
+            <div class="form-group mb-3">
+                <label class="control-label">Scegli 1 Img</label>
+                <input type="file" name="ImageB" class="form-control-file" />
+                <span class="text-danger"></span>
             </div>
-            <div class="form-row">
-                <div class="form-group col-md-6 my-3">
-                    <label class="control-label">Scegli 2 Img</label>
-                    <input type="file" class="form-control-file" />
-                    <span class="text-danger"></span>
-                </div>
+            <div class="form-group mb-3">
+                <label class="control-label">Scegli 2 Img</label>
+                <input type="file" name="ImageC" class="form-control-file" />
+                <span class="text-danger"></span>
             </div>
-            <div class="form-row">
-                <div class="form-group col-md-6 my-3">
-                    <label class="control-label">Scegli 3 Img</label>
-                    <input type="file" class="form-control-file" />
-                    <span class="text-danger"></span>
-                </div>
+            <div class="form-group mb-3">
+                <label class="control-label">Scegli 3 Img</label>
+                <input type="file" name="ImageD" class="form-control-file" />
+                <span class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
@@ -113,9 +106,30 @@
 </div>
 
 <div>
-    <a asp-action="GestioneAmministratore">Back to List</a>
+    <a asp-action="GestioneAmministratore" class="btn btn-secondary">Back to List</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
 }

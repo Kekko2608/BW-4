@@ -2,7 +2,7 @@ using E_Commerce_BW4_Team4.Models;
 using E_Commerce_BW4_Team4.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-
+using Microsoft.AspNetCore.Http;
 
 namespace E_Commerce_BW4_Team4.Controllers
 {
@@ -25,18 +25,20 @@ namespace E_Commerce_BW4_Team4.Controllers
         {
             return View();
         }
+
         [HttpGet]
         public IActionResult Amministratore()
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Amministratore(string Username)
         {
             TempData["Username"] = Username;
             return RedirectToAction("GestioneAmministratore");
         }
-        //-------------------------------------------------------------
+
         public IActionResult CreaProdotto()
         {
             var TuttiIGeneri = _generiService.GetAllGeneri();
@@ -45,18 +47,26 @@ namespace E_Commerce_BW4_Team4.Controllers
             ViewBag.TutteLePiattaforme = TutteLePiattaforme;
             return View(new Prodotto());
         }
-        [HttpPost]
-        public IActionResult CreaProdotto(Prodotto prodotto)
-        {
-            int idGenereSelezionato = Convert.ToInt32(Request.Form["Genere"]);
 
+        [HttpPost]
+        public IActionResult CreaProdotto(Prodotto prodotto, IFormFile ImageA, IFormFile ImageB, IFormFile ImageC, IFormFile ImageD)
+        {
+            if (prodotto == null)
+                return BadRequest("Prodotto non valido.");
+
+            int idGenereSelezionato = Convert.ToInt32(Request.Form["Genere"]);
             prodotto.Genere = idGenereSelezionato;
 
             int idPiattaformaSelezionata = Convert.ToInt32(Request.Form["Piattaforma"]);
-
             prodotto.Piattaforma = idPiattaformaSelezionata;
 
             _prodottoService.Create(prodotto);
+
+            if (prodotto.IdProdotto > 0)
+            {
+                _prodottoService.SaveImages(prodotto.IdProdotto, ImageA, ImageB, ImageC, ImageD);
+            }
+
             return RedirectToAction("GestioneAmministratore");
         }
 
@@ -66,8 +76,6 @@ namespace E_Commerce_BW4_Team4.Controllers
             ViewBag.Username = Username;
             return View();
         }
-
-
 
         public IActionResult Privacy()
         {

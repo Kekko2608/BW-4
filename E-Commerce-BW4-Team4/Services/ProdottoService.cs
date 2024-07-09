@@ -1,5 +1,7 @@
 ﻿using E_Commerce_BW4_Team4.Models;
+using Microsoft.AspNetCore.Http;
 using System.Data.SqlClient;
+using System.IO;
 
 namespace E_Commerce_BW4_Team4.Services
 {
@@ -28,7 +30,8 @@ namespace E_Commerce_BW4_Team4.Services
         public void Create(Prodotto prodotto)
         {
             var query = "INSERT INTO Prodotti (NomeProdotto, DescrizioneProdotto, Brand, PEGI, CodiceABarre, Disponibilita, Prezzo, IdPiattaforma, IdGenere) " +
-                        "VALUES (@NomeProdotto, @DescrizioneProdotto, @Brand, @PEGI, @CodiceABarre, @Disponibilita, @Prezzo, @IdPiattaforma, @IdGenere)";
+                        "VALUES (@NomeProdotto, @DescrizioneProdotto, @Brand, @PEGI, @CodiceABarre, @Disponibilita, @Prezzo, @IdPiattaforma, @IdGenere); " +
+                        "SELECT SCOPE_IDENTITY();";
             var cmd = GetCommand(query);
             cmd.Parameters.Add(new SqlParameter("@NomeProdotto", prodotto.NomeProdotto));
             cmd.Parameters.Add(new SqlParameter("@DescrizioneProdotto", prodotto.DescrizioneProdotto));
@@ -42,10 +45,12 @@ namespace E_Commerce_BW4_Team4.Services
 
             using var conn = GetConnection();
             conn.Open();
-            var result = cmd.ExecuteNonQuery();
-   
-            if (result != 1)
+            var result = cmd.ExecuteScalar();
+
+            if (result == null)
                 throw new Exception("Creazione non completata");
+
+            prodotto.IdProdotto = Convert.ToInt32(result);
         }
 
         // DELETE PRODOTTO
@@ -61,6 +66,25 @@ namespace E_Commerce_BW4_Team4.Services
         public void Update(Prodotto prodotto)
         {
             throw new NotImplementedException();
+        }
+
+        public void SaveImages(int idProdotto, IFormFile ImageA, IFormFile ImageB, IFormFile ImageC, IFormFile ImageD)
+        {
+            var images = new List<IFormFile> { ImageA, ImageB, ImageC, ImageD };
+            var imageNames = new[] { "a", "b", "c", "d" };
+
+            for (int i = 0; i < images.Count; i++)
+            {
+                if (images[i] != null && images[i].Length > 0)
+                {
+                    var imagePath = Path.Combine("wwwroot", "Images", $"{idProdotto}{imageNames[i]}.jpg");
+
+                    using (var stream = new FileStream(imagePath, FileMode.Create))
+                    {
+                        images[i].CopyTo(stream);
+                    }
+                }
+            }
         }
     }
 }
