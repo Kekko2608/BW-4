@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\E-Commerce-BW4-Team4",
-    "\\E-Commerce-BW4-Team4\\Models",
-    "\\E-Commerce-BW4-Team4\\Services"
+    "\\E-Commerce-BW4-Team4\\Properties"
   ],
-  "SelectedNode": "\\E-Commerce-BW4-Team4\\Models\\Prodotto.cs",
+  "SelectedNode": "\\E-Commerce-BW4-Team4\\appsettings.Development.json",
   "PreviewInSolutionExplorer": false
 }
