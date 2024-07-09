@@ -27,8 +27,8 @@ namespace E_Commerce_BW4_Team4.Services
         // CREATE ARTICOLO
         public void Create(Prodotto prodotto)
         {
-            var query = "INSERT INTO Prodotti (NomeProdotto, DescrizioneProdotto, Brand, PEGI, CodiceABarre, Disponibilita, Prezzo, IdPiattaforma, IdGenere, IdImmagini) " +
-                        "VALUES (@NomeProdotto, @DescrizioneProdotto, @Brand, @PEGI, @CodiceABarre, @Disponibilita, @Prezzo, @IdPiattaforma, @IdGenere, @IdImmagini)";
+            var query = "INSERT INTO Prodotti (NomeProdotto, DescrizioneProdotto, Brand, PEGI, CodiceABarre, Disponibilita, Prezzo, IdPiattaforma, IdGenere) " +
+                        "VALUES (@NomeProdotto, @DescrizioneProdotto, @Brand, @PEGI, @CodiceABarre, @Disponibilita, @Prezzo, @IdPiattaforma, @IdGenere)";
             var cmd = GetCommand(query);
             cmd.Parameters.Add(new SqlParameter("@NomeProdotto", prodotto.NomeProdotto));
             cmd.Parameters.Add(new SqlParameter("@DescrizioneProdotto", prodotto.DescrizioneProdotto));
@@ -39,7 +39,6 @@ namespace E_Commerce_BW4_Team4.Services
             cmd.Parameters.Add(new SqlParameter("@Prezzo", prodotto.Prezzo));
             cmd.Parameters.Add(new SqlParameter("@IdPiattaforma", prodotto.Piattaforma));
             cmd.Parameters.Add(new SqlParameter("@IdGenere", prodotto.Genere));
-            cmd.Parameters.Add(new SqlParameter("@IdImmagini", prodotto.Immagine));
 
             using var conn = GetConnection();
             conn.Open();

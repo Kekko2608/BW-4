@@ -12,7 +12,6 @@
         public decimal Prezzo { get; set; }
         public Piattaforma Piattaforma { get; set; }
         public Genere Genere { get; set; }
-        public Immagine Immagine { get; set; }
         public ICollection<Ordine> Ordini { get; set; }
     }
 }
