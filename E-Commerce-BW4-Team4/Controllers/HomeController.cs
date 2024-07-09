@@ -46,17 +46,24 @@ namespace E_Commerce_BW4_Team4.Controllers
             return View(new Prodotto());
         }
         [HttpPost]
-        public IActionResult CreaProdotto(Prodotto prodotto)
+        public IActionResult CreaProdotto(Prodotto prodotto, IFormFile ImageA, IFormFile ImageB, IFormFile ImageC, IFormFile ImageD)
         {
-            int idGenereSelezionato = Convert.ToInt32(Request.Form["Genere"]);
+            if (prodotto == null)
+                return BadRequest("Prodotto non valido.");
 
+            int idGenereSelezionato = Convert.ToInt32(Request.Form["Genere"]);
             prodotto.Genere = idGenereSelezionato;
 
             int idPiattaformaSelezionata = Convert.ToInt32(Request.Form["Piattaforma"]);
-
             prodotto.Piattaforma = idPiattaformaSelezionata;
 
             _prodottoService.Create(prodotto);
+
+            if (prodotto.IdProdotto > 0)
+            {
+                _prodottoService.SaveImages(prodotto.IdProdotto, ImageA, ImageB, ImageC, ImageD);
+            }
+
             return RedirectToAction("GestioneAmministratore");
         }
 

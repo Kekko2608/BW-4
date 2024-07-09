@@ -10,9 +10,6 @@
         public string CodiceABarre { get; set; }
         public bool Disponibilita { get; set; }
         public decimal Prezzo { get; set; }
-       // public Piattaforma Piattaforma { get; set; }
-       
-     // public Genere { get; set; }
         public int Piattaforma { get; set; }
         public int Genere { get; set; }
         public ICollection<Ordine> Ordini { get; set; }
