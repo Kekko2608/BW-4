@@ -5,7 +5,8 @@
     "\\Models",
     "\\Properties",
     "\\Services",
-    "\\Views"
+    "\\Views",
+    "\\Views\\Home"
   ],
   "SelectedNode": "\\E-Commerce-BW4-Team4.sln",
   "PreviewInSolutionExplorer": false

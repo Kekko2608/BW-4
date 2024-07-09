@@ -77,6 +77,11 @@ namespace E_Commerce_BW4_Team4.Controllers
             return View();
         }
 
+        public IActionResult Carrello()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
