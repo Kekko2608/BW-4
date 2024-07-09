@@ -47,7 +47,26 @@ namespace E_Commerce_BW4_Team4.Services
         // ID PRODOTTO
         public Prodotto GetById(int IdProdotto)
         {
-            return _prodotto.FirstOrDefault(p => p.IdProdotto == IdProdotto);
+            var query = "SELECT IdProdotto FROM Prodotti WHERE IdProdotto = @IdProdotto";
+            var cmd = GetCommand(query);
+            cmd.Parameters.Add(new SqlParameter("@IdProdotto", IdProdotto));
+
+            using var conn = GetConnection();
+            conn.Open();
+            var reader = cmd.ExecuteReader();
+            var result = cmd.ExecuteNonQuery();
+            if (reader.Read())
+            {
+                Prodotto prodotto = new Prodotto()
+                {
+                    IdProdotto = (int)reader["IdProdotto"],
+                };
+                return prodotto;
+            }
+            else
+            {
+                throw new Exception("Prodotto non trovato.");
+            }
         }
 
         // CREATE ARTICOLO
@@ -78,13 +97,19 @@ namespace E_Commerce_BW4_Team4.Services
         // DELETE PRODOTTO
         public void Delete(int IdProdotto)
         {
-            var prodotto = GetById(IdProdotto);
-            if (prodotto != null)
-            {
-                _prodotto.Remove(prodotto);
-            }
-        }
+            var query = "DELETE FROM Prodotti WHERE IdProdotto = @IdProdotto";
+            var cmd = GetCommand(query);
+            cmd.Parameters.Add(new SqlParameter("@IdProdotto", IdProdotto));
 
+            using var conn = GetConnection();
+            conn.Open();
+            var result = cmd.ExecuteNonQuery();
+            if (result != 1) throw new Exception("Articolo non eliminato");
+        }
+        // CONFERMA DELETE
+        
+
+        //UPDATE
         public void Update(Prodotto prodotto)
         {
             throw new NotImplementedException();

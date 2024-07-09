@@ -17,6 +17,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1a.jpg",
+      "PackagePath": "staticwebassets\\images\\1a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1b.jpg",
+      "PackagePath": "staticwebassets\\images\\1b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1c.jpg",
+      "PackagePath": "staticwebassets\\images\\1c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1d.jpg",
+      "PackagePath": "staticwebassets\\images\\1d.jpg"
+    },
+    {
       "Id": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\icon_epigames_store.png",
       "PackagePath": "staticwebassets\\img\\icon_epigames_store.png"
     },
