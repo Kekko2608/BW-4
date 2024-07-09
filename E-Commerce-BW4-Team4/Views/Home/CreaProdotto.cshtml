@@ -19,7 +19,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="DescrizioneProdotto" class="control-label"></label>
-                <input asp-for="DescrizioneProdotto" class="form-control" />
+                <textarea asp-for="DescrizioneProdotto" class="form-control" rows="20" cols="50"  /></textarea>
                 <span asp-validation-for="DescrizioneProdotto" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -31,6 +31,32 @@
                 <label asp-for="PEGI" class="control-label"></label>
                 <input asp-for="PEGI" class="form-control" />
                 <span asp-validation-for="PEGI" class="text-danger"></span>
+            </div>
+            <div class="form-row">
+                @foreach (var genere in ViewBag.TuttiIGeneri)
+                {
+                    <div class="form-group col-md-6 my-3">
+                        <label>@genere.TipoDiGenere</label>
+                        <input type="checkbox" name="generi" value="@genere.TipoDiGenere" />
+                    </div>
+                }
+            </div>
+            <div class="form-row dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                    @foreach (var piattaforma in ViewBag.TutteLePiattaforme)
+                {
+                            
+                 <li>
+                            <label>@piattaforma.NomePiattaforma</label>
+                            <input type="radio" name="generi" value="@piattaforma.NomePiattaforma" />
+                 </li>
+                
+                       
+                }
+                </ul>
             </div>
             <div class="form-group">
                 <label asp-for="CodiceABarre" class="control-label"></label>
@@ -44,7 +70,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Prezzo" class="control-label"></label>
-                <input asp-for="Prezzo" class="form-control" />
+                <input asp-for="Prezzo" type="number" class="form-control" />
                 <span asp-validation-for="Prezzo" class="text-danger"></span>
             </div>
             <div class="form-row">
