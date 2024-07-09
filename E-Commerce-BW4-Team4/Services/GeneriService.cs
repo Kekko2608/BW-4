@@ -1,5 +1,6 @@
 ﻿
 using E_Commerce_BW4_Team4.Models;
+using System.Data;
 using System.Data.Common;
 
 namespace E_Commerce_BW4_Team4.Services
@@ -22,7 +23,7 @@ namespace E_Commerce_BW4_Team4.Services
 
         public IEnumerable<Genere> GetAllGeneri()
         {
-            var query = "SELECT TipoDiGenere FROM Generi";
+            var query = "SELECT IdGenere, TipoDiGenere FROM Generi";
             var cmd = GetCommand(query);
             using var conn = GetConnection();
             conn.Open();
@@ -37,7 +38,8 @@ namespace E_Commerce_BW4_Team4.Services
         {
             return new Genere
             {
-                TipoDiGenere = reader.GetString(0),
+                TipoDiGenere = reader.GetString(1),
+                IdGenere = reader.GetInt32(0),
             };
         }
         public void Update(int genereId)

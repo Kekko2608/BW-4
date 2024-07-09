@@ -22,7 +22,7 @@ namespace E_Commerce_BW4_Team4.Services
 
         public IEnumerable<Piattaforma> GetAllPiattaforme()
         {
-            var query = "SELECT NomePiattaforma FROM Piattaforme";
+            var query = "SELECT IdPiattaforma, NomePiattaforma FROM Piattaforme";
             var cmd = GetCommand(query);
             using var conn = GetConnection();
             conn.Open();
@@ -38,7 +38,8 @@ namespace E_Commerce_BW4_Team4.Services
         {
             return new Piattaforma
             {
-                NomePiattaforma = reader.GetString(0),
+                NomePiattaforma = reader.GetString(1),
+                IdPiattaforma = reader.GetInt32(0),
             };
 
         }
