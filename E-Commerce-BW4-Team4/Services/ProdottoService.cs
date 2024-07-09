@@ -72,6 +72,7 @@ namespace E_Commerce_BW4_Team4.Services
    
             if (result != 1)
                 throw new Exception("Creazione non completata");
+            prodotto.IdProdotto = Convert.ToInt32(result);
         }
 
         // DELETE PRODOTTO
@@ -87,6 +88,25 @@ namespace E_Commerce_BW4_Team4.Services
         public void Update(Prodotto prodotto)
         {
             throw new NotImplementedException();
+        }
+
+        public void SaveImages(int idProdotto, IFormFile ImageA, IFormFile ImageB, IFormFile ImageC, IFormFile ImageD)
+        {
+            var images = new List<IFormFile> { ImageA, ImageB, ImageC, ImageD };
+            var imageNames = new[] { "a", "b", "c", "d" };
+
+            for (int i = 0; i < images.Count; i++)
+            {
+                if (images[i] != null && images[i].Length > 0)
+                {
+                    var imagePath = Path.Combine("wwwroot", "Images", $"{idProdotto}{imageNames[i]}.jpg");
+
+                    using (var stream = new FileStream(imagePath, FileMode.Create))
+                    {
+                        images[i].CopyTo(stream);
+                    }
+                }
+            }
         }
     }
 }
