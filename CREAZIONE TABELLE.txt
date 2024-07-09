@@ -1,9 +1,11 @@
 -- CREAZIONE CARRELLO TABELLA --
 CREATE TABLE [dbo].[Carrello] (
-    [IdCarrello]    INT   IDENTITY (1, 1) NOT NULL,
-    [PrezzoTotale] MONEY DEFAULT ((0)) NOT NULL,
+    [IdCarrello]   INT   IDENTITY (1, 1) NOT NULL,
+	Quantita	INT NOT NULL DEFAULT 1,
+	DatadelCarrello DATETIME2(7) NOT NULL DEFAULT GETDATE(),
     PRIMARY KEY CLUSTERED ([IdCarrello] ASC)
 );
+
 
 
 
