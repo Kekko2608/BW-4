@@ -99,10 +99,12 @@ namespace E_Commerce_BW4_Team4.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Modifica(ProdottoCompleto prodotto)
         {
-            var TuttiIGeneri = _generiService.GetAllGeneri();
-            var TutteLePiattaforme = _piattaformaService.GetAllPiattaforme();
-            ViewBag.TuttiIGeneri = TuttiIGeneri;
-            ViewBag.TutteLePiattaforme = TutteLePiattaforme;
+            int idGenereSelezionato = Convert.ToInt32(Request.Form["Genere"]);
+            prodotto.Genere = idGenereSelezionato;
+
+            int idPiattaformaSelezionata = Convert.ToInt32(Request.Form["Piattaforma"]);
+            prodotto.Piattaforma = idPiattaformaSelezionata;
+
             _prodottoService.Update(prodotto);
             return RedirectToAction(nameof(GestioneAmministratore));
         }
