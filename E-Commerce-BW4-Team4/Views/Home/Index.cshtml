@@ -2,18 +2,21 @@
 @{
     ViewData["Title"] = "EPICGAMES";
 }
-<h1>Benvenuto in EpiGames</h1>
-
+<div class="text-center my-3">
+<h1 class="text-white ">Benvenuto in</h1>
+<img src="~/img/logo_epigames_store.svg" alt="logo" class="logo"/>
+</div>
 <div class="container">
     <div class="row">
         @foreach (var Prodotto in Model)
         {
             <div class="col-md-4 mb-4">
                 <div class="card">
+                    <img src="~/images/@($"{Prodotto.IdProdotto}a.jpg")" alt="@Prodotto.NomeProdotto" />
                     <div class="card-body">
                         <h5 class="card-title">@Prodotto.NomeProdotto</h5>
                         <p class="card-text">@Prodotto.DescrizioneProdotto</p>
-                        <p class="card-text"><strong>Disponibilità:</strong> @Prodotto.Disponibilita</p>
+                        <p class="card-text"><strong>Disponibilità:<span class=@(Prodotto.Disponibilita ? "text-success" : "text-danger")> @(Prodotto.Disponibilita ? "si" : "no")</span></strong></p>
                         <p class="card-text"><strong>Prezzo:</strong> @Prodotto.Prezzo.ToString("C")</p>
                         <a class="btn btn-primary">Acquista</a>
                     </div>
