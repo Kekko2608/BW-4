@@ -22,11 +22,12 @@ namespace E_Commerce_BW4_Team4.Services
                 DescrizioneProdotto = reader.GetString(1),
                 Brand = reader.GetString(2),
                 PEGI = reader.GetString(3),
-                Disponibilita = reader.GetBoolean(4),
-                Prezzo = reader.GetDecimal(5),
-                TipoDiGenere = reader.GetString(6),
-                NomePiattaforma = reader.GetString(7),
-                IdProdotto = reader.GetInt32(8)
+                CodiceABarre = reader.GetString(4),
+                Disponibilita = reader.GetBoolean(5),
+                Prezzo = reader.GetDecimal(6),
+                TipoDiGenere = reader.GetString(7),
+                NomePiattaforma = reader.GetString(8),
+                IdProdotto = reader.GetInt32(9)
             };
         }
 
@@ -47,6 +48,9 @@ namespace E_Commerce_BW4_Team4.Services
                     Prezzo = prodotto.Prezzo,
                     TipoDiGenere = prodotto.TipoDiGenere,
                     NomePiattaforma = prodotto.NomePiattaforma,
+                    Brand = prodotto.Brand,
+                    PEGI = prodotto.PEGI,
+                    CodiceABarre = prodotto.CodiceABarre,
                     CoverImagePath = File.Exists(coverImagePath) ? $"/Images/{prodotto.IdProdotto}a.jpg" : "/Images/default.jpg"
                 };
                 prodottiConImmagini.Add(prodottoViewModel);
@@ -57,7 +61,8 @@ namespace E_Commerce_BW4_Team4.Services
 
         public IEnumerable<ProdottoCompleto> GetAllProducts()
         {
-            var query = "SELECT p.NomeProdotto, p.DescrizioneProdotto, p.Brand, p.PEGI, p.Disponibilita, p.Prezzo, g.TipoDiGenere, pt.NomePiattaforma, p.IdProdotto FROM Prodotti as p JOIN Generi as g ON p.IdGenere = g.IdGenere " +
+            var query = "SELECT p.NomeProdotto, p.DescrizioneProdotto, p.Brand, p.PEGI, p.CodiceABarre, p.Disponibilita, p.Prezzo, g.TipoDiGenere, " +
+                        "pt.NomePiattaforma, p.IdProdotto FROM Prodotti as p JOIN Generi as g ON p.IdGenere = g.IdGenere " +
             "JOIN Piattaforme as pt ON p.IdPiattaforma = pt.IdPiattaforma";
 
             var cmd = GetCommand(query);
