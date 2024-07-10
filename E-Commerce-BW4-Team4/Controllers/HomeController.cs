@@ -86,6 +86,8 @@ namespace E_Commerce_BW4_Team4.Controllers
             ViewBag.TutteLePiattaforme = TutteLePiattaforme;
 
             var prodotto = _prodottoService.GetByIdForPC(id);
+            ViewBag.GenereSelezionato = (int?)prodotto.Genere;
+            ViewBag.PiattaformaSelezionata = (int?)prodotto.Piattaforma;
             if (prodotto == null)
             {
                 return NotFound();
@@ -101,8 +103,7 @@ namespace E_Commerce_BW4_Team4.Controllers
             var TutteLePiattaforme = _piattaformaService.GetAllPiattaforme();
             ViewBag.TuttiIGeneri = TuttiIGeneri;
             ViewBag.TutteLePiattaforme = TutteLePiattaforme;
-            ViewBag.GenereSelezionato = (int?)prodotto.Genere;
-            ViewBag.PiattaformaSelezionata = (int?)prodotto.Piattaforma;
+            
             _prodottoService.Update(prodotto);
             return RedirectToAction(nameof(GestioneAmministratore));
         }
