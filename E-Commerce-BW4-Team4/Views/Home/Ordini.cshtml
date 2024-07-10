@@ -1,0 +1,10 @@
+﻿@model IEnumerable<OrdineCompleto>
+@{
+    ViewData["Title"] = "Tutti i tuoi ordini";
+}
+
+@foreach (var prodotti in Model)
+{   
+    <img src="@prodotti.CoverImagePath" />
+    <p>@prodotti.NomeProdotto</p>
+}

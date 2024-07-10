@@ -14,6 +14,7 @@ namespace E_Commerce_BW4_Team4
                 .AddScoped<IProdottoService, ProdottoService>()
                 .AddScoped<IGeneriService, GeneriService>()
                 .AddScoped<IPiattaformaService, PiattaformaService>()
+                .AddScoped<IOrdiniService, OrdiniService>()
                 .AddControllersWithViews();
                 
 

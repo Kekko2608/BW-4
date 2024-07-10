@@ -1,25 +1,67 @@
-﻿@model IEnumerable<ProdottoViewModel>
+@model IEnumerable<ProdottoViewModel>
 @{
     ViewData["Title"] = "EPICGAMES";
 }
 <div class="text-center my-3">
-<h1 class="text-white ">Benvenuto in</h1>
-<img src="~/img/logo_epigames_store.svg" alt="logo" class="logo"/>
+    <h1 class="text-white">Benvenuto in</h1>
+    <img src="~/img/logo_epigames_store.svg" alt="logo" class="logo" />
 </div>
+<a asp-controller="Home" asp-action="Ordini">Vedi il tuo carrello</a>
 <div class="container">
     <div class="row">
         @foreach (var Prodotto in Model)
         {
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="@Prodotto.CoverImagePath" )" alt="copertina @Prodotto.NomeProdotto" class="card-img-top" />
+                    <a data-bs-toggle="modal" data-bs-target="#modal-@Prodotto.IdProdotto">
+                        <img src="@Prodotto.CoverImagePath" alt="copertina @Prodotto.NomeProdotto" class="card-img-top" /></a>
                     <div class="card-body">
                         <h5 class="card-title">@Prodotto.NomeProdotto</h5>
                         <p class="card-text">@Prodotto.DescrizioneProdotto</p>
                         <p class="card-text @(Prodotto.Disponibilita ? "text-success" : "text-danger")">
                             <strong>@(Prodotto.Disponibilita ? "DISPONIBILE" : "NON DISPONIBILE")</strong></p>
+                        <p class="card-text">@Prodotto.NomePiattaforma</p>
+                        <p class="card-text">@Prodotto.TipoDiGenere</p>
                         <p class="card-text"><strong>Prezzo:</strong> @Prodotto.Prezzo.ToString("C")</p>
-                        <a class="btn btn-primary">Acquista</a>
+                        <p class="d-none">@Prodotto.IdProdotto</p>
+                        
+                      
+                        <form asp-controller="Home" asp-action="CreaOrdine">
+                            <input type="hidden" name="idProdotto" value="@Prodotto.IdProdotto" />
+                            <input type="number" value="1" id="quantita" name="quantita"/>
+                            <button type="submit" class="btn btn-primary">Acquista</button>
+                        </form>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-@Prodotto.IdProdotto">
+                            Mostra i Dettagli
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal per ogni prodotto -->
+            <div class="modal fade" id="modal-@Prodotto.IdProdotto" tabindex="-1" aria-labelledby="modalLabel-@Prodotto.IdProdotto" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <img src="@Prodotto.CoverImagePath" alt="copertina @Prodotto.NomeProdotto" class="card-img-top" />
+                        </div>
+                        <div class="modal-body">
+                            <h5>@Prodotto.NomeProdotto</h5>
+                            <p>@Prodotto.DescrizioneProdotto</p>
+                            <p>Brand: @Prodotto.Brand</p>
+                            <p>PEGI: @Prodotto.PEGI</p>
+                            <p>Codice: <span class="barcode">@Prodotto.CodiceABarre</span></p>
+                            <p>Genere: @Prodotto.TipoDiGenere</p>
+                            <p>Piattaforma: @Prodotto.NomePiattaforma</p>
+                            <p class="@(Prodotto.Disponibilita ? "text-success" : "text-danger")">
+                                <strong>@(Prodotto.Disponibilita ? "DISPONIBILE" : "NON DISPONIBILE")</strong>
+                            </p>
+                            <p><strong>Prezzo:</strong> @Prodotto.Prezzo.ToString("C")</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Acquista</button>
+                        </div>
                     </div>
                 </div>
             </div>
