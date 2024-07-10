@@ -1,4 +1,5 @@
-﻿@*
+﻿@model IEnumerable<Prodotto>
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
@@ -6,10 +7,28 @@
 }
 
 
-<h1>Benvenuto @ViewBag.Username</h1>
+<h1 class="text-white">Benvenuto @ViewBag.Username</h1>
 
-<h2>lista Videogiochi</h2>
-
+<h2 class="text-white">lista Videogiochi</h2>
 <a class="btn btn-success" asp-controller="Home" asp-action="CreaProdotto">Aggiungi videogioco</a>
-<a class="btn btn-warning" asp-controller="Home" asp-action="Index">Modifica</a>
-<a class="btn btn-danger" asp-controller="Home" asp-action="Index">Elimina</a>
+
+<div class="container mt-3">
+    <div class="row">
+        @foreach (var Prodotto in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@Prodotto.NomeProdotto</h5>
+                        <p class="card-text">@Prodotto.DescrizioneProdotto</p>
+                        <p class="card-text"><strong>Disponibilità:</strong> @Prodotto.Disponibilita</p>
+                        <p class="card-text"><strong>Prezzo:</strong> @Prodotto.Prezzo.ToString("C")</p>
+                        <a class="btn btn-warning" asp-controller="Home" asp-action="Index">Modifica</a>
+                        <a class="btn btn-danger" asp-controller="Home" asp-action="Delete" asp-route-IdProdotto="@Prodotto.IdProdotto">Elimina</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+

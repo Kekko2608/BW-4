@@ -18,5 +18,47 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    background-image: url('../img/pattern.svg');
+    background-size: 25%;
+}
+
+.container-fluid > img {
+    width: 250px;
+}
+
+header, .footer {
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.navbar, .footer {
+    background-color: transparent;
+}
+
+.logo {
+    width: 400px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.77 );
+}
+
+.card {
+    color: white;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: #2e2274;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e108b9;
+    border-radius: 1rem;
 }

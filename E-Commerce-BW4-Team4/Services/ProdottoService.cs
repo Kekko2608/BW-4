@@ -1,4 +1,4 @@
-﻿using E_Commerce_BW4_Team4.Models;
+﻿﻿using E_Commerce_BW4_Team4.Models;
 using System.Data.SqlClient;
 using System.Data.Common;
 
@@ -14,7 +14,7 @@ namespace E_Commerce_BW4_Team4.Services
         }
 
         // RECUPERA TUTTI I PRODOTTI
-        public ProdottoCompleto  Create(DbDataReader reader)
+        public ProdottoCompleto Create(DbDataReader reader)
         {
             return new ProdottoCompleto
             {
@@ -25,12 +25,39 @@ namespace E_Commerce_BW4_Team4.Services
                 Disponibilita = reader.GetBoolean(4),
                 Prezzo = reader.GetDecimal(5),
                 TipoDiGenere = reader.GetString(6),
-                NomePiattaforma = reader.GetString(7)
+                NomePiattaforma = reader.GetString(7),
+                IdProdotto = reader.GetInt32(8)
             };
         }
+
+        public IEnumerable<ProdottoViewModel> GetAllProductsWithImages()
+        {
+            var prodotti = GetAllProducts();
+            var prodottiConImmagini = new List<ProdottoViewModel>();
+
+            foreach (var prodotto in prodotti)
+            {
+                var coverImagePath = Path.Combine("wwwroot", "Images", $"{prodotto.IdProdotto}a.jpg");
+                var prodottoViewModel = new ProdottoViewModel
+                {
+                    IdProdotto = prodotto.IdProdotto,
+                    NomeProdotto = prodotto.NomeProdotto,
+                    DescrizioneProdotto = prodotto.DescrizioneProdotto,
+                    Disponibilita = prodotto.Disponibilita,
+                    Prezzo = prodotto.Prezzo,
+                    TipoDiGenere = prodotto.TipoDiGenere,
+                    NomePiattaforma = prodotto.NomePiattaforma,
+                    CoverImagePath = File.Exists(coverImagePath) ? $"/Images/{prodotto.IdProdotto}a.jpg" : "/Images/default.jpg"
+                };
+                prodottiConImmagini.Add(prodottoViewModel);
+            }
+
+            return prodottiConImmagini;
+        }
+
         public IEnumerable<ProdottoCompleto> GetAllProducts()
         {
-            var query = "SELECT p.NomeProdotto, p.DescrizioneProdotto, p.Brand, p.PEGI, p.Disponibilita, p.Prezzo, g.TipoDiGenere, pt.NomePiattaforma FROM Prodotti as p JOIN Generi as g ON p.IdGenere = g.IdGenere " +
+            var query = "SELECT p.NomeProdotto, p.DescrizioneProdotto, p.Brand, p.PEGI, p.Disponibilita, p.Prezzo, g.TipoDiGenere, pt.NomePiattaforma, p.IdProdotto FROM Prodotti as p JOIN Generi as g ON p.IdGenere = g.IdGenere " +
             "JOIN Piattaforme as pt ON p.IdPiattaforma = pt.IdPiattaforma";
 
             var cmd = GetCommand(query);
@@ -41,13 +68,42 @@ namespace E_Commerce_BW4_Team4.Services
             while (reader.Read())
                 ListaProdotti.Add(Create(reader));
             return ListaProdotti;
-            
+
         }
 
         // ID PRODOTTO
         public Prodotto GetById(int IdProdotto)
         {
-            return _prodotto.FirstOrDefault(p => p.IdProdotto == IdProdotto);
+            var query = "SELECT IdProdotto, NomeProdotto, DescrizioneProdotto, Brand, PEGI, CodiceAbarre, Disponibilita, Prezzo, IdPiattaforma, IdGenere FROM Prodotti WHERE IdProdotto = @IdProdotto";
+            var cmd = GetCommand(query);
+            cmd.Parameters.Add(new SqlParameter("@IdProdotto", IdProdotto));
+
+            using var conn = GetConnection();
+            conn.Open();
+            var reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                Prodotto prodotto = new Prodotto()
+                {
+                    IdProdotto = (int)reader["IdProdotto"],
+                    NomeProdotto = reader.GetString(1),
+                    DescrizioneProdotto = reader.GetString(2),
+                    Brand = reader.GetString(3),
+                    PEGI = reader.GetString(4),
+                    CodiceABarre = reader.GetString(5),
+                    Disponibilita = reader.GetBoolean(6),
+                    Prezzo = reader.GetDecimal(7),
+                    Piattaforma = (int)reader["IdPiattaforma"],
+                    Genere = (int)reader["IdGenere"],
+
+
+                };
+                return prodotto;
+            }
+            else
+            {
+                throw new Exception("Prodotto non trovato.");
+            }
         }
 
         // CREATE ARTICOLO
@@ -69,7 +125,7 @@ namespace E_Commerce_BW4_Team4.Services
             using var conn = GetConnection();
             conn.Open();
             var result = cmd.ExecuteNonQuery();
-   
+
             if (result != 1)
                 throw new Exception("Creazione non completata");
             prodotto.IdProdotto = Convert.ToInt32(result);
@@ -78,16 +134,43 @@ namespace E_Commerce_BW4_Team4.Services
         // DELETE PRODOTTO
         public void Delete(int IdProdotto)
         {
-            var prodotto = GetById(IdProdotto);
-            if (prodotto != null)
-            {
-                _prodotto.Remove(prodotto);
-            }
-        }
+            var query = "DELETE FROM Prodotti WHERE IdProdotto = @IdProdotto";
+            var cmd = GetCommand(query);
+            cmd.Parameters.Add(new SqlParameter("@IdProdotto", IdProdotto));
 
+            using var conn = GetConnection();
+            conn.Open();
+            var result = cmd.ExecuteNonQuery();
+            if (result != 1) throw new Exception("Articolo non eliminato");
+        }
+        // CONFERMA DELETE
+
+
+        //UPDATE
         public void Update(Prodotto prodotto)
         {
-            throw new NotImplementedException();
+            var query = "UPDATE Prodotti SET NomeProdotto = @NomeProdotto, DescrizioneProdotto = @DescrizioneProdotto, Brand = @Brand, PEGI = @PEGI, " +
+                        "CodiceABarre = @CodiceABarre, Disponibilita = @Disponibilita, Prezzo = @Prezzo, IdPiattaforma = @IdPiattaforma, IdGenere = @IdGenere " +
+                        "WHERE IdProdotto = @IdProdotto";
+            var cmd = GetCommand(query);
+            cmd.Parameters.Add(new SqlParameter("@IdProdotto", prodotto.IdProdotto));
+            cmd.Parameters.Add(new SqlParameter("@NomeProdotto", prodotto.NomeProdotto));
+            cmd.Parameters.Add(new SqlParameter("@DescrizioneProdotto", prodotto.DescrizioneProdotto));
+            cmd.Parameters.Add(new SqlParameter("@Brand", prodotto.Brand));
+            cmd.Parameters.Add(new SqlParameter("@PEGI", prodotto.PEGI));
+            cmd.Parameters.Add(new SqlParameter("@CodiceABarre", prodotto.CodiceABarre));
+            cmd.Parameters.Add(new SqlParameter("@Disponibilita", prodotto.Disponibilita));
+            cmd.Parameters.Add(new SqlParameter("@Prezzo", prodotto.Prezzo));
+            cmd.Parameters.Add(new SqlParameter("@IdPiattaforma", prodotto.Piattaforma));
+            cmd.Parameters.Add(new SqlParameter("@IdGenere", prodotto.Genere));
+
+            using var conn = GetConnection();
+            conn.Open();
+            var result = cmd.ExecuteNonQuery();
+
+            if (result != 1)
+                throw new Exception("Creazione non completata");
+            prodotto.IdProdotto = Convert.ToInt32(result);
         }
 
         public void SaveImages(int idProdotto, IFormFile ImageA, IFormFile ImageB, IFormFile ImageC, IFormFile ImageD)
@@ -108,5 +191,7 @@ namespace E_Commerce_BW4_Team4.Services
                 }
             }
         }
+
+
     }
 }

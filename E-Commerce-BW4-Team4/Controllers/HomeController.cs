@@ -23,8 +23,10 @@ namespace E_Commerce_BW4_Team4.Controllers
 
         public IActionResult Index()
         {
-            return View(_prodottoService.GetAllProducts());
+            var prodotti = _prodottoService.GetAllProductsWithImages();
+            return View(prodotti);
         }
+
         [HttpGet]
         public IActionResult Amministratore()
         {
@@ -71,12 +73,24 @@ namespace E_Commerce_BW4_Team4.Controllers
         {
             var Username = TempData["Username"] as string;
             ViewBag.Username = Username;
-            return View();
+            return View(_prodottoService.GetAllProducts());
         }
 
-        public IActionResult Carrello()
+        public IActionResult Delete(int IdProdotto)
         {
-            return View();
+            var prodotto = _prodottoService.GetById(IdProdotto);
+            if (prodotto == null)
+            {
+                return NotFound();
+            }
+            return View(prodotto);
+        }
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteConfirmed(int IdProdotto)
+        {
+            _prodottoService.Delete(IdProdotto);
+            return RedirectToAction(nameof(GestioneAmministratore));
         }
 
         public IActionResult Privacy()

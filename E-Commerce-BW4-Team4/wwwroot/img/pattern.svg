@@ -1,0 +1,3411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Graphic_Elements" data-name="Graphic Elements" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1111 643.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Sfumatura_senza_nome_58);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49, .cls-50, .cls-51, .cls-52, .cls-53, .cls-54, .cls-55, .cls-56, .cls-57, .cls-58, .cls-59, .cls-60, .cls-61, .cls-62, .cls-63, .cls-64, .cls-65, .cls-66, .cls-67, .cls-68, .cls-69, .cls-70, .cls-71, .cls-72, .cls-73, .cls-74, .cls-75, .cls-76, .cls-77, .cls-78, .cls-79, .cls-80, .cls-81, .cls-82, .cls-83, .cls-84, .cls-85, .cls-86 {
+        stroke-width: 0px;
+      }
+
+      .cls-87 {
+        stroke: url(#Sfumatura_senza_nome_119);
+      }
+
+      .cls-87, .cls-88, .cls-89, .cls-90, .cls-91, .cls-92, .cls-93, .cls-94, .cls-95, .cls-96, .cls-97, .cls-98, .cls-99, .cls-100, .cls-101, .cls-102, .cls-103, .cls-104, .cls-105, .cls-106, .cls-107, .cls-108, .cls-109, .cls-110, .cls-111, .cls-112, .cls-113, .cls-114, .cls-115, .cls-34, .cls-116, .cls-117, .cls-118, .cls-119, .cls-120, .cls-121, .cls-122, .cls-123, .cls-124, .cls-125, .cls-126, .cls-127, .cls-128, .cls-129, .cls-130, .cls-131, .cls-132, .cls-133, .cls-134, .cls-135, .cls-136, .cls-137, .cls-138, .cls-139, .cls-140, .cls-141, .cls-142, .cls-143, .cls-144, .cls-145, .cls-146, .cls-147, .cls-148, .cls-149, .cls-150, .cls-151, .cls-152, .cls-153, .cls-154, .cls-155, .cls-156, .cls-157, .cls-158, .cls-159, .cls-160, .cls-161, .cls-162, .cls-163, .cls-164, .cls-165, .cls-166, .cls-167, .cls-168, .cls-169, .cls-170 {
+        fill: none;
+      }
+
+      .cls-87, .cls-88, .cls-89, .cls-90, .cls-91, .cls-92, .cls-93, .cls-94, .cls-95, .cls-96, .cls-97, .cls-98, .cls-99, .cls-100, .cls-101, .cls-102, .cls-103, .cls-104, .cls-105, .cls-106, .cls-107, .cls-108, .cls-109, .cls-110, .cls-111, .cls-112, .cls-113, .cls-114, .cls-115, .cls-116, .cls-117, .cls-118, .cls-119, .cls-120, .cls-121, .cls-122, .cls-123, .cls-124, .cls-125, .cls-126, .cls-127, .cls-128, .cls-129, .cls-130, .cls-131, .cls-132, .cls-133, .cls-134, .cls-135, .cls-136, .cls-137, .cls-138, .cls-139, .cls-140, .cls-141, .cls-142, .cls-143, .cls-144, .cls-145, .cls-146, .cls-147, .cls-148, .cls-149, .cls-150, .cls-151, .cls-152, .cls-153, .cls-154, .cls-155, .cls-156, .cls-157, .cls-158, .cls-159, .cls-160, .cls-161, .cls-162, .cls-163, .cls-164, .cls-165, .cls-166, .cls-167, .cls-168, .cls-169, .cls-170 {
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-88 {
+        stroke: url(#Sfumatura_senza_nome_159);
+      }
+
+      .cls-2 {
+        fill: url(#Sfumatura_senza_nome_2);
+      }
+
+      .cls-89 {
+        stroke: url(#Sfumatura_senza_nome_111);
+      }
+
+      .cls-3 {
+        fill: url(#Sfumatura_senza_nome_158);
+      }
+
+      .cls-4 {
+        fill: url(#Sfumatura_senza_nome_6);
+      }
+
+      .cls-90 {
+        stroke: url(#Sfumatura_senza_nome_101);
+      }
+
+      .cls-5 {
+        fill: url(#Sfumatura_senza_nome_28);
+      }
+
+      .cls-6 {
+        fill: url(#Sfumatura_senza_nome_18);
+      }
+
+      .cls-91 {
+        stroke: url(#Sfumatura_senza_nome_15);
+      }
+
+      .cls-92 {
+        stroke: url(#Sfumatura_senza_nome_147);
+      }
+
+      .cls-7 {
+        fill: url(#Sfumatura_senza_nome_130);
+      }
+
+      .cls-8 {
+        fill: url(#Sfumatura_senza_nome_144);
+      }
+
+      .cls-93 {
+        stroke: url(#Sfumatura_senza_nome_87);
+      }
+
+      .cls-94 {
+        stroke: url(#Sfumatura_senza_nome_135);
+      }
+
+      .cls-95 {
+        stroke: url(#Sfumatura_senza_nome_91);
+      }
+
+      .cls-96 {
+        stroke: url(#Sfumatura_senza_nome_145);
+      }
+
+      .cls-97 {
+        stroke: url(#Sfumatura_senza_nome_21);
+      }
+
+      .cls-98 {
+        stroke: url(#Sfumatura_senza_nome_57);
+      }
+
+      .cls-9 {
+        fill: url(#Sfumatura_senza_nome_112);
+      }
+
+      .cls-99 {
+        stroke: url(#Sfumatura_senza_nome_83);
+      }
+
+      .cls-100 {
+        stroke: url(#Sfumatura_senza_nome_109);
+      }
+
+      .cls-101 {
+        stroke: url(#Sfumatura_senza_nome_23);
+      }
+
+      .cls-10 {
+        fill: url(#Sfumatura_senza_nome_152);
+      }
+
+      .cls-102 {
+        stroke: url(#Sfumatura_senza_nome_59);
+      }
+
+      .cls-11 {
+        fill: url(#Sfumatura_senza_nome_160);
+      }
+
+      .cls-12 {
+        fill: url(#Sfumatura_senza_nome_34);
+      }
+
+      .cls-103 {
+        stroke: url(#Sfumatura_senza_nome_99);
+      }
+
+      .cls-104 {
+        stroke: url(#Sfumatura_senza_nome_29);
+      }
+
+      .cls-13 {
+        fill: url(#Sfumatura_senza_nome_22);
+      }
+
+      .cls-105 {
+        stroke: url(#Sfumatura_senza_nome_137);
+      }
+
+      .cls-14 {
+        fill: url(#Sfumatura_senza_nome_88);
+      }
+
+      .cls-106 {
+        stroke: url(#Sfumatura_senza_nome_141);
+      }
+
+      .cls-107 {
+        stroke: url(#Sfumatura_senza_nome_163);
+      }
+
+      .cls-15 {
+        fill: url(#Sfumatura_senza_nome_80);
+      }
+
+      .cls-16 {
+        fill: url(#Sfumatura_senza_nome_108);
+      }
+
+      .cls-17 {
+        fill: #2e2274;
+      }
+
+      .cls-108 {
+        stroke: url(#Sfumatura_senza_nome_165);
+      }
+
+      .cls-109 {
+        stroke: url(#Sfumatura_senza_nome_121);
+      }
+
+      .cls-18 {
+        fill: url(#Sfumatura_senza_nome_154);
+      }
+
+      .cls-110 {
+        stroke: url(#Sfumatura_senza_nome_117);
+      }
+
+      .cls-19 {
+        fill: url(#Sfumatura_senza_nome_138);
+      }
+
+      .cls-111 {
+        stroke: url(#Sfumatura_senza_nome_97);
+      }
+
+      .cls-20 {
+        fill: url(#Sfumatura_senza_nome_66);
+      }
+
+      .cls-21 {
+        fill: url(#Sfumatura_senza_nome_8);
+      }
+
+      .cls-22 {
+        fill: url(#Sfumatura_senza_nome_168);
+      }
+
+      .cls-23 {
+        fill: url(#Sfumatura_senza_nome_56);
+      }
+
+      .cls-112 {
+        stroke: url(#Sfumatura_senza_nome_151);
+      }
+
+      .cls-24 {
+        fill: url(#Sfumatura_senza_nome_100);
+      }
+
+      .cls-25 {
+        fill: url(#Sfumatura_senza_nome_106);
+      }
+
+      .cls-26 {
+        fill: url(#Sfumatura_senza_nome_136);
+      }
+
+      .cls-113 {
+        stroke: url(#Sfumatura_senza_nome_13);
+      }
+
+      .cls-27 {
+        fill: url(#Sfumatura_senza_nome_12);
+      }
+
+      .cls-28 {
+        fill: url(#Sfumatura_senza_nome_114);
+      }
+
+      .cls-29 {
+        fill: url(#Sfumatura_senza_nome_148);
+      }
+
+      .cls-114 {
+        stroke: url(#Sfumatura_senza_nome_127);
+      }
+
+      .cls-30 {
+        fill: url(#Sfumatura_senza_nome_60);
+      }
+
+      .cls-31 {
+        fill: url(#Sfumatura_senza_nome_118);
+      }
+
+      .cls-32 {
+        fill: url(#Sfumatura_senza_nome_132);
+      }
+
+      .cls-115 {
+        stroke: url(#Sfumatura_senza_nome_43);
+      }
+
+      .cls-33 {
+        fill: url(#Sfumatura_senza_nome_38);
+      }
+
+      .cls-35 {
+        fill: url(#Sfumatura_senza_nome_36);
+      }
+
+      .cls-116 {
+        stroke: url(#Sfumatura_senza_nome_33);
+      }
+
+      .cls-36 {
+        fill: url(#Sfumatura_senza_nome_120);
+      }
+
+      .cls-37 {
+        fill: url(#Sfumatura_senza_nome_122);
+      }
+
+      .cls-38 {
+        fill: url(#Sfumatura_senza_nome_78);
+      }
+
+      .cls-39 {
+        fill: url(#Sfumatura_senza_nome_24);
+      }
+
+      .cls-117 {
+        stroke: url(#Sfumatura_senza_nome_31);
+      }
+
+      .cls-118 {
+        stroke: url(#Sfumatura_senza_nome_69);
+      }
+
+      .cls-40 {
+        fill: url(#Sfumatura_senza_nome_76);
+      }
+
+      .cls-41 {
+        fill: url(#Sfumatura_senza_nome_68);
+      }
+
+      .cls-119 {
+        stroke: url(#Sfumatura_senza_nome_9);
+      }
+
+      .cls-42 {
+        fill: url(#Sfumatura_senza_nome_44);
+      }
+
+      .cls-120 {
+        stroke: url(#Sfumatura_senza_nome_129);
+      }
+
+      .cls-121 {
+        stroke: url(#Sfumatura_senza_nome_51);
+      }
+
+      .cls-122 {
+        stroke: url(#Sfumatura_senza_nome_5);
+      }
+
+      .cls-43 {
+        fill: url(#Sfumatura_senza_nome_134);
+      }
+
+      .cls-44 {
+        fill: url(#Sfumatura_senza_nome_4);
+      }
+
+      .cls-45 {
+        fill: url(#Sfumatura_senza_nome_142);
+      }
+
+      .cls-46 {
+        fill: url(#Sfumatura_senza_nome_42);
+      }
+
+      .cls-123 {
+        stroke: url(#Sfumatura_senza_nome_167);
+      }
+
+      .cls-124 {
+        stroke: url(#Sfumatura_senza_nome_71);
+      }
+
+      .cls-125 {
+        stroke: url(#Sfumatura_senza_nome_67);
+      }
+
+      .cls-47 {
+        fill: url(#Sfumatura_senza_nome_48);
+      }
+
+      .cls-126 {
+        stroke: url(#Sfumatura_senza_nome_149);
+      }
+
+      .cls-127 {
+        stroke: url(#Sfumatura_senza_nome_75);
+      }
+
+      .cls-128 {
+        stroke: url(#Sfumatura_senza_nome_17);
+      }
+
+      .cls-48 {
+        fill: url(#Sfumatura_senza_nome_110);
+      }
+
+      .cls-49 {
+        fill: url(#Sfumatura_senza_nome_10);
+      }
+
+      .cls-50 {
+        fill: url(#Sfumatura_senza_nome_62);
+      }
+
+      .cls-129 {
+        stroke: url(#Sfumatura_senza_nome_125);
+      }
+
+      .cls-130 {
+        stroke: url(#Sfumatura_senza_nome_37);
+      }
+
+      .cls-51 {
+        fill: url(#Sfumatura_senza_nome_50);
+      }
+
+      .cls-52 {
+        fill: url(#Sfumatura_senza_nome_20);
+      }
+
+      .cls-131 {
+        stroke: url(#Sfumatura_senza_nome_153);
+      }
+
+      .cls-132 {
+        stroke: url(#Sfumatura_senza_nome_79);
+      }
+
+      .cls-133 {
+        stroke: url(#Sfumatura_senza_nome_143);
+      }
+
+      .cls-53 {
+        fill: url(#Sfumatura_senza_nome_64);
+      }
+
+      .cls-134 {
+        stroke: url(#Sfumatura_senza_nome_93);
+      }
+
+      .cls-54 {
+        fill: url(#Sfumatura_senza_nome_84);
+      }
+
+      .cls-55 {
+        fill: url(#Sfumatura_senza_nome_92);
+      }
+
+      .cls-56 {
+        fill: url(#Sfumatura_senza_nome_102);
+      }
+
+      .cls-57 {
+        fill: url(#Sfumatura_senza_nome_86);
+      }
+
+      .cls-171 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-58 {
+        fill: url(#Sfumatura_senza_nome_26);
+      }
+
+      .cls-135 {
+        stroke: url(#Sfumatura_senza_nome_25);
+      }
+
+      .cls-136 {
+        stroke: url(#Sfumatura_senza_nome_55);
+      }
+
+      .cls-137 {
+        stroke: url(#Sfumatura_senza_nome_27);
+      }
+
+      .cls-138 {
+        stroke: url(#Sfumatura_senza_nome_157);
+      }
+
+      .cls-139 {
+        stroke: url(#Sfumatura_senza_nome_39);
+      }
+
+      .cls-59 {
+        fill: url(#Sfumatura_senza_nome_164);
+      }
+
+      .cls-60 {
+        fill: url(#Sfumatura_senza_nome_54);
+      }
+
+      .cls-140 {
+        stroke: url(#Sfumatura_senza_nome_89);
+      }
+
+      .cls-61 {
+        fill: url(#Sfumatura_senza_nome_90);
+      }
+
+      .cls-62 {
+        fill: url(#Sfumatura_senza_nome_94);
+      }
+
+      .cls-141 {
+        stroke: url(#Sfumatura_senza_nome_133);
+      }
+
+      .cls-63 {
+        fill: url(#Sfumatura_senza_nome_156);
+      }
+
+      .cls-142 {
+        stroke: url(#Sfumatura_senza_nome_61);
+      }
+
+      .cls-64 {
+        fill: url(#Sfumatura_senza_nome_82);
+      }
+
+      .cls-143 {
+        stroke: url(#Sfumatura_senza_nome);
+      }
+
+      .cls-65 {
+        fill: url(#Sfumatura_senza_nome_16);
+      }
+
+      .cls-144 {
+        stroke: url(#Sfumatura_senza_nome_49);
+      }
+
+      .cls-145 {
+        stroke: url(#Sfumatura_senza_nome_45);
+      }
+
+      .cls-66 {
+        fill: url(#Sfumatura_senza_nome_128);
+      }
+
+      .cls-67 {
+        fill: url(#Sfumatura_senza_nome_146);
+      }
+
+      .cls-146 {
+        stroke: url(#Sfumatura_senza_nome_113);
+      }
+
+      .cls-147 {
+        stroke: url(#Sfumatura_senza_nome_115);
+      }
+
+      .cls-148 {
+        stroke: url(#Sfumatura_senza_nome_103);
+      }
+
+      .cls-68 {
+        fill: url(#Sfumatura_senza_nome_140);
+      }
+
+      .cls-149 {
+        stroke: url(#Sfumatura_senza_nome_161);
+      }
+
+      .cls-150 {
+        stroke: url(#Sfumatura_senza_nome_139);
+      }
+
+      .cls-69 {
+        fill: url(#Sfumatura_senza_nome_52);
+      }
+
+      .cls-151 {
+        stroke: url(#Sfumatura_senza_nome_7);
+      }
+
+      .cls-152 {
+        stroke: url(#Sfumatura_senza_nome_155);
+      }
+
+      .cls-70 {
+        fill: url(#Sfumatura_senza_nome_98);
+      }
+
+      .cls-153 {
+        stroke: url(#Sfumatura_senza_nome_105);
+      }
+
+      .cls-154 {
+        stroke: url(#Sfumatura_senza_nome_65);
+      }
+
+      .cls-155 {
+        stroke: url(#Sfumatura_senza_nome_53);
+      }
+
+      .cls-156 {
+        stroke: url(#Sfumatura_senza_nome_107);
+      }
+
+      .cls-71 {
+        fill: url(#Sfumatura_senza_nome_162);
+      }
+
+      .cls-72 {
+        fill: url(#Sfumatura_senza_nome_32);
+      }
+
+      .cls-73 {
+        fill: url(#Sfumatura_senza_nome_166);
+      }
+
+      .cls-157 {
+        stroke: url(#Sfumatura_senza_nome_35);
+      }
+
+      .cls-158 {
+        stroke: url(#Sfumatura_senza_nome_77);
+      }
+
+      .cls-74 {
+        fill: url(#Sfumatura_senza_nome_96);
+      }
+
+      .cls-75 {
+        fill: url(#Sfumatura_senza_nome_30);
+      }
+
+      .cls-159 {
+        stroke: url(#Sfumatura_senza_nome_85);
+      }
+
+      .cls-76 {
+        fill: url(#Sfumatura_senza_nome_150);
+      }
+
+      .cls-160 {
+        stroke: url(#Sfumatura_senza_nome_123);
+      }
+
+      .cls-77 {
+        fill: url(#Sfumatura_senza_nome_46);
+      }
+
+      .cls-78 {
+        fill: url(#Sfumatura_senza_nome_126);
+      }
+
+      .cls-79 {
+        fill: url(#Sfumatura_senza_nome_14);
+      }
+
+      .cls-80 {
+        fill: url(#Sfumatura_senza_nome_74);
+      }
+
+      .cls-81 {
+        fill: url(#Sfumatura_senza_nome_40);
+      }
+
+      .cls-161 {
+        stroke: url(#Sfumatura_senza_nome_47);
+      }
+
+      .cls-82 {
+        fill: url(#Sfumatura_senza_nome_70);
+      }
+
+      .cls-162 {
+        stroke: url(#Sfumatura_senza_nome_63);
+      }
+
+      .cls-163 {
+        stroke: url(#Sfumatura_senza_nome_3);
+      }
+
+      .cls-83 {
+        fill: url(#Sfumatura_senza_nome_116);
+      }
+
+      .cls-164 {
+        stroke: url(#Sfumatura_senza_nome_19);
+      }
+
+      .cls-165 {
+        stroke: url(#Sfumatura_senza_nome_81);
+      }
+
+      .cls-166 {
+        stroke: url(#Sfumatura_senza_nome_95);
+      }
+
+      .cls-167 {
+        stroke: url(#Sfumatura_senza_nome_73);
+      }
+
+      .cls-168 {
+        stroke: url(#Sfumatura_senza_nome_41);
+      }
+
+      .cls-84 {
+        fill: url(#Sfumatura_senza_nome_104);
+      }
+
+      .cls-85 {
+        fill: url(#Sfumatura_senza_nome_72);
+      }
+
+      .cls-169 {
+        stroke: url(#Sfumatura_senza_nome_131);
+      }
+
+      .cls-170 {
+        stroke: url(#Sfumatura_senza_nome_11);
+      }
+
+      .cls-86 {
+        fill: url(#Sfumatura_senza_nome_124);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-34" y="-146.8" width="1200" height="800"/>
+    </clipPath>
+    <linearGradient id="Sfumatura_senza_nome" data-name="Sfumatura senza nome" x1="-19.8" y1="765.8" x2="106" y2="765.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_2" data-name="Sfumatura senza nome 2" x1="-19.8" y1="730.1" x2="106" y2="730.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_3" data-name="Sfumatura senza nome 3" x1="104" y1="765.8" x2="229.7" y2="765.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_4" data-name="Sfumatura senza nome 4" x1="104" y1="730.1" x2="229.7" y2="730.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_5" data-name="Sfumatura senza nome 5" x1="227.7" y1="765.8" x2="353.5" y2="765.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_6" data-name="Sfumatura senza nome 6" x1="227.7" y1="730.1" x2="353.5" y2="730.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_7" data-name="Sfumatura senza nome 7" x1="351.5" y1="765.8" x2="477.2" y2="765.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_8" data-name="Sfumatura senza nome 8" x1="351.5" y1="730.1" x2="477.2" y2="730.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_9" data-name="Sfumatura senza nome 9" x1="475.2" y1="765.8" x2="601" y2="765.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_10" data-name="Sfumatura senza nome 10" x1="475.2" y1="730.1" x2="601" y2="730.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_11" data-name="Sfumatura senza nome 11" x1="599" y1="765.8" x2="724.8" y2="765.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_12" data-name="Sfumatura senza nome 12" x1="599" y1="730.1" x2="724.8" y2="730.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_13" data-name="Sfumatura senza nome 13" x1="722.8" y1="765.8" x2="848.5" y2="765.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_14" data-name="Sfumatura senza nome 14" x1="722.8" y1="730.1" x2="848.5" y2="730.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_15" data-name="Sfumatura senza nome 15" x1="846.5" y1="765.8" x2="972.3" y2="765.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_16" data-name="Sfumatura senza nome 16" x1="846.5" y1="730.1" x2="972.3" y2="730.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_17" data-name="Sfumatura senza nome 17" x1="970.3" y1="765.8" x2="1096" y2="765.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_18" data-name="Sfumatura senza nome 18" x1="970.3" y1="730.1" x2="1096" y2="730.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_19" data-name="Sfumatura senza nome 19" x1="1094" y1="765.8" x2="1219.8" y2="765.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_20" data-name="Sfumatura senza nome 20" x1="1094" y1="730.1" x2="1219.8" y2="730.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_21" data-name="Sfumatura senza nome 21" x1="-81.6" y1="658.6" x2="44.1" y2="658.6" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_22" data-name="Sfumatura senza nome 22" x1="-81.6" y1="622.9" x2="44.1" y2="622.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_23" data-name="Sfumatura senza nome 23" x1="42.1" y1="658.6" x2="167.9" y2="658.6" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_24" data-name="Sfumatura senza nome 24" x1="42.1" y1="622.9" x2="167.9" y2="622.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_25" data-name="Sfumatura senza nome 25" x1="165.9" y1="658.6" x2="291.6" y2="658.6" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_26" data-name="Sfumatura senza nome 26" x1="165.9" y1="622.9" x2="291.6" y2="622.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_27" data-name="Sfumatura senza nome 27" x1="289.6" y1="658.6" x2="415.4" y2="658.6" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_28" data-name="Sfumatura senza nome 28" x1="289.6" y1="622.9" x2="415.4" y2="622.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_29" data-name="Sfumatura senza nome 29" x1="413.4" y1="658.6" x2="539.1" y2="658.6" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_30" data-name="Sfumatura senza nome 30" x1="413.4" y1="622.9" x2="539.1" y2="622.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_31" data-name="Sfumatura senza nome 31" x1="537.1" y1="658.6" x2="662.9" y2="658.6" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_32" data-name="Sfumatura senza nome 32" x1="537.1" y1="622.9" x2="662.9" y2="622.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_33" data-name="Sfumatura senza nome 33" x1="660.9" y1="658.6" x2="786.6" y2="658.6" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_34" data-name="Sfumatura senza nome 34" x1="660.9" y1="622.9" x2="786.6" y2="622.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_35" data-name="Sfumatura senza nome 35" x1="784.6" y1="658.6" x2="910.4" y2="658.6" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_36" data-name="Sfumatura senza nome 36" x1="784.6" y1="622.9" x2="910.4" y2="622.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_37" data-name="Sfumatura senza nome 37" x1="908.4" y1="658.6" x2="1034.1" y2="658.6" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_38" data-name="Sfumatura senza nome 38" x1="908.4" y1="622.9" x2="1034.1" y2="622.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_39" data-name="Sfumatura senza nome 39" x1="1032.1" y1="658.6" x2="1157.9" y2="658.6" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_40" data-name="Sfumatura senza nome 40" x1="1032.1" y1="622.9" x2="1157.9" y2="622.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_41" data-name="Sfumatura senza nome 41" x1="1155.9" y1="658.6" x2="1281.6" y2="658.6" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_42" data-name="Sfumatura senza nome 42" x1="1155.9" y1="622.9" x2="1281.6" y2="622.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_43" data-name="Sfumatura senza nome 43" x1="-19.8" y1="551.4" x2="106" y2="551.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_44" data-name="Sfumatura senza nome 44" x1="-19.8" y1="515.8" x2="106" y2="515.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_45" data-name="Sfumatura senza nome 45" x1="104" y1="551.4" x2="229.7" y2="551.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_46" data-name="Sfumatura senza nome 46" x1="104" y1="515.8" x2="229.7" y2="515.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_47" data-name="Sfumatura senza nome 47" x1="227.7" y1="551.4" x2="353.5" y2="551.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_48" data-name="Sfumatura senza nome 48" x1="227.7" y1="515.8" x2="353.5" y2="515.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_49" data-name="Sfumatura senza nome 49" x1="351.5" y1="551.4" x2="477.2" y2="551.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_50" data-name="Sfumatura senza nome 50" x1="351.5" y1="515.6" x2="477.2" y2="515.6" gradientTransform="translate(.2 643.8) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_51" data-name="Sfumatura senza nome 51" x1="475.2" y1="551.4" x2="601" y2="551.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_52" data-name="Sfumatura senza nome 52" x1="475.2" y1="515.8" x2="601" y2="515.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_53" data-name="Sfumatura senza nome 53" x1="599" y1="551.4" x2="724.8" y2="551.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_54" data-name="Sfumatura senza nome 54" x1="599" y1="515.8" x2="724.8" y2="515.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_55" data-name="Sfumatura senza nome 55" x1="722.8" y1="551.4" x2="848.5" y2="551.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_56" data-name="Sfumatura senza nome 56" x1="722.8" y1="515.8" x2="848.5" y2="515.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_57" data-name="Sfumatura senza nome 57" x1="846.5" y1="551.4" x2="972.3" y2="551.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_58" data-name="Sfumatura senza nome 58" x1="846.5" y1="515.8" x2="972.3" y2="515.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_59" data-name="Sfumatura senza nome 59" x1="970.3" y1="551.4" x2="1096" y2="551.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_60" data-name="Sfumatura senza nome 60" x1="970.3" y1="515.8" x2="1096" y2="515.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_61" data-name="Sfumatura senza nome 61" x1="1094" y1="551.4" x2="1219.8" y2="551.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_62" data-name="Sfumatura senza nome 62" x1="1094" y1="515.8" x2="1219.8" y2="515.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_63" data-name="Sfumatura senza nome 63" x1="-81.6" y1="444.2" x2="44.1" y2="444.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_64" data-name="Sfumatura senza nome 64" x1="-81.6" y1="408.5" x2="44.1" y2="408.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_65" data-name="Sfumatura senza nome 65" x1="42.1" y1="444.2" x2="167.9" y2="444.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_66" data-name="Sfumatura senza nome 66" x1="42.1" y1="408.5" x2="167.9" y2="408.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_67" data-name="Sfumatura senza nome 67" x1="165.9" y1="444.2" x2="291.6" y2="444.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_68" data-name="Sfumatura senza nome 68" x1="165.9" y1="408.5" x2="291.6" y2="408.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_69" data-name="Sfumatura senza nome 69" x1="289.6" y1="444.2" x2="415.4" y2="444.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_70" data-name="Sfumatura senza nome 70" x1="289.6" y1="408.5" x2="415.4" y2="408.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_71" data-name="Sfumatura senza nome 71" x1="413.4" y1="444.2" x2="539.1" y2="444.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_72" data-name="Sfumatura senza nome 72" x1="413.4" y1="408.5" x2="539.1" y2="408.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_73" data-name="Sfumatura senza nome 73" x1="537.1" y1="444.2" x2="662.9" y2="444.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_74" data-name="Sfumatura senza nome 74" x1="537.1" y1="408.5" x2="662.9" y2="408.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_75" data-name="Sfumatura senza nome 75" x1="660.9" y1="444.2" x2="786.6" y2="444.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_76" data-name="Sfumatura senza nome 76" x1="660.9" y1="408.5" x2="786.6" y2="408.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_77" data-name="Sfumatura senza nome 77" x1="784.6" y1="444.2" x2="910.4" y2="444.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_78" data-name="Sfumatura senza nome 78" x1="784.6" y1="408.5" x2="910.4" y2="408.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_79" data-name="Sfumatura senza nome 79" x1="908.4" y1="444.2" x2="1034.1" y2="444.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_80" data-name="Sfumatura senza nome 80" x1="908.4" y1="408.5" x2="1034.1" y2="408.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_81" data-name="Sfumatura senza nome 81" x1="1032.1" y1="444.2" x2="1157.9" y2="444.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_82" data-name="Sfumatura senza nome 82" x1="1032.1" y1="408.5" x2="1157.9" y2="408.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_83" data-name="Sfumatura senza nome 83" x1="1155.9" y1="444.2" x2="1281.6" y2="444.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_84" data-name="Sfumatura senza nome 84" x1="1155.9" y1="408.5" x2="1281.6" y2="408.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_85" data-name="Sfumatura senza nome 85" x1="-19.8" y1="337.1" x2="106" y2="337.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_86" data-name="Sfumatura senza nome 86" x1="-19.8" y1="301.4" x2="106" y2="301.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_87" data-name="Sfumatura senza nome 87" x1="104" y1="337.1" x2="229.7" y2="337.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_88" data-name="Sfumatura senza nome 88" x1="104" y1="301.4" x2="229.7" y2="301.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_89" data-name="Sfumatura senza nome 89" x1="227.7" y1="337.1" x2="353.5" y2="337.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_90" data-name="Sfumatura senza nome 90" x1="227.7" y1="301.4" x2="353.5" y2="301.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_91" data-name="Sfumatura senza nome 91" x1="351.5" y1="337.1" x2="477.2" y2="337.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_92" data-name="Sfumatura senza nome 92" x1="351.5" y1="301.2" x2="477.2" y2="301.2" gradientTransform="translate(.2 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_93" data-name="Sfumatura senza nome 93" x1="475.2" y1="337.1" x2="601" y2="337.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_94" data-name="Sfumatura senza nome 94" x1="475.2" y1="301.4" x2="601" y2="301.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_95" data-name="Sfumatura senza nome 95" x1="599" y1="337.1" x2="724.8" y2="337.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_96" data-name="Sfumatura senza nome 96" x1="599" y1="301.4" x2="724.8" y2="301.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_97" data-name="Sfumatura senza nome 97" x1="722.8" y1="337.1" x2="848.5" y2="337.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_98" data-name="Sfumatura senza nome 98" x1="722.8" y1="302" x2="848.5" y2="302" gradientTransform="translate(-.2 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_99" data-name="Sfumatura senza nome 99" x1="846.5" y1="337.1" x2="972.3" y2="337.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_100" data-name="Sfumatura senza nome 100" x1="846.5" y1="301.4" x2="972.3" y2="301.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_101" data-name="Sfumatura senza nome 101" x1="970.3" y1="337.1" x2="1096" y2="337.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_102" data-name="Sfumatura senza nome 102" x1="970.3" y1="301.4" x2="1096" y2="301.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_103" data-name="Sfumatura senza nome 103" x1="1094" y1="337.1" x2="1219.8" y2="337.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_104" data-name="Sfumatura senza nome 104" x1="1094" y1="301.4" x2="1219.8" y2="301.4" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_105" data-name="Sfumatura senza nome 105" x1="-81.6" y1="229.9" x2="44.1" y2="229.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_106" data-name="Sfumatura senza nome 106" x1="-81.6" y1="194.2" x2="44.1" y2="194.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_107" data-name="Sfumatura senza nome 107" x1="42.1" y1="229.9" x2="167.9" y2="229.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_108" data-name="Sfumatura senza nome 108" x1="42.1" y1="194.2" x2="167.9" y2="194.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_109" data-name="Sfumatura senza nome 109" x1="165.9" y1="229.9" x2="291.6" y2="229.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_110" data-name="Sfumatura senza nome 110" x1="165.9" y1="194.2" x2="291.6" y2="194.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_111" data-name="Sfumatura senza nome 111" x1="289.6" y1="229.9" x2="415.4" y2="229.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_112" data-name="Sfumatura senza nome 112" x1="289.6" y1="194.2" x2="415.4" y2="194.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_113" data-name="Sfumatura senza nome 113" x1="413.4" y1="229.9" x2="539.1" y2="229.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_114" data-name="Sfumatura senza nome 114" x1="413.4" y1="194.2" x2="539.1" y2="194.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_115" data-name="Sfumatura senza nome 115" x1="537.1" y1="229.9" x2="662.9" y2="229.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_116" data-name="Sfumatura senza nome 116" x1="537.1" y1="194.2" x2="662.9" y2="194.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_117" data-name="Sfumatura senza nome 117" x1="660.9" y1="229.9" x2="786.6" y2="229.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_118" data-name="Sfumatura senza nome 118" x1="660.9" y1="194.2" x2="786.6" y2="194.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_119" data-name="Sfumatura senza nome 119" x1="784.6" y1="229.9" x2="910.4" y2="229.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_120" data-name="Sfumatura senza nome 120" x1="784.6" y1="194.2" x2="910.4" y2="194.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_121" data-name="Sfumatura senza nome 121" x1="908.4" y1="229.9" x2="1034.1" y2="229.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_122" data-name="Sfumatura senza nome 122" x1="908.4" y1="194.2" x2="1034.1" y2="194.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_123" data-name="Sfumatura senza nome 123" x1="1032.1" y1="229.9" x2="1157.9" y2="229.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_124" data-name="Sfumatura senza nome 124" x1="1032.1" y1="194.2" x2="1157.9" y2="194.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_125" data-name="Sfumatura senza nome 125" x1="1155.9" y1="229.9" x2="1281.6" y2="229.9" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_126" data-name="Sfumatura senza nome 126" x1="1155.9" y1="194.2" x2="1281.6" y2="194.2" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_127" data-name="Sfumatura senza nome 127" x1="-19.8" y1="122.8" x2="106" y2="122.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_128" data-name="Sfumatura senza nome 128" x1="-19.8" y1="87.1" x2="106" y2="87.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_129" data-name="Sfumatura senza nome 129" x1="104" y1="122.8" x2="229.7" y2="122.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_130" data-name="Sfumatura senza nome 130" x1="104" y1="87.1" x2="229.7" y2="87.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_131" data-name="Sfumatura senza nome 131" x1="227.7" y1="122.8" x2="353.5" y2="122.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_132" data-name="Sfumatura senza nome 132" x1="227.7" y1="87.1" x2="353.5" y2="87.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_133" data-name="Sfumatura senza nome 133" x1="351.5" y1="122.8" x2="477.2" y2="122.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_134" data-name="Sfumatura senza nome 134" x1="351.5" y1="87.1" x2="477.2" y2="87.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_135" data-name="Sfumatura senza nome 135" x1="475.2" y1="122.8" x2="601" y2="122.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_136" data-name="Sfumatura senza nome 136" x1="475.2" y1="87.1" x2="601" y2="87.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_137" data-name="Sfumatura senza nome 137" x1="599" y1="122.8" x2="724.8" y2="122.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_138" data-name="Sfumatura senza nome 138" x1="599" y1="87.1" x2="724.8" y2="87.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_139" data-name="Sfumatura senza nome 139" x1="722.8" y1="122.8" x2="848.5" y2="122.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_140" data-name="Sfumatura senza nome 140" x1="722.8" y1="87.1" x2="848.5" y2="87.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_141" data-name="Sfumatura senza nome 141" x1="846.5" y1="122.8" x2="972.3" y2="122.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_142" data-name="Sfumatura senza nome 142" x1="846.5" y1="87.1" x2="972.3" y2="87.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_143" data-name="Sfumatura senza nome 143" x1="970.3" y1="122.8" x2="1096" y2="122.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_144" data-name="Sfumatura senza nome 144" x1="970.3" y1="87.1" x2="1096" y2="87.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_145" data-name="Sfumatura senza nome 145" x1="1094" y1="122.8" x2="1219.8" y2="122.8" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_146" data-name="Sfumatura senza nome 146" x1="1094" y1="87.1" x2="1219.8" y2="87.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_147" data-name="Sfumatura senza nome 147" x1="-81.6" y1="15.5" x2="44.1" y2="15.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_148" data-name="Sfumatura senza nome 148" x1="-81.6" y1="-20.1" x2="44.1" y2="-20.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_149" data-name="Sfumatura senza nome 149" x1="42.1" y1="15.5" x2="167.9" y2="15.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_150" data-name="Sfumatura senza nome 150" x1="42.1" y1="-20.1" x2="167.9" y2="-20.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_151" data-name="Sfumatura senza nome 151" x1="165.9" y1="15.5" x2="291.6" y2="15.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_152" data-name="Sfumatura senza nome 152" x1="165.9" y1="-20.1" x2="291.6" y2="-20.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_153" data-name="Sfumatura senza nome 153" x1="289.6" y1="15.5" x2="415.4" y2="15.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_154" data-name="Sfumatura senza nome 154" x1="289.6" y1="-20.1" x2="415.4" y2="-20.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_155" data-name="Sfumatura senza nome 155" x1="413.4" y1="15.5" x2="539.1" y2="15.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_156" data-name="Sfumatura senza nome 156" x1="413.4" y1="-20.1" x2="539.1" y2="-20.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_157" data-name="Sfumatura senza nome 157" x1="537.1" y1="15.5" x2="662.9" y2="15.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_158" data-name="Sfumatura senza nome 158" x1="537.1" y1="-20.1" x2="662.9" y2="-20.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_159" data-name="Sfumatura senza nome 159" x1="660.9" y1="15.5" x2="786.6" y2="15.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_160" data-name="Sfumatura senza nome 160" x1="660.9" y1="-20.1" x2="786.6" y2="-20.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_161" data-name="Sfumatura senza nome 161" x1="784.6" y1="15.5" x2="910.4" y2="15.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_162" data-name="Sfumatura senza nome 162" x1="784.6" y1="-20.1" x2="910.4" y2="-20.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_163" data-name="Sfumatura senza nome 163" x1="908.4" y1="15.5" x2="1034.1" y2="15.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_164" data-name="Sfumatura senza nome 164" x1="908.4" y1="-20.1" x2="1034.1" y2="-20.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_165" data-name="Sfumatura senza nome 165" x1="1032.1" y1="15.5" x2="1157.9" y2="15.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_166" data-name="Sfumatura senza nome 166" x1="1032.1" y1="-20.1" x2="1157.9" y2="-20.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_167" data-name="Sfumatura senza nome 167" x1="1155.9" y1="15.5" x2="1281.6" y2="15.5" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_168" data-name="Sfumatura senza nome 168" x1="1155.9" y1="-20.1" x2="1281.6" y2="-20.1" gradientTransform="translate(0 643.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#785298" stop-opacity="0"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".2" stop-color="#000" stop-opacity=".5"/>
+      <stop offset=".4" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#000" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#000"/>
+      <stop offset="1" stop-color="#9071aa"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#693f8c"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-17" y="-146.8" width="1200" height="800"/>
+  <g class="cls-171">
+    <g>
+      <g>
+        <g>
+          <polygon class="cls-143" points="105 -86.2 105 -157.7 43.1 -193.4 -18.8 -157.7 -18.8 -86.2 43.1 -50.5 105 -86.2"/>
+          <path class="cls-2" d="M108.8-79.7c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-163" points="228.7 -86.2 228.7 -157.7 166.9 -193.4 105 -157.7 105 -86.2 166.9 -50.5 228.7 -86.2"/>
+          <path class="cls-44" d="M232.5-79.7c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-122" points="352.5 -86.2 352.5 -157.7 290.6 -193.4 228.7 -157.7 228.7 -86.2 290.6 -50.5 352.5 -86.2"/>
+          <path class="cls-4" d="M356.3-79.7c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-151" points="476.2 -86.2 476.2 -157.7 414.4 -193.4 352.5 -157.7 352.5 -86.2 414.4 -50.5 476.2 -86.2"/>
+          <path class="cls-21" d="M480-79.7c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-119" points="600 -86.2 600 -157.7 538.1 -193.4 476.2 -157.7 476.2 -86.2 538.1 -50.5 600 -86.2"/>
+          <path class="cls-49" d="M603.8-79.7c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-170" points="723.8 -86.2 723.8 -157.7 661.9 -193.4 600 -157.7 600 -86.2 661.9 -50.5 723.8 -86.2"/>
+          <path class="cls-27" d="M727.5-79.7c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-113" points="847.5 -86.2 847.5 -157.7 785.6 -193.4 723.8 -157.7 723.8 -86.2 785.6 -50.5 847.5 -86.2"/>
+          <path class="cls-79" d="M851.3-79.7c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-91" points="971.3 -86.2 971.3 -157.7 909.4 -193.4 847.5 -157.7 847.5 -86.2 909.4 -50.5 971.3 -86.2"/>
+          <path class="cls-65" d="M975-79.7c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-128" points="1095 -86.2 1095 -157.7 1033.1 -193.4 971.3 -157.7 971.3 -86.2 1033.1 -50.5 1095 -86.2"/>
+          <path class="cls-6" d="M1098.8-79.7c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-164" points="1218.8 -86.2 1218.8 -157.7 1156.9 -193.4 1095 -157.7 1095 -86.2 1156.9 -50.5 1218.8 -86.2"/>
+          <path class="cls-52" d="M1222.5-79.7c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <polygon class="cls-97" points="43.1 21 43.1 -50.4 -18.8 -86.2 -80.6 -50.4 -80.6 21 -18.8 56.7 43.1 21"/>
+          <path class="cls-13" d="M46.9,27.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-101" points="166.9 21 166.9 -50.4 105 -86.2 43.1 -50.4 43.1 21 105 56.7 166.9 21"/>
+          <path class="cls-39" d="M170.6,27.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-135" points="290.6 21 290.6 -50.4 228.7 -86.2 166.9 -50.4 166.9 21 228.7 56.7 290.6 21"/>
+          <path class="cls-58" d="M294.4,27.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-137" points="414.4 21 414.4 -50.4 352.5 -86.2 290.6 -50.4 290.6 21 352.5 56.7 414.4 21"/>
+          <path class="cls-5" d="M418.1,27.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-104" points="538.1 21 538.1 -50.4 476.2 -86.2 414.4 -50.4 414.4 21 476.2 56.7 538.1 21"/>
+          <path class="cls-75" d="M541.9,27.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-117" points="661.9 21 661.9 -50.4 600 -86.2 538.1 -50.4 538.1 21 600 56.7 661.9 21"/>
+          <path class="cls-72" d="M665.6,27.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-116" points="785.6 21 785.6 -50.4 723.8 -86.2 661.9 -50.4 661.9 21 723.8 56.7 785.6 21"/>
+          <path class="cls-12" d="M789.4,27.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-157" points="909.4 21 909.4 -50.4 847.5 -86.2 785.6 -50.4 785.6 21 847.5 56.7 909.4 21"/>
+          <path class="cls-35" d="M913.1,27.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-130" points="1033.1 21 1033.1 -50.4 971.3 -86.2 909.4 -50.4 909.4 21 971.3 56.7 1033.1 21"/>
+          <path class="cls-33" d="M1036.9,27.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-139" points="1156.9 21 1156.9 -50.4 1095 -86.2 1033.1 -50.4 1033.1 21 1095 56.7 1156.9 21"/>
+          <path class="cls-81" d="M1160.6,27.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-168" points="1280.6 21 1280.6 -50.4 1218.8 -86.2 1156.9 -50.4 1156.9 21 1218.8 56.7 1280.6 21"/>
+          <path class="cls-46" d="M1284.4,27.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <polygon class="cls-115" points="105 128.1 105 56.7 43.1 21 -18.8 56.7 -18.8 128.1 43.1 163.9 105 128.1"/>
+          <circle class="cls-42" cx="104.9" cy="128.1" r="7.5"/>
+        </g>
+        <g>
+          <polygon class="cls-145" points="228.7 128.1 228.7 56.7 166.9 21 105 56.7 105 128.1 166.9 163.9 228.7 128.1"/>
+          <path class="cls-77" d="M232.5,134.6c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3s6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-161" points="352.5 128.1 352.5 56.7 290.6 21 228.7 56.7 228.7 128.1 290.6 163.9 352.5 128.1"/>
+          <path class="cls-47" d="M356.3,134.6c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-144" points="476.2 128.1 476.2 56.7 414.4 21 352.5 56.7 352.5 128.1 414.4 163.9 476.2 128.1"/>
+          <circle class="cls-51" cx="476.3" cy="128.3" r="7.5"/>
+        </g>
+        <g>
+          <polygon class="cls-121" points="600 128.1 600 56.7 538.1 21 476.2 56.7 476.2 128.1 538.1 163.9 600 128.1"/>
+          <path class="cls-69" d="M603.8,134.6c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-155" points="723.8 128.1 723.8 56.7 661.9 21 600 56.7 600 128.1 661.9 163.9 723.8 128.1"/>
+          <path class="cls-60" d="M727.5,134.6c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3s6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-136" points="847.5 128.1 847.5 56.7 785.6 21 723.8 56.7 723.8 128.1 785.6 163.9 847.5 128.1"/>
+          <path class="cls-23" d="M851.3,134.6c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3s6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-98" points="971.3 128.1 971.3 56.7 909.4 21 847.5 56.7 847.5 128.1 909.4 163.9 971.3 128.1"/>
+          <path class="cls-1" d="M975,134.6c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3s6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-102" points="1095 128.1 1095 56.7 1033.1 21 971.3 56.7 971.3 128.1 1033.1 163.9 1095 128.1"/>
+          <path class="cls-30" d="M1098.8,134.6c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-142" points="1218.8 128.1 1218.8 56.7 1156.9 21 1095 56.7 1095 128.1 1156.9 163.9 1218.8 128.1"/>
+          <path class="cls-50" d="M1222.5,134.6c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <polygon class="cls-162" points="43.1 235.3 43.1 163.9 -18.8 128.2 -80.6 163.9 -80.6 235.3 -18.8 271.1 43.1 235.3"/>
+          <path class="cls-53" d="M46.9,241.9c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-154" points="166.9 235.3 166.9 163.9 105 128.2 43.1 163.9 43.1 235.3 105 271.1 166.9 235.3"/>
+          <path class="cls-20" d="M170.6,241.9c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-125" points="290.6 235.3 290.6 163.9 228.7 128.2 166.9 163.9 166.9 235.3 228.7 271.1 290.6 235.3"/>
+          <path class="cls-41" d="M294.4,241.9c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-118" points="414.4 235.3 414.4 163.9 352.5 128.2 290.6 163.9 290.6 235.3 352.5 271.1 414.4 235.3"/>
+          <path class="cls-82" d="M418.1,241.9c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-124" points="538.1 235.3 538.1 163.9 476.2 128.2 414.4 163.9 414.4 235.3 476.2 271.1 538.1 235.3"/>
+          <path class="cls-85" d="M541.9,241.9c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-167" points="661.9 235.3 661.9 163.9 600 128.2 538.1 163.9 538.1 235.3 600 271.1 661.9 235.3"/>
+          <path class="cls-80" d="M665.6,241.9c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-127" points="785.6 235.3 785.6 163.9 723.8 128.2 661.9 163.9 661.9 235.3 723.8 271.1 785.6 235.3"/>
+          <path class="cls-40" d="M789.4,241.9c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-158" points="909.4 235.3 909.4 163.9 847.5 128.2 785.6 163.9 785.6 235.3 847.5 271.1 909.4 235.3"/>
+          <path class="cls-38" d="M913.1,241.9c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-132" points="1033.1 235.3 1033.1 163.9 971.3 128.2 909.4 163.9 909.4 235.3 971.3 271.1 1033.1 235.3"/>
+          <path class="cls-15" d="M1036.9,241.9c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-165" points="1156.9 235.3 1156.9 163.9 1095 128.2 1033.1 163.9 1033.1 235.3 1095 271.1 1156.9 235.3"/>
+          <path class="cls-64" d="M1160.6,241.9c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-99" points="1280.6 235.3 1280.6 163.9 1218.8 128.2 1156.9 163.9 1156.9 235.3 1218.8 271.1 1280.6 235.3"/>
+          <path class="cls-54" d="M1284.4,241.9c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <polygon class="cls-159" points="105 342.5 105 271 43.1 235.3 -18.8 271 -18.8 342.5 43.1 378.2 105 342.5"/>
+          <path class="cls-57" d="M108.8,349c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-93" points="228.7 342.5 228.7 271 166.9 235.3 105 271 105 342.5 166.9 378.2 228.7 342.5"/>
+          <path class="cls-14" d="M232.5,349c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-140" points="352.5 342.5 352.5 271 290.6 235.3 228.7 271 228.7 342.5 290.6 378.2 352.5 342.5"/>
+          <path class="cls-61" d="M356.3,349c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-95" points="476.2 342.5 476.2 271 414.4 235.3 352.5 271 352.5 342.5 414.4 378.2 476.2 342.5"/>
+          <circle class="cls-55" cx="476.3" cy="342.7" r="7.5"/>
+        </g>
+        <g>
+          <polygon class="cls-134" points="600 342.5 600 271 538.1 235.3 476.2 271 476.2 342.5 538.1 378.2 600 342.5"/>
+          <path class="cls-62" d="M603.8,349c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-166" points="723.8 342.5 723.8 271 661.9 235.3 600 271 600 342.5 661.9 378.2 723.8 342.5"/>
+          <path class="cls-74" d="M727.5,349c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-111" points="847.5 342.5 847.5 271 785.6 235.3 723.8 271 723.8 342.5 785.6 378.2 847.5 342.5"/>
+          <circle class="cls-70" cx="847.6" cy="341.8" r="7.5"/>
+        </g>
+        <g>
+          <polygon class="cls-103" points="971.3 342.5 971.3 271 909.4 235.3 847.5 271 847.5 342.5 909.4 378.2 971.3 342.5"/>
+          <path class="cls-24" d="M975,349c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-90" points="1095 342.5 1095 271 1033.1 235.3 971.3 271 971.3 342.5 1033.1 378.2 1095 342.5"/>
+          <path class="cls-56" d="M1098.8,349c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-148" points="1218.8 342.5 1218.8 271 1156.9 235.3 1095 271 1095 342.5 1156.9 378.2 1218.8 342.5"/>
+          <path class="cls-84" d="M1222.5,349c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <polygon class="cls-153" points="43.1 449.7 43.1 378.2 -18.8 342.5 -80.6 378.2 -80.6 449.7 -18.8 485.4 43.1 449.7"/>
+          <path class="cls-25" d="M46.9,456.2c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-156" points="166.9 449.7 166.9 378.2 105 342.5 43.1 378.2 43.1 449.7 105 485.4 166.9 449.7"/>
+          <path class="cls-16" d="M170.6,456.2c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-100" points="290.6 449.7 290.6 378.2 228.7 342.5 166.9 378.2 166.9 449.7 228.7 485.4 290.6 449.7"/>
+          <path class="cls-48" d="M294.4,456.2c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-89" points="414.4 449.7 414.4 378.2 352.5 342.5 290.6 378.2 290.6 449.7 352.5 485.4 414.4 449.7"/>
+          <circle class="cls-9" cx="414.4" cy="449.7" r="7.5"/>
+        </g>
+        <g>
+          <polygon class="cls-146" points="538.1 449.7 538.1 378.2 476.2 342.5 414.4 378.2 414.4 449.7 476.2 485.4 538.1 449.7"/>
+          <path class="cls-28" d="M541.9,456.2c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-147" points="661.9 449.7 661.9 378.2 600 342.5 538.1 378.2 538.1 449.7 600 485.4 661.9 449.7"/>
+          <path class="cls-83" d="M665.6,456.2c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-110" points="785.6 449.7 785.6 378.2 723.8 342.5 661.9 378.2 661.9 449.7 723.8 485.4 785.6 449.7"/>
+          <path class="cls-31" d="M789.4,456.2c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-87" points="909.4 449.7 909.4 378.2 847.5 342.5 785.6 378.2 785.6 449.7 847.5 485.4 909.4 449.7"/>
+          <path class="cls-36" d="M913.1,456.2c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-109" points="1033.1 449.7 1033.1 378.2 971.3 342.5 909.4 378.2 909.4 449.7 971.3 485.4 1033.1 449.7"/>
+          <path class="cls-37" d="M1036.9,456.2c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-160" points="1156.9 449.7 1156.9 378.2 1095 342.5 1033.1 378.2 1033.1 449.7 1095 485.4 1156.9 449.7"/>
+          <path class="cls-86" d="M1160.6,456.2c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-129" points="1280.6 449.7 1280.6 378.2 1218.8 342.5 1156.9 378.2 1156.9 449.7 1218.8 485.4 1280.6 449.7"/>
+          <path class="cls-78" d="M1284.4,456.2c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <polygon class="cls-114" points="105 556.8 105 485.4 43.1 449.6 -18.8 485.4 -18.8 556.8 43.1 592.5 105 556.8"/>
+          <path class="cls-66" d="M108.8,563.3c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-120" points="228.7 556.8 228.7 485.4 166.9 449.6 105 485.4 105 556.8 166.9 592.5 228.7 556.8"/>
+          <path class="cls-7" d="M232.5,563.3c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-169" points="352.5 556.8 352.5 485.4 290.6 449.6 228.7 485.4 228.7 556.8 290.6 592.5 352.5 556.8"/>
+          <path class="cls-32" d="M356.3,563.3c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-141" points="476.2 556.8 476.2 485.4 414.4 449.6 352.5 485.4 352.5 556.8 414.4 592.5 476.2 556.8"/>
+          <path class="cls-43" d="M480,563.3c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-94" points="600 556.8 600 485.4 538.1 449.6 476.2 485.4 476.2 556.8 538.1 592.5 600 556.8"/>
+          <path class="cls-26" d="M603.8,563.3c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-105" points="723.8 556.8 723.8 485.4 661.9 449.6 600 485.4 600 556.8 661.9 592.5 723.8 556.8"/>
+          <path class="cls-19" d="M727.5,563.3c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-150" points="847.5 556.8 847.5 485.4 785.6 449.6 723.8 485.4 723.8 556.8 785.6 592.5 847.5 556.8"/>
+          <path class="cls-68" d="M851.3,563.3c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-106" points="971.3 556.8 971.3 485.4 909.4 449.6 847.5 485.4 847.5 556.8 909.4 592.5 971.3 556.8"/>
+          <path class="cls-45" d="M975,563.3c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-133" points="1095 556.8 1095 485.4 1033.1 449.6 971.3 485.4 971.3 556.8 1033.1 592.5 1095 556.8"/>
+          <path class="cls-8" d="M1098.8,563.3c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-96" points="1218.8 556.8 1218.8 485.4 1156.9 449.6 1095 485.4 1095 556.8 1156.9 592.5 1218.8 556.8"/>
+          <path class="cls-67" d="M1222.5,563.3c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <polygon class="cls-92" points="43.1 664 43.1 592.6 -18.8 556.9 -80.6 592.6 -80.6 664 -18.8 699.8 43.1 664"/>
+          <path class="cls-29" d="M46.9,670.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-126" points="166.9 664 166.9 592.6 105 556.9 43.1 592.6 43.1 664 105 699.8 166.9 664"/>
+          <path class="cls-76" d="M170.6,670.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-112" points="290.6 664 290.6 592.6 228.7 556.9 166.9 592.6 166.9 664 228.7 699.8 290.6 664"/>
+          <path class="cls-10" d="M294.4,670.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-131" points="414.4 664 414.4 592.6 352.5 556.9 290.6 592.6 290.6 664 352.5 699.8 414.4 664"/>
+          <path class="cls-18" d="M418.1,670.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-152" points="538.1 664 538.1 592.6 476.2 556.9 414.4 592.6 414.4 664 476.2 699.8 538.1 664"/>
+          <path class="cls-63" d="M541.9,670.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-138" points="661.9 664 661.9 592.6 600 556.9 538.1 592.6 538.1 664 600 699.8 661.9 664"/>
+          <path class="cls-3" d="M665.6,670.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-88" points="785.6 664 785.6 592.6 723.8 556.9 661.9 592.6 661.9 664 723.8 699.8 785.6 664"/>
+          <path class="cls-11" d="M789.4,670.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-149" points="909.4 664 909.4 592.6 847.5 556.9 785.6 592.6 785.6 664 847.5 699.8 909.4 664"/>
+          <path class="cls-71" d="M913.1,670.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-107" points="1033.1 664 1033.1 592.6 971.3 556.9 909.4 592.6 909.4 664 971.3 699.8 1033.1 664"/>
+          <path class="cls-59" d="M1036.9,670.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-108" points="1156.9 664 1156.9 592.6 1095 556.9 1033.1 592.6 1033.1 664 1095 699.8 1156.9 664"/>
+          <path class="cls-73" d="M1160.6,670.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+        <g>
+          <polygon class="cls-123" points="1280.6 664 1280.6 592.6 1218.8 556.9 1156.9 592.6 1156.9 664 1218.8 699.8 1280.6 664"/>
+          <path class="cls-22" d="M1284.4,670.5c3.6-2.1,4.8-6.7,2.8-10.3-2.1-3.6-6.7-4.8-10.3-2.8-3.6,2.1-4.8,6.7-2.8,10.3,2.1,3.6,6.7,4.8,10.3,2.8Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
