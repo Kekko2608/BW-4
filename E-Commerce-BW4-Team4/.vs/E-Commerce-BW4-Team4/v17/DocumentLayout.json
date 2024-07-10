@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\stefa\\desktop\\epic code\\bw-4\\e-commerce-bw4-team4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\stefa\\desktop\\epic code\\bw-4\\e-commerce-bw4-team4\\services\\prodottoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:services\\prodottoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\stefa\\desktop\\epic code\\bw-4\\e-commerce-bw4-team4\\models\\prodottoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:models\\prodottoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\stefa\\desktop\\epic code\\bw-4\\e-commerce-bw4-team4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 938,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Prodotto.cs",
               "DocumentMoniker": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Models\\Prodotto.cs",
               "RelativeDocumentMoniker": "Models\\Prodotto.cs",
@@ -58,12 +58,11 @@
               "RelativeToolTip": "Models\\Prodotto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T10:09:56.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T10:09:56.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -71,12 +70,11 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T10:06:06.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T10:06:06.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProdottoService.cs",
               "DocumentMoniker": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Services\\ProdottoService.cs",
               "RelativeDocumentMoniker": "Services\\ProdottoService.cs",
@@ -89,20 +87,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml*",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ToolTip": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-10T10:05:09.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProdottoViewModel.cs",
               "DocumentMoniker": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Models\\ProdottoViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ProdottoViewModel.cs",
@@ -110,8 +108,7 @@
               "RelativeToolTip": "Models\\ProdottoViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T10:04:58.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T10:04:58.843Z"
             }
           ]
         },

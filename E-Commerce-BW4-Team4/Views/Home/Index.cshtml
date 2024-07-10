@@ -12,7 +12,8 @@
         {
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="@Prodotto.CoverImagePath" alt="copertina @Prodotto.NomeProdotto" class="card-img-top" />
+                    <a data-bs-toggle="modal" data-bs-target="#modal-@Prodotto.IdProdotto">
+                        <img src="@Prodotto.CoverImagePath" alt="copertina @Prodotto.NomeProdotto" class="card-img-top" /></a>
                     <div class="card-body">
                         <h5 class="card-title">@Prodotto.NomeProdotto</h5>
                         <p class="card-text">@Prodotto.DescrizioneProdotto</p>
