@@ -31,12 +31,6 @@
                             <input type="number" value="1" id="quantita" name="quantita"/>
                             <button type="submit" class="btn btn-primary">Acquista</button>
                         </form>
-
-                            <strong>@(Prodotto.Disponibilita ? "DISPONIBILE" : "NON DISPONIBILE")</strong>
-                        </p>
-                        <p>Genere: @Prodotto.TipoDiGenere</p>
-                        <p class="card-text"><strong>Prezzo:</strong> @Prodotto.Prezzo.ToString("C")</p>
-                        <a class="btn btn-primary">Acquista</a>
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-@Prodotto.IdProdotto">
                             Mostra i Dettagli
                         </button>
