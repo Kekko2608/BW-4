@@ -23,7 +23,8 @@ namespace E_Commerce_BW4_Team4.Controllers
 
         public IActionResult Index()
         {
-            return View(_prodottoService.GetAllProducts());
+            var prodotti = _prodottoService.GetAllProductsWithImages();
+            return View(prodotti);
         }
         [HttpGet]
         public IActionResult Amministratore()
@@ -76,12 +77,8 @@ namespace E_Commerce_BW4_Team4.Controllers
 
         public IActionResult Delete(int IdProdotto)
         {
-            var prodotto = _prodottoService.GetById(IdProdotto);
-            if (prodotto == null)
-            {
-                return NotFound();
-            }
-            return View(prodotto);
+            _prodottoService.Delete(IdProdotto);
+            return RedirectToAction(nameof(GestioneAmministratore));
         }
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
