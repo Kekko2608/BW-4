@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ProdottoCompleto>
+﻿@model IEnumerable<Prodotto>
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
@@ -7,11 +7,12 @@
 }
 
 
-<h1>Benvenuto @ViewBag.Username</h1>
+<h1 class="text-white">Benvenuto @ViewBag.Username</h1>
 
-<h2>lista Videogiochi</h2>
+<h2 class="text-white">lista Videogiochi</h2>
+<a class="btn btn-success" asp-controller="Home" asp-action="CreaProdotto">Aggiungi videogioco</a>
 
-<div class="container">
+<div class="container mt-3">
     <div class="row">
         @foreach (var Prodotto in Model)
         {
@@ -31,4 +32,3 @@
     </div>
 </div>
 
-<a class="btn btn-success" asp-controller="Home" asp-action="CreaProdotto">Aggiungi videogioco</a>

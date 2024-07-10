@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ProdottoCompleto>
+﻿@model IEnumerable<ProdottoViewModel>
 @{
     ViewData["Title"] = "EPICGAMES";
 }
@@ -12,11 +12,12 @@
         {
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="~/images/@($"{Prodotto.IdProdotto}a.jpg")" alt="@Prodotto.NomeProdotto" />
+                    <img src="@Prodotto.CoverImagePath" )" alt="copertina @Prodotto.NomeProdotto" class="card-img-top" />
                     <div class="card-body">
                         <h5 class="card-title">@Prodotto.NomeProdotto</h5>
                         <p class="card-text">@Prodotto.DescrizioneProdotto</p>
-                        <p class="card-text"><strong>Disponibilità:<span class=@(Prodotto.Disponibilita ? "text-success" : "text-danger")> @(Prodotto.Disponibilita ? "si" : "no")</span></strong></p>
+                        <p class="card-text @(Prodotto.Disponibilita ? "text-success" : "text-danger")">
+                            <strong>@(Prodotto.Disponibilita ? "DISPONIBILE" : "NON DISPONIBILE")</strong></p>
                         <p class="card-text"><strong>Prezzo:</strong> @Prodotto.Prezzo.ToString("C")</p>
                         <a class="btn btn-primary">Acquista</a>
                     </div>
