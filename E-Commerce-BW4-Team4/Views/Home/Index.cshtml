@@ -6,6 +6,7 @@
 <h1 class="text-white ">Benvenuto in</h1>
 <img src="~/img/logo_epigames_store.svg" alt="logo" class="logo"/>
 </div>
+<a asp-controller="Home" asp-action="Ordini">Vedi il tuo carrello</a>
 <div class="container">
     <div class="row">
         @foreach (var Prodotto in Model)
@@ -18,8 +19,18 @@
                         <p class="card-text">@Prodotto.DescrizioneProdotto</p>
                         <p class="card-text @(Prodotto.Disponibilita ? "text-success" : "text-danger")">
                             <strong>@(Prodotto.Disponibilita ? "DISPONIBILE" : "NON DISPONIBILE")</strong></p>
+                        <p class="card-text">@Prodotto.NomePiattaforma</p>
+                        <p class="card-text">@Prodotto.TipoDiGenere</p>
                         <p class="card-text"><strong>Prezzo:</strong> @Prodotto.Prezzo.ToString("C")</p>
-                        <a class="btn btn-primary">Acquista</a>
+                        <p class="d-none">@Prodotto.IdProdotto</p>
+                        
+                      
+                        <form asp-controller="Home" asp-action="CreaOrdine">
+                            <input type="hidden" name="idProdotto" value="@Prodotto.IdProdotto" />
+                            <input type="number" value="1" id="quantita" name="quantita"/>
+                            <button type="submit" class="btn btn-primary">Acquista</button>
+                        </form>
+
                     </div>
                 </div>
             </div>

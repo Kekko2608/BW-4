@@ -12,13 +12,15 @@ namespace E_Commerce_BW4_Team4.Controllers
         private readonly IProdottoService _prodottoService;
         private readonly IPiattaformaService _piattaformaService;
         private readonly IGeneriService _generiService;
+        private readonly IOrdiniService _ordiniService;
 
-        public HomeController(ILogger<HomeController> logger, IProdottoService prodottoService, IPiattaformaService piattaformaService, IGeneriService generiService)
+        public HomeController(ILogger<HomeController> logger, IProdottoService prodottoService, IPiattaformaService piattaformaService, IGeneriService generiService, IOrdiniService ordiniService)
         {
             _logger = logger;
             _prodottoService = prodottoService;
             _piattaformaService = piattaformaService;
             _generiService = generiService;
+            _ordiniService = ordiniService;
         }
 
         public IActionResult Index()
@@ -38,7 +40,13 @@ namespace E_Commerce_BW4_Team4.Controllers
             TempData["Username"] = Username;
             return RedirectToAction("GestioneAmministratore");
         }
-        //-------------------------------------------------------------
+        public IActionResult GestioneAmministratore()
+        {
+            var Username = TempData["Username"] as string;
+            ViewBag.Username = Username;
+            return View(_prodottoService.GetAllProducts());
+        }
+        //----CRUD DEI PRODOTTI----
         public IActionResult CreaProdotto()
         {
             var TuttiIGeneri = _generiService.GetAllGeneri();
@@ -69,19 +77,57 @@ namespace E_Commerce_BW4_Team4.Controllers
             return RedirectToAction("GestioneAmministratore");
         }
 
-        public IActionResult GestioneAmministratore()
+      
+        public IActionResult Modifica(int id)
         {
-            var Username = TempData["Username"] as string;
-            ViewBag.Username = Username;
-            return View(_prodottoService.GetAllProducts());
+            var TuttiIGeneri = _generiService.GetAllGeneri();
+            var TutteLePiattaforme = _piattaformaService.GetAllPiattaforme();
+            ViewBag.TuttiIGeneri = TuttiIGeneri;
+            ViewBag.TutteLePiattaforme = TutteLePiattaforme;
+
+            var prodotto = _prodottoService.GetByIdForPC(id);
+            if (prodotto == null)
+            {
+                return NotFound();
+            }
+            return View(prodotto);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Modifica(ProdottoCompleto prodotto)
+        {
+            var TuttiIGeneri = _generiService.GetAllGeneri();
+            var TutteLePiattaforme = _piattaformaService.GetAllPiattaforme();
+            ViewBag.TuttiIGeneri = TuttiIGeneri;
+            ViewBag.TutteLePiattaforme = TutteLePiattaforme;
+            ViewBag.GenereSelezionato = (int?)prodotto.Genere;
+            ViewBag.PiattaformaSelezionata = (int?)prodotto.Piattaforma;
+            _prodottoService.Update(prodotto);
+            return RedirectToAction(nameof(GestioneAmministratore));
+        }
         public IActionResult Delete(int IdProdotto)
         {
             _prodottoService.Delete(IdProdotto);
             return RedirectToAction(nameof(GestioneAmministratore));
         }
 
+        //---CRUD DEGLI ORDINI---
+        public IActionResult CreaOrdine(Ordine ordine, int idProdotto, int quantita)
+        {
+
+            TempData["quantita"] = quantita;
+            var quantità = TempData["quantita"];
+            _ordiniService.CreaOrdine(ordine, idProdotto, quantita);
+            return RedirectToAction(nameof(Index));
+
+        }
+
+        public IActionResult Ordini()
+        {
+            var ordine = _ordiniService.GetAllOrdine();
+            return View(ordine);
+        }
         public IActionResult Privacy()
         {
             return View();

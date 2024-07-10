@@ -27,6 +27,7 @@ namespace E_Commerce_BW4_Team4.Services
                 TipoDiGenere = reader.GetString(6),
                 NomePiattaforma = reader.GetString(7),
                 IdProdotto = reader.GetInt32(8)
+
             };
         }
 
@@ -106,6 +107,8 @@ namespace E_Commerce_BW4_Team4.Services
             }
         }
 
+       
+
         // CREATE ARTICOLO
         public void Create(Prodotto prodotto)
         {
@@ -143,7 +146,7 @@ namespace E_Commerce_BW4_Team4.Services
             var result = cmd.ExecuteNonQuery();
             if (result != 1) throw new Exception("Articolo non eliminato");
         }
-        // CONFERMA DELETE
+        // CONFERMA DELETE  
 
 
         //UPDATE
@@ -192,6 +195,38 @@ namespace E_Commerce_BW4_Team4.Services
             }
         }
 
+          public ProdottoCompleto GetByIdForPC(int IdProdotto)
+        {
+            var query = "SELECT IdProdotto, NomeProdotto, DescrizioneProdotto, Brand, PEGI, CodiceAbarre, Disponibilita, Prezzo, IdPiattaforma, IdGenere FROM Prodotti WHERE IdProdotto = @IdProdotto";
+            var cmd = GetCommand(query);
+            cmd.Parameters.Add(new SqlParameter("@IdProdotto", IdProdotto));
 
+            using var conn = GetConnection();
+            conn.Open();
+            var reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                ProdottoCompleto prodotto = new ProdottoCompleto()
+                {
+                    IdProdotto = (int)reader["IdProdotto"],
+                    NomeProdotto = reader.GetString(1),
+                    DescrizioneProdotto = reader.GetString(2),
+                    Brand = reader.GetString(3),
+                    PEGI = reader.GetString(4),
+                    CodiceABarre = reader.GetString(5),
+                    Disponibilita = reader.GetBoolean(6),
+                    Prezzo = reader.GetDecimal(7),
+                    Piattaforma = (int)reader["IdPiattaforma"],
+                    Genere = (int)reader["IdGenere"],
+
+
+                };
+                return prodotto;
+            }
+            else
+            {
+                throw new Exception("Prodotto non trovato.");
+            }
+        }
+        }
     }
-}

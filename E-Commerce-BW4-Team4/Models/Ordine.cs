@@ -3,7 +3,9 @@
     public class Ordine
     {
         public int IdOrdine { get; set; }
-        public Prodotto Prodotto { get; set; }
+        public ProdottoViewModel Prodotto { get; set; }
         public Carrello Carrello { get; set; }
+
+        public int Quantita { get; set; }
     }
 }

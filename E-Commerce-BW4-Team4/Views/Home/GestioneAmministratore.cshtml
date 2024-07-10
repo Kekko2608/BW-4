@@ -23,7 +23,7 @@
                         <p class="card-text">@Prodotto.DescrizioneProdotto</p>
                         <p class="card-text"><strong>Disponibilità:</strong> @Prodotto.Disponibilita</p>
                         <p class="card-text"><strong>Prezzo:</strong> @Prodotto.Prezzo.ToString("C")</p>
-                        <a class="btn btn-warning" asp-controller="Home" asp-action="Index">Modifica</a>
+                        <a class="btn btn-warning" asp-controller="Home" asp-action="Modifica" asp-route-id="@Prodotto.IdProdotto">Modifica</a>
                         <a class="btn btn-danger" asp-controller="Home" asp-action="Delete" asp-route-IdProdotto="@Prodotto.IdProdotto">Elimina</a>
                     </div>
                 </div>

@@ -4,5 +4,7 @@
     {
      
         public string CoverImagePath { get; set; } // Aggiungi questa proprietà
+
+        public int Quantita { get; set; }
     }
 }
