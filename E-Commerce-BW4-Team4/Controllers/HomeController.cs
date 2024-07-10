@@ -86,6 +86,8 @@ namespace E_Commerce_BW4_Team4.Controllers
             ViewBag.TutteLePiattaforme = TutteLePiattaforme;
 
             var prodotto = _prodottoService.GetByIdForPC(id);
+            ViewBag.GenereSelezionato = (int?)prodotto.Genere;
+            ViewBag.PiattaformaSelezionata = (int?)prodotto.Piattaforma;
             if (prodotto == null)
             {
                 return NotFound();
@@ -97,12 +99,12 @@ namespace E_Commerce_BW4_Team4.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Modifica(ProdottoCompleto prodotto)
         {
-            var TuttiIGeneri = _generiService.GetAllGeneri();
-            var TutteLePiattaforme = _piattaformaService.GetAllPiattaforme();
-            ViewBag.TuttiIGeneri = TuttiIGeneri;
-            ViewBag.TutteLePiattaforme = TutteLePiattaforme;
-            ViewBag.GenereSelezionato = (int?)prodotto.Genere;
-            ViewBag.PiattaformaSelezionata = (int?)prodotto.Piattaforma;
+            int idGenereSelezionato = Convert.ToInt32(Request.Form["Genere"]);
+            prodotto.Genere = idGenereSelezionato;
+
+            int idPiattaformaSelezionata = Convert.ToInt32(Request.Form["Piattaforma"]);
+            prodotto.Piattaforma = idPiattaformaSelezionata;
+
             _prodottoService.Update(prodotto);
             return RedirectToAction(nameof(GestioneAmministratore));
         }
