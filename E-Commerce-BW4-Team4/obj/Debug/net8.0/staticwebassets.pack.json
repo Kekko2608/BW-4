@@ -17,8 +17,24 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\10Copertina.jpg",
+      "PackagePath": "staticwebassets\\images\\10Copertina.jpg"
+    },
+    {
       "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\10a.jpg",
       "PackagePath": "staticwebassets\\images\\10a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\10b.jpg",
+      "PackagePath": "staticwebassets\\images\\10b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\10c.jpg",
+      "PackagePath": "staticwebassets\\images\\10c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1Copertina.jpg",
+      "PackagePath": "staticwebassets\\images\\1Copertina.jpg"
     },
     {
       "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1a.jpg",
@@ -33,40 +49,132 @@
       "PackagePath": "staticwebassets\\images\\1c.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1d.jpg",
-      "PackagePath": "staticwebassets\\images\\1d.jpg"
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\2Copertina.jpg",
+      "PackagePath": "staticwebassets\\images\\2Copertina.jpg"
     },
     {
       "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\2a.jpg",
       "PackagePath": "staticwebassets\\images\\2a.jpg"
     },
     {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\2b.jpg",
+      "PackagePath": "staticwebassets\\images\\2b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\2c.jpg",
+      "PackagePath": "staticwebassets\\images\\2c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\3Copertina.jpg",
+      "PackagePath": "staticwebassets\\images\\3Copertina.jpg"
+    },
+    {
       "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\3a.jpg",
       "PackagePath": "staticwebassets\\images\\3a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\3b.jpg",
+      "PackagePath": "staticwebassets\\images\\3b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\3c.jpg",
+      "PackagePath": "staticwebassets\\images\\3c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\4Copertina.jpg",
+      "PackagePath": "staticwebassets\\images\\4Copertina.jpg"
     },
     {
       "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\4a.jpg",
       "PackagePath": "staticwebassets\\images\\4a.jpg"
     },
     {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\4b.jpg",
+      "PackagePath": "staticwebassets\\images\\4b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\4c.jpg",
+      "PackagePath": "staticwebassets\\images\\4c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\5Copertina.jpg",
+      "PackagePath": "staticwebassets\\images\\5Copertina.jpg"
+    },
+    {
       "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\5a.jpg",
       "PackagePath": "staticwebassets\\images\\5a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\5b.jpg",
+      "PackagePath": "staticwebassets\\images\\5b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\5c.jpg",
+      "PackagePath": "staticwebassets\\images\\5c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\6Copertina.jpg",
+      "PackagePath": "staticwebassets\\images\\6Copertina.jpg"
     },
     {
       "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\6a.jpg",
       "PackagePath": "staticwebassets\\images\\6a.jpg"
     },
     {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\6b.jpg",
+      "PackagePath": "staticwebassets\\images\\6b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\6c.jpg",
+      "PackagePath": "staticwebassets\\images\\6c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\7Copertina.jpg",
+      "PackagePath": "staticwebassets\\images\\7Copertina.jpg"
+    },
+    {
       "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\7a.jpg",
       "PackagePath": "staticwebassets\\images\\7a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\7b.jpg",
+      "PackagePath": "staticwebassets\\images\\7b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\7c.jpg",
+      "PackagePath": "staticwebassets\\images\\7c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\8Copertina.jpg",
+      "PackagePath": "staticwebassets\\images\\8Copertina.jpg"
     },
     {
       "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\8a.jpg",
       "PackagePath": "staticwebassets\\images\\8a.jpg"
     },
     {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\8b.jpg",
+      "PackagePath": "staticwebassets\\images\\8b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\8c.jpg",
+      "PackagePath": "staticwebassets\\images\\8c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\9Copertina.jpg",
+      "PackagePath": "staticwebassets\\images\\9Copertina.jpg"
+    },
+    {
       "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\9a.jpg",
       "PackagePath": "staticwebassets\\images\\9a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\9b.jpg",
+      "PackagePath": "staticwebassets\\images\\9b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\9c.jpg",
+      "PackagePath": "staticwebassets\\images\\9c.jpg"
     },
     {
       "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\icon_epigames_store.png",
