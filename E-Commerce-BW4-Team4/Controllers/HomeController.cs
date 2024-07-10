@@ -78,17 +78,6 @@ namespace E_Commerce_BW4_Team4.Controllers
 
         public IActionResult Delete(int IdProdotto)
         {
-            var prodotto = _prodottoService.GetById(IdProdotto);
-            if (prodotto == null)
-            {
-                return NotFound();
-            }
-            return View(prodotto);
-        }
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(int IdProdotto)
-        {
             _prodottoService.Delete(IdProdotto);
             return RedirectToAction(nameof(GestioneAmministratore));
         }
