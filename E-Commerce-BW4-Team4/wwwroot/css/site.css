@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+EAN13+Text&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 html {
   font-size: 14px;
 }
@@ -61,4 +64,15 @@ header, .footer {
 ::-webkit-scrollbar-thumb {
     background-color: #e108b9;
     border-radius: 1rem;
+}
+
+.barcode {
+    font-family: "Libre Barcode EAN13 Text", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+.quantity {
+    width: 50px;
 }

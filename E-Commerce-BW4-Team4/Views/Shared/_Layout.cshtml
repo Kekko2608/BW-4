@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="~/E_Commerce_BW4_Team4.styles.css" asp-append-version="true" />
 </head>
 <body class="d-flex flex-column min-vh-100">
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm mb-3 ">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm ">
             <div class="container-fluid">
                 <img src="~/img/logo_epigames_store_orizzontale.svg" alt="logo" />
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -33,6 +33,7 @@
                         </li>
                     </ul>
                 </div>
+                <a class="text-white fs-1 btn display-5 me-3" asp-controller="Home" asp-action="Ordini"><i class="bi bi-cart4"></i></a>
             </div>
         </nav>
     </header>
