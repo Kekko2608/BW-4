@@ -4,13 +4,15 @@ namespace E_Commerce_BW4_Team4.Services
 {
     public interface IOrdiniService
     {
-        public (IEnumerable<OrdineCompleto>, OrdineCompleto) GetOrdiniCompleti();
+         (IEnumerable<OrdineCompleto>, OrdineCompleto) GetOrdiniCompleti();
 
-        public void CreaOrdine(Ordine ordine, int idProdotto, int quantita);
+        void CreaOrdine(Ordine ordine, int idProdotto, int quantita);
 
-        public void Delete(int idProdotto);
+        void ModificaCarrello(Ordine ordine, int quantita);
 
-        public void DeleteAll();
+        void ModifcaOrDelete(Ordine Ordine, int idOrdine, int quantita);
+
+        void DeleteAll();
 
 
     }

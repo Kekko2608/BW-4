@@ -22,7 +22,8 @@ namespace E_Commerce_BW4_Team4.Services
                 QuantitaTotale = reader.GetInt32(3),
                 PrezzoTotale = reader.GetDecimal(4),
                 IdProdotto = reader.GetInt32(5),
-                CoverImagePath = $"/Images/{reader.GetInt32(5)}a.jpg"
+                CoverImagePath = $"/Images/{reader.GetInt32(5)}a.jpg",
+                IdOrdine = reader.GetInt32(6),
             };
         }
         public (IEnumerable<OrdineCompleto>, OrdineCompleto) GetOrdiniCompleti()
@@ -33,14 +34,14 @@ namespace E_Commerce_BW4_Team4.Services
         SELECT p.NomeProdotto, p.Brand, pt.NomePiattaforma, 
                SUM(o.Quantita) as QuantitaTotale, 
                SUM(p.Prezzo * o.Quantita) as PrezzoTotale, 
-               p.IdProdotto 
+               p.IdProdotto, o.IdOrdine
         FROM Ordini as o 
         JOIN Carrello as c ON o.IdCarrello = c.IdCarrello 
         JOIN Prodotti as p ON o.IdProdotti = p.IdProdotto 
         JOIN Generi as g ON p.IdGenere = g.IdGenere 
         JOIN Piattaforme as pt ON p.IdPiattaforma = pt.IdPiattaforma 
         WHERE c.IdCarrello = 1 
-        GROUP BY p.NomeProdotto, p.Brand, pt.NomePiattaforma, p.IdProdotto";
+        GROUP BY p.NomeProdotto, p.Brand, pt.NomePiattaforma, p.IdProdotto, o.IdOrdine";
 
             var queryOrdineCompleto = @"
         SELECT SUM(o.Quantita) as QuantitaTotale, 
@@ -92,7 +93,22 @@ namespace E_Commerce_BW4_Team4.Services
             if (result != 1)
                 throw new Exception("Creazione non completata");
         }
+        
 
+        public void ModificaCarrello(Ordine ordine, int quantita)
+        {
+            var query = "UPDATE Ordini SET Quantita = @quantita WHERE IdOrdine = @IdOrdine";
+            var cmd = GetCommand(query);
+            cmd.Parameters.Add(new SqlParameter("@IdProdotto", quantita));
+ 
+
+            using var conn = GetConnection();
+            conn.Open();
+            var result = cmd.ExecuteNonQuery();
+
+            if (result != 1)
+                throw new Exception("Creazione non completata");
+        }
         public void Delete(int idProdotto)
         {
             throw new NotImplementedException();
@@ -103,6 +119,34 @@ namespace E_Commerce_BW4_Team4.Services
             throw new NotImplementedException();
         }
 
-        
+
+        public void ModifcaOrDelete(Ordine Ordine, int idOrdine, int quantita)
+        {
+          if(quantita >= 1)
+            {
+                var query = "UPDATE Ordini SET Quantita = @quantita WHERE IdOrdine = @IdOrdine";
+                var cmd = GetCommand(query);
+                cmd.Parameters.Add(new SqlParameter("@IdOrdine", idOrdine));
+                cmd.Parameters.Add(new SqlParameter("@quantita", quantita));
+                using var conn = GetConnection();
+                conn.Open();
+                var result = cmd.ExecuteNonQuery();
+
+                if (result != 1)
+                    throw new Exception("Modifica non completata");
+            } 
+            else if(quantita == 0) 
+            {
+                    var query = "DELETE FROM Ordini WHERE IdOrdine = @IdOrdine";
+                    var cmd = GetCommand(query);
+                    cmd.Parameters.Add(new SqlParameter("@IdOrdine", idOrdine));
+                    using var conn = GetConnection();
+                    conn.Open();
+                    var result = cmd.ExecuteNonQuery();
+
+                    if (result != 1)
+                    throw new Exception("Eliminazione non completata");
+            }
+        }
     }
 }

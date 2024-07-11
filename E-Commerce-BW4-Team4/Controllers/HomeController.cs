@@ -148,6 +148,14 @@ namespace E_Commerce_BW4_Team4.Controllers
            // return View(tuttoOrdine);
 
         }
+        public IActionResult ModifcaOrDeleteOrdine(Ordine ordine, int idOrdine, int quantita)
+        {
+            TempData["quantita"] = quantita;
+            var quantità = TempData["quantita"];
+
+            _ordiniService.ModifcaOrDelete(ordine, idOrdine, quantita);
+            return RedirectToAction(nameof(Ordini));
+        }
         public IActionResult Privacy()
         {
             return View();
