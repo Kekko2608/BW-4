@@ -1,24 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\",
+  "WorkspaceRootPath": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\stefa\\desktop\\epic code\\bw-4\\e-commerce-bw4-team4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\stefa\\desktop\\epic code\\bw-4\\e-commerce-bw4-team4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\services\\ordiniservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\stefa\\desktop\\epic code\\bw-4\\e-commerce-bw4-team4\\services\\ordiniservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:services\\ordiniservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/localhost_sqlexpress/BW4_Team_4/True/SqlTable/dbo.Ordini.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\views\\home\\ordini.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\stefa\\desktop\\epic code\\bw-4\\e-commerce-bw4-team4\\views\\home\\ordini.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\ordini.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|d:\\github project\\bw-4\\e-commerce-bw4-team4\\views\\home\\modifica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\stefa\\desktop\\epic code\\bw-4\\e-commerce-bw4-team4\\views\\home\\modifica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\modifica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -29,8 +33,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1293,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -42,64 +54,73 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-11T10:30:45.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAIYAAAAAAAAAAADwv5oAAAAnAAAA",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAWwJQAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T08:57:04.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "dbo.Ordini [Dati]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/localhost_sqlexpress/BW4_Team_4/True/SqlTable/dbo.Ordini.sql",
               "ToolTip": "dbo.Ordini [Dati]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-07-11T08:46:40.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T08:46:40.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "OrdiniService.cs",
-              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\OrdiniService.cs",
+              "DocumentMoniker": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Services\\OrdiniService.cs",
               "RelativeDocumentMoniker": "Services\\OrdiniService.cs",
-              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Services\\OrdiniService.cs",
+              "ToolTip": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Services\\OrdiniService.cs",
               "RelativeToolTip": "Services\\OrdiniService.cs",
               "ViewState": "AQIAAFsAAAAAAAAAAAAowHMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T08:36:23.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T08:36:23.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Modifica.cshtml",
+              "DocumentMoniker": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Modifica.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Modifica.cshtml",
+              "ToolTip": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Modifica.cshtml",
+              "RelativeToolTip": "Views\\Home\\Modifica.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T08:39:01.907Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Modifica.cshtml",
-              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Modifica.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Modifica.cshtml",
-              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Modifica.cshtml",
-              "RelativeToolTip": "Views\\Home\\Modifica.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T08:39:01.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Ordini.cshtml",
-              "DocumentMoniker": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Ordini.cshtml",
+              "DocumentMoniker": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Ordini.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Ordini.cshtml",
-              "ToolTip": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Ordini.cshtml",
+              "ToolTip": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Ordini.cshtml",
               "RelativeToolTip": "Views\\Home\\Ordini.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T08:37:59.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T08:37:59.883Z"
             }
           ]
         },
