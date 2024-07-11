@@ -17,8 +17,8 @@
         <thead>
             <tr class="border-bottom">
                 <th scope="col">#</th>
-                <th scope="col">Codice a barre</th>
                 <th scope="col">Copertina</th>
+                <th scope="col">Codice a barre</th>
                 <th scope="col">Nome Prodotto</th>
                 <th scope="col">Descrizione Prodotto</th>
                 <th scope="col">Piattaforma</th>
@@ -33,7 +33,7 @@
         <tbody>
         @foreach (var p in Model)
         {
-            <tr>
+                <tr class="align-middle">
                 <th scope="row">@p.IdProdotto</th>
                 <td><img class="imgTable" src="@p.CoverImagePath" /></td>
                 <td class="barcode" >@p.CodiceABarre</td>

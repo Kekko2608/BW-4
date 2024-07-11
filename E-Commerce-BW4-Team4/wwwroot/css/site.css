@@ -112,6 +112,7 @@ header, .footer {
 
 .btn-modifica {
     background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    color:white;
 }
 
 #Generi input {
@@ -124,8 +125,34 @@ header, .footer {
 }
 input:checked {
     background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
-    ; /* Colore di sfondo della checkbox selezionata */
+    ; 
 }
 .form-check-input:checked {
     background: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+}
+
+.card-img-top {
+    background-size: cover;
+    height: 480px;
+}
+
+.card {
+    transition: transform 0.1s;
+}
+
+.card-body {
+    height: 300px;
+
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.form-amministratore {
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.5);
+    display: inline-block;
 }

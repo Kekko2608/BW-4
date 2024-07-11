@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\maria\\desktop\\bw-4\\e-commerce-bw4-team4\\views\\home\\creaprodotto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\creaprodotto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\maria\\desktop\\bw-4\\e-commerce-bw4-team4\\views\\home\\gestioneamministratore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\gestioneamministratore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\maria\\desktop\\bw-4\\e-commerce-bw4-team4\\views\\home\\ordini.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\ordini.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\maria\\desktop\\bw-4\\e-commerce-bw4-team4\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\maria\\desktop\\bw-4\\e-commerce-bw4-team4\\views\\home\\amministratore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\amministratore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\maria\\desktop\\bw-4\\e-commerce-bw4-team4\\views\\home\\modifica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\modifica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\maria\\desktop\\bw-4\\e-commerce-bw4-team4\\views\\home\\creaprodotto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\creaprodotto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\maria\\desktop\\bw-4\\e-commerce-bw4-team4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|c:\\users\\maria\\desktop\\bw-4\\e-commerce-bw4-team4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1144FB6-AB3C-4ECF-8A6B-E227F1BF91BA}|E-Commerce-BW4-Team4.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1293,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,41 +58,93 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ordini.cshtml",
+              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Ordini.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Ordini.cshtml",
+              "ToolTip": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Ordini.cshtml",
+              "RelativeToolTip": "Views\\Home\\Ordini.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T14:55:08.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GestioneAmministratore.cshtml",
+              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\GestioneAmministratore.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\GestioneAmministratore.cshtml",
+              "ToolTip": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\GestioneAmministratore.cshtml",
+              "RelativeToolTip": "Views\\Home\\GestioneAmministratore.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T14:52:58.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CreaProdotto.cshtml",
               "DocumentMoniker": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\CreaProdotto.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\CreaProdotto.cshtml",
               "ToolTip": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\CreaProdotto.cshtml",
               "RelativeToolTip": "Views\\Home\\CreaProdotto.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAGoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T14:04:32.858Z",
+              "WhenOpened": "2024-07-11T14:51:14.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAH0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-11T12:59:15.8Z",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T14:46:16.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Modifica.cshtml",
+              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Modifica.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Modifica.cshtml",
+              "ToolTip": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Modifica.cshtml",
+              "RelativeToolTip": "Views\\Home\\Modifica.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAEgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T14:24:18.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T14:17:26.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Amministratore.cshtml",
-              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Amministratore.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Amministratore.cshtml",
-              "ToolTip": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Amministratore.cshtml",
-              "RelativeToolTip": "Views\\Home\\Amministratore.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T14:04:23.068Z",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\maria\\Desktop\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAmwI8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-11T12:59:15.8Z",
               "EditorCaption": ""
             }
           ]
