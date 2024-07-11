@@ -121,7 +121,8 @@ namespace E_Commerce_BW4_Team4.Services
         public void Create(Prodotto prodotto)
         {
             var query = "INSERT INTO Prodotti (NomeProdotto, DescrizioneProdotto, Brand, PEGI, CodiceABarre, Disponibilita, Prezzo, IdPiattaforma, IdGenere) " +
-                        "VALUES (@NomeProdotto, @DescrizioneProdotto, @Brand, @PEGI, @CodiceABarre, @Disponibilita, @Prezzo, @IdPiattaforma, @IdGenere)";
+                        "VALUES (@NomeProdotto, @DescrizioneProdotto, @Brand, @PEGI, @CodiceABarre, @Disponibilita, @Prezzo, @IdPiattaforma, @IdGenere)" +
+                        "SELECT SCOPE_IDENTITY();";
             var cmd = GetCommand(query);
             cmd.Parameters.Add(new SqlParameter("@NomeProdotto", prodotto.NomeProdotto));
             cmd.Parameters.Add(new SqlParameter("@DescrizioneProdotto", prodotto.DescrizioneProdotto));
@@ -135,10 +136,11 @@ namespace E_Commerce_BW4_Team4.Services
 
             using var conn = GetConnection();
             conn.Open();
-            var result = cmd.ExecuteNonQuery();
+            var result = cmd.ExecuteScalar();
 
-            if (result != 1)
+            if (result == null)
                 throw new Exception("Creazione non completata");
+
             prodotto.IdProdotto = Convert.ToInt32(result);
         }
 
