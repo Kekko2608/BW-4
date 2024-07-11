@@ -44,7 +44,7 @@ namespace E_Commerce_BW4_Team4.Controllers
         {
             var Username = TempData["Username"] as string;
             ViewBag.Username = Username;
-            return View(_prodottoService.GetAllProducts());
+            return View(_prodottoService.GetAllProductsWithImages());
         }
         //----CRUD DEI PRODOTTI----
         public IActionResult CreaProdotto()
