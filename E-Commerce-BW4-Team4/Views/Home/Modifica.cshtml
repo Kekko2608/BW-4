@@ -5,38 +5,38 @@
     int? genereSelezionato = ViewBag.GenereSelezionato as int?;
     int? piattaformaSelezionata = ViewBag.PiattaformaSelezionata as int?;
 }
+<div class="">
+<h1 class="my-4 text-white">Modifica </h1>
 
-<h1>Modifica</h1>
-
-<h4>Prodotto</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Modifica">
+
+<div class="row d-flex justify-content-center">
+    <div class="col text-white">
+        <form asp-action="Modifica" class="needs-validation custom-form contForm">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="IdProdotto"/>
-            <div class="form-group">
-                <label asp-for="NomeProdotto" class="control-label"></label>
-                <input asp-for="NomeProdotto" class="form-control" />
+            <div class="form-group text-center">
+                    <label asp-for="NomeProdotto" class="control-label fs-3 mb-2">Nome Prodotto</label>
+                    <input asp-for="NomeProdotto" class="form-control" />
                 <span asp-validation-for="NomeProdotto" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DescrizioneProdotto" class="control-label"></label>
-                <input asp-for="DescrizioneProdotto" class="form-control" />
+                    <label asp-for="DescrizioneProdotto" class="control-label fs-4 mb-2"> Descrizione Prodotto</label>
+                 <textarea asp-for="DescrizioneProdotto" class="form-control" rows="5"></textarea>
                 <span asp-validation-for="DescrizioneProdotto" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Brand" class="control-label"></label>
+                    <label asp-for="Brand" class="control-label fs-4 mb-2"> Brand </label>
                 <input asp-for="Brand" class="form-control" />
                 <span asp-validation-for="Brand" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="PEGI" class="control-label"></label>
+                    <label asp-for="PEGI" class="control-label fs-4 mb-2"> PEGI</label>
                 <input asp-for="PEGI" class="form-control" />
                 <span asp-validation-for="PEGI" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="CodiceABarre" class="control-label"></label>
+                    <label asp-for="CodiceABarre" class="control-label fs-4 mb-2"> Codice a Barre</label>
                 <input asp-for="CodiceABarre" class="form-control" />
                 <span asp-validation-for="CodiceABarre" class="text-danger"></span>
             </div>
@@ -45,27 +45,36 @@
                     <input class="form-check-input" asp-for="Disponibilita" /> @Html.DisplayNameFor(model => model.Disponibilita)
                 </label>
             </div>
-            <div class="form-group">
-                <label asp-for="Prezzo" class="control-label"></label>
+                <div class="form-group fs-4 mb-2">
+                    <label asp-for="Prezzo" class="control-label fs-4 mb-2"> Prezzo</label>
                 <input asp-for="Prezzo" type="number" class="form-control" />
                 <span asp-validation-for="Prezzo" class="text-danger"></span>
             </div>
-          <!--  <div class="form-group">
-                <label asp-for="Piattaforma" class="control-label"></label>
-                <input asp-for="Piattaforma" class="form-control" />
-                <span asp-validation-for="Piattaforma" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Genere" class="control-label"></label>
-                <input asp-for="Genere" class="form-control" />
-                <span asp-validation-for="Genere" class="text-danger"></span>
-            </div> -->
+                <div class="form-group mb-2">
+                    <label class="fs-4">Piattaforma</label>
+                    <div class="dropdown" data-bs-theme="dark">
+                        <button class="btn btn-modifica dropdown-toggle text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Seleziona Piattaforma
+                        </button>
+                        <ul class="dropdown-menu btn-modifica">
+                            @foreach (var piattaforma in ViewBag.TutteLePiattaforme)
+                            {
+                                <li>
+                                    <label class="dropdown-item text-light">
+                                        <input type="radio" name="Piattaforma" value="@piattaforma.IdPiattaforma" @(piattaformaSelezionata == piattaforma.IdPiattaforma ? "checked" : "") />
+                                        @piattaforma.NomePiattaforma
+                                    </label>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
             <div class="form-group mb-3">
-                <label>Generi</label>
+                <label class="fs-4">Generi</label>
                 <div class="d-flex flex-wrap">
                     @foreach (var genere in ViewBag.TuttiIGeneri)
                     {
-                        <div class="form-check me-3">
+                        <div class="form-check" id="Generi">
                             <input type="checkbox" name="Genere" value="@genere.IdGenere" class="form-check-input"
                             @(genereSelezionato == genere.IdGenere ? "checked" : "") />
                             <label class="form-check-label">@genere.TipoDiGenere</label>
@@ -73,31 +82,14 @@
                     }
                 </div>
             </div>
-            <div class="form-group mb-3">
-                <label>Piattaforma</label>
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Seleziona Piattaforma
-                    </button>
-                    <ul class="dropdown-menu">
-                        @foreach (var piattaforma in ViewBag.TutteLePiattaforme)
-                        {
-                            <li>
-                                <label class="dropdown-item">
-                                    <input type="radio" name="Piattaforma" value="@piattaforma.IdPiattaforma" @(piattaformaSelezionata == piattaforma.IdPiattaforma ? "checked" : "") />
-                                    @piattaforma.NomePiattaforma
-                                </label>
-                            </li>
-                        }
-                    </ul>
-                </div>
+           
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                    <input type="submit" value="Save" class="btn btn-modifica text-light" />
             </div>
         </form>
-    </div>
+    
+   </div>
 </div>
-
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
