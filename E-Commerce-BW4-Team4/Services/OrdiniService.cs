@@ -1,4 +1,6 @@
 ﻿using E_Commerce_BW4_Team4.Models;
+using Microsoft.CodeAnalysis.Elfie.Diagnostics;
+using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
 
@@ -23,19 +25,60 @@ namespace E_Commerce_BW4_Team4.Services
                 CoverImagePath = $"/Images/{reader.GetInt32(5)}a.jpg"
             };
         }
-        public IEnumerable<OrdineCompleto> GetAllOrdine()
+        public (IEnumerable<OrdineCompleto>, OrdineCompleto) GetOrdiniCompleti()
         {
-            var query = "SELECT p.NomeProdotto, p.Brand, pt.NomePiattaforma, SUM(Quantita) as QuantitaTotale, SUM(p.Prezzo) as PrezzoTotale, p.IdProdotto FROM Ordini as o JOIN Carrello as C ON o.IdCarrello = c.IdCarrello JOIN Prodotti as p ON o.IdProdotti = p.IdProdotto JOIN Generi as g ON p.IdGenere = g.IdGenere JOIN Piattaforme as pt ON p.IdPiattaforma = pt.IdPiattaforma WHERE c.IdCarrello = 1 GROUP BY p.NomeProdotto, p.Brand, pt.NomePiattaforma, p.IdProdotto";
-            var cmd = GetCommand(query);
-            using var conn = GetConnection();
-            conn.Open();
-            var reader = cmd.ExecuteReader();
-            var ListaOrdini = new List<OrdineCompleto>();
-            while (reader.Read())
-                ListaOrdini.Add(Create(reader));
-            return ListaOrdini;
-        }
+            var ordini = new List<OrdineCompleto>();
+            var ordineCompleto = new OrdineCompleto();
+            var queryOrdini = @"
+        SELECT p.NomeProdotto, p.Brand, pt.NomePiattaforma, 
+               SUM(o.Quantita) as QuantitaTotale, 
+               SUM(p.Prezzo * o.Quantita) as PrezzoTotale, 
+               p.IdProdotto 
+        FROM Ordini as o 
+        JOIN Carrello as c ON o.IdCarrello = c.IdCarrello 
+        JOIN Prodotti as p ON o.IdProdotti = p.IdProdotto 
+        JOIN Generi as g ON p.IdGenere = g.IdGenere 
+        JOIN Piattaforme as pt ON p.IdPiattaforma = pt.IdPiattaforma 
+        WHERE c.IdCarrello = 1 
+        GROUP BY p.NomeProdotto, p.Brand, pt.NomePiattaforma, p.IdProdotto";
 
+            var queryOrdineCompleto = @"
+        SELECT SUM(o.Quantita) as QuantitaTotale, 
+               SUM(p.Prezzo * o.Quantita) as PrezzoTotale 
+        FROM Ordini as o 
+        JOIN Carrello as c ON o.IdCarrello = c.IdCarrello 
+        JOIN Prodotti as p ON o.IdProdotti = p.IdProdotto 
+        WHERE c.IdCarrello = 1";
+
+            using (var conn = GetConnection())
+            {
+                conn.Open();
+
+                // Esegui la query per gli ordini
+                using (var cmd1 = GetCommand(queryOrdini))
+                using (var reader1 = cmd1.ExecuteReader())
+                {
+                    while (reader1.Read())
+                    {
+                        ordini.Add(Create(reader1));
+                    }
+                }
+
+                // Esegui la query per l'ordine completo
+                using (var cmd2 = GetCommand(queryOrdineCompleto))
+                using (var reader2 = cmd2.ExecuteReader())
+                {
+                    if (reader2.Read())
+                    {
+                        ordineCompleto.QuantitaTotale = reader2.GetInt32(0);
+                        ordineCompleto.PrezzoTotale = reader2.GetDecimal(1);
+                    }
+                }
+            }
+
+            return (ordini, ordineCompleto);
+        }
+        
         public void CreaOrdine(Ordine ordine, int idProdotto, int Quantita)
         {
             var query = "INSERT INTO Ordini (IdProdotti, IdCarrello, Quantita) VALUES(@IdProdotti, 1, @Quantita)";
@@ -60,5 +103,6 @@ namespace E_Commerce_BW4_Team4.Services
             throw new NotImplementedException();
         }
 
+        
     }
 }

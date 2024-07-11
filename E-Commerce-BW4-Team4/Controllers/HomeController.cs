@@ -127,8 +127,26 @@ namespace E_Commerce_BW4_Team4.Controllers
 
         public IActionResult Ordini()
         {
-            var ordine = _ordiniService.GetAllOrdine();
-            return View(ordine);
+            /*   var ordine = _ordiniService.GetAllOrdine();
+             var ordineC = _ordiniService.GetOrdineCompleto();
+
+               var tuttoOrdine = new OrdiniViewModel
+               {
+                   Ordini = ordine,
+                   OrdineCompleto = ordineC
+              }; */
+            var (ordini, ordineCompleto) = _ordiniService.GetOrdiniCompleti();
+
+            var viewModel = new OrdiniViewModel
+            {
+                Ordini = ordini,
+                OrdineCompleto = ordineCompleto
+            };
+
+            return View(viewModel);
+
+           // return View(tuttoOrdine);
+
         }
         public IActionResult Privacy()
         {

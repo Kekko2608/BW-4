@@ -1,10 +1,15 @@
-﻿@model IEnumerable<OrdineCompleto>
+﻿@model OrdiniViewModel
 @{
     ViewData["Title"] = "Tutti i tuoi ordini";
 }
 
-@foreach (var prodotti in Model)
+@foreach (var prodotti in Model.Ordini)
 {   
     <img src="@prodotti.CoverImagePath" />
     <p>@prodotti.NomeProdotto</p>
+    <p>@prodotti.PrezzoTotale</p>
 }
+
+<h3>Totale Ordine</h3>
+<p>Quantità Totale: @Model.OrdineCompleto.QuantitaTotale</p>
+<p>Prezzo Totale: @Model.OrdineCompleto.PrezzoTotale</p>
