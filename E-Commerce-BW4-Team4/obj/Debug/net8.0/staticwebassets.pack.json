@@ -1,439 +1,439 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-Commerce-BW4-Team4.bundle.scp.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-Commerce-BW4-Team4.bundle.scp.css",
       "PackagePath": "staticwebassets\\E-Commerce-BW4-Team4.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\css\\custom.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\css\\custom.css",
       "PackagePath": "staticwebassets\\css\\custom.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\css\\site.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\favicon.ico",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\10a.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\10a.jpg",
       "PackagePath": "staticwebassets\\images\\10a.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\10b.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\10b.jpg",
       "PackagePath": "staticwebassets\\images\\10b.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\10c.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\10c.jpg",
       "PackagePath": "staticwebassets\\images\\10c.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\10d.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\10d.jpg",
       "PackagePath": "staticwebassets\\images\\10d.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1a.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1a.jpg",
       "PackagePath": "staticwebassets\\images\\1a.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1b.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1b.jpg",
       "PackagePath": "staticwebassets\\images\\1b.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1c.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1c.jpg",
       "PackagePath": "staticwebassets\\images\\1c.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1d.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1d.jpg",
       "PackagePath": "staticwebassets\\images\\1d.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\2a.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\2a.jpg",
       "PackagePath": "staticwebassets\\images\\2a.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\2b.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\2b.jpg",
       "PackagePath": "staticwebassets\\images\\2b.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\2c.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\2c.jpg",
       "PackagePath": "staticwebassets\\images\\2c.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\2d.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\2d.jpg",
       "PackagePath": "staticwebassets\\images\\2d.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\3a.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\3a.jpg",
       "PackagePath": "staticwebassets\\images\\3a.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\3b.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\3b.jpg",
       "PackagePath": "staticwebassets\\images\\3b.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\3c.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\3c.jpg",
       "PackagePath": "staticwebassets\\images\\3c.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\3d.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\3d.jpg",
       "PackagePath": "staticwebassets\\images\\3d.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\4a.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\4a.jpg",
       "PackagePath": "staticwebassets\\images\\4a.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\4b.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\4b.jpg",
       "PackagePath": "staticwebassets\\images\\4b.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\4c.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\4c.jpg",
       "PackagePath": "staticwebassets\\images\\4c.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\4d.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\4d.jpg",
       "PackagePath": "staticwebassets\\images\\4d.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\5a.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\5a.jpg",
       "PackagePath": "staticwebassets\\images\\5a.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\5b.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\5b.jpg",
       "PackagePath": "staticwebassets\\images\\5b.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\5c.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\5c.jpg",
       "PackagePath": "staticwebassets\\images\\5c.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\5d.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\5d.jpg",
       "PackagePath": "staticwebassets\\images\\5d.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\6a.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\6a.jpg",
       "PackagePath": "staticwebassets\\images\\6a.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\6b.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\6b.jpg",
       "PackagePath": "staticwebassets\\images\\6b.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\6c.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\6c.jpg",
       "PackagePath": "staticwebassets\\images\\6c.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\6d.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\6d.jpg",
       "PackagePath": "staticwebassets\\images\\6d.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\7a.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\7a.jpg",
       "PackagePath": "staticwebassets\\images\\7a.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\7b.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\7b.jpg",
       "PackagePath": "staticwebassets\\images\\7b.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\7c.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\7c.jpg",
       "PackagePath": "staticwebassets\\images\\7c.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\7d.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\7d.jpg",
       "PackagePath": "staticwebassets\\images\\7d.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\8a.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\8a.jpg",
       "PackagePath": "staticwebassets\\images\\8a.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\8b.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\8b.jpg",
       "PackagePath": "staticwebassets\\images\\8b.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\8c.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\8c.jpg",
       "PackagePath": "staticwebassets\\images\\8c.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\8d.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\8d.jpg",
       "PackagePath": "staticwebassets\\images\\8d.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\9a.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\9a.jpg",
       "PackagePath": "staticwebassets\\images\\9a.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\9b.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\9b.jpg",
       "PackagePath": "staticwebassets\\images\\9b.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\9c.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\9c.jpg",
       "PackagePath": "staticwebassets\\images\\9c.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\9d.jpg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\9d.jpg",
       "PackagePath": "staticwebassets\\images\\9d.jpg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\icon_epigames_store.png",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\icon_epigames_store.png",
       "PackagePath": "staticwebassets\\img\\icon_epigames_store.png"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\icon_epigames_store.svg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\icon_epigames_store.svg",
       "PackagePath": "staticwebassets\\img\\icon_epigames_store.svg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\logo_epigames_store.svg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\logo_epigames_store.svg",
       "PackagePath": "staticwebassets\\img\\logo_epigames_store.svg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\logo_epigames_store_orizzontale-1.png",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\logo_epigames_store_orizzontale-1.png",
       "PackagePath": "staticwebassets\\img\\logo_epigames_store_orizzontale-1.png"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\logo_epigames_store_orizzontale-2.png",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\logo_epigames_store_orizzontale-2.png",
       "PackagePath": "staticwebassets\\img\\logo_epigames_store_orizzontale-2.png"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\logo_epigames_store_orizzontale.svg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\logo_epigames_store_orizzontale.svg",
       "PackagePath": "staticwebassets\\img\\logo_epigames_store_orizzontale.svg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\pattern.svg",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\pattern.svg",
       "PackagePath": "staticwebassets\\img\\pattern.svg"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\js\\site.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

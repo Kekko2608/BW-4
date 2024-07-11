@@ -127,14 +127,7 @@ namespace E_Commerce_BW4_Team4.Controllers
 
         public IActionResult Ordini()
         {
-            /*   var ordine = _ordiniService.GetAllOrdine();
-             var ordineC = _ordiniService.GetOrdineCompleto();
-
-               var tuttoOrdine = new OrdiniViewModel
-               {
-                   Ordini = ordine,
-                   OrdineCompleto = ordineC
-              }; */
+           
             var (ordini, ordineCompleto) = _ordiniService.GetOrdiniCompleti();
 
             var viewModel = new OrdiniViewModel
@@ -142,8 +135,9 @@ namespace E_Commerce_BW4_Team4.Controllers
                 Ordini = ordini,
                 OrdineCompleto = ordineCompleto
             };
-
+            
             return View(viewModel);
+     
 
            // return View(tuttoOrdine);
 
@@ -155,6 +149,11 @@ namespace E_Commerce_BW4_Team4.Controllers
 
             _ordiniService.ModifcaOrDelete(ordine, idOrdine, quantita);
             return RedirectToAction(nameof(Ordini));
+        }
+        public IActionResult AcquistaTutto()
+        {
+            _ordiniService.DeleteAll();
+        return RedirectToAction(nameof(Index)); 
         }
         public IActionResult Privacy()
         {
