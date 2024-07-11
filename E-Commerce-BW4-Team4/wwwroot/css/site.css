@@ -88,15 +88,6 @@ header, .footer {
     height: 100%;
 }
 
-.card {
-    transition: transform 0.1s;
-}
-
-.card:hover{
-    transform: scale(1.02);
-    cursor:pointer;
-}
-
 .imgTable {
     width: 100px;
 }
@@ -105,21 +96,36 @@ header, .footer {
     width: 100px;
 }
 
-.card-img-top {
-    background-size:cover;
-    height:480px;
+
+.contForm {
+    margin: 0 16.75em;
+    font-size: 1em;
 }
 
-.form-amministratore {
-    padding: 20px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.5); 
-    display: inline-block;
-}
+
+    #Generi {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 20%;
+    }
 
 .btn-modifica {
     background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
-    margin-top:20px;
-    border-radius:8px;
 }
 
+#Generi input {
+    margin-right: 10px;
+    }
+
+.dropdown-item:hover {
+    background-color: #4CAF50; 
+    color: white; 
+}
+input:checked {
+    background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    ; /* Colore di sfondo della checkbox selezionata */
+}
+.form-check-input:checked {
+    background: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+}
