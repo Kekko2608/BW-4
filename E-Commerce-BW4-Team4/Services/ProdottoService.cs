@@ -51,7 +51,11 @@ namespace E_Commerce_BW4_Team4.Services
                     Brand = prodotto.Brand,
                     PEGI = prodotto.PEGI,
                     CodiceABarre = prodotto.CodiceABarre,
-                    CoverImagePath = File.Exists(coverImagePath) ? $"/Images/{prodotto.IdProdotto}a.jpg" : "/Images/default.jpg"
+                    CoverImagePath = File.Exists(coverImagePath) ? $"/Images/{prodotto.IdProdotto}a.jpg" : "/Images/default.jpg",
+                    FirstImagePath = File.Exists(coverImagePath) ? $"/Images/{prodotto.IdProdotto}b.jpg" : "/Images/default.jpg",
+                    SecondImagePath = File.Exists(coverImagePath) ? $"/Images/{prodotto.IdProdotto}c.jpg" : "/Images/default.jpg",
+                    ThirdImagePath = File.Exists(coverImagePath) ? $"/Images/{prodotto.IdProdotto}d.jpg" : "/Images/default.jpg"
+
                 };
                 prodottiConImmagini.Add(prodottoViewModel);
             }
