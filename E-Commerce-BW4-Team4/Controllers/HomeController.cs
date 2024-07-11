@@ -120,7 +120,7 @@ namespace E_Commerce_BW4_Team4.Controllers
 
             TempData["quantita"] = quantita;
             _ordiniService.CreaOrdine(ordine, idProdotto, quantita);
-            return RedirectToAction(nameof(Index));
+            return Json(new { success = true, message = "Articolo inserito nel carrello" });
 
         }
 

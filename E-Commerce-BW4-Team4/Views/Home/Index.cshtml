@@ -2,100 +2,151 @@
 @{
     ViewData["Title"] = "EPICGAMES";
 }
-<div class="text-center my-3">
-    <h1 class="text-white">Benvenuto in</h1>
-    <img src="~/img/logo_epigames_store.svg" alt="logo" class="logo" />
-</div>
-<div class="container">
-    <div class="row">
-        @foreach (var Prodotto in Model)
-        {
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <div class="card__content">
-                        <a data-bs-toggle="modal" data-bs-target="#modal-@Prodotto.IdProdotto">
-                            <img src="@Prodotto.CoverImagePath" alt="copertina @Prodotto.NomeProdotto" class="card-img-top" /></a>
-                        <div class="card-body">
-                            <h5 class="card-title">@Prodotto.NomeProdotto</h5>
-                            <p class="card-text">@Prodotto.DescrizioneProdotto</p>
-                            <p class="card-text @(Prodotto.Disponibilita ? "text-success" : "text-danger")">
-                                <strong>@(Prodotto.Disponibilita ? "DISPONIBILE" : "NON DISPONIBILE")</strong></p>
-                            <p class="card-text">Piattaforma: @Prodotto.NomePiattaforma</p>
-                            <p class="card-text">Genere: @Prodotto.TipoDiGenere</p>
-                            <p class="card-text"><strong>Prezzo:</strong> @Prodotto.Prezzo.ToString("C")</p>
-                            <p class="d-none">@Prodotto.IdProdotto</p>
-                        
-                        </div>
-                            <div class="d-flex justify-content-between align-content-center mb-3 px-2">
-                                <form asp-controller="Home" asp-action="CreaOrdine" class="d-flex justify-content-between align-items-center gap-1">
-                                <input type="hidden" name="idProdotto" value="@Prodotto.IdProdotto" />
-                                 <label>Quantità:</label>
-                                <input type="number" value="1" id="quantita" name="quantita" class="quantity"/>
-                                <button type="submit" class="btn btn-modifica btn-sm"><i class="bi bi-cart4"></i></button>
-                                </form>
-                            <button type="button" class="btn btn-modifica btn-sm" data-bs-toggle="modal" data-bs-target="#modal-@Prodotto.IdProdotto">
-                                Mostra i Dettagli
-                            </button>
-                            </div>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Modal per ogni prodotto -->
-            <div class="modal fade" id="modal-@Prodotto.IdProdotto" tabindex="-1" aria-labelledby="modalLabel-@Prodotto.IdProdotto" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <div id="carousel-@Prodotto.IdProdotto" class="carousel slide">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="@Prodotto.CoverImagePath" class="d-block w-100" alt="cover @Prodotto.NomeProdotto">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="@Prodotto.FirstImagePath" class="d-block w-100" alt="cover @Prodotto.NomeProdotto">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="@Prodotto.SecondImagePath" class="d-block w-100" alt="cover @Prodotto.NomeProdotto">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="@Prodotto.ThirdImagePath" class="d-block w-100" alt="cover @Prodotto.NomeProdotto">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-@Prodotto.IdProdotto" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel-@Prodotto.IdProdotto" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
+    <div class="text-center my-3">
+        <h1 class="text-white">Benvenuto in</h1>
+        <img src="~/img/logo_epigames_store.svg" alt="logo" class="logo" />
+    </div>
+    <div class="container">
+        <div class="row">
+            @foreach (var Prodotto in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card__content">
+                            <a data-bs-toggle="modal" data-bs-target="#modal-details-@Prodotto.IdProdotto">
+                                <img src="@Prodotto.CoverImagePath" alt="copertina @Prodotto.NomeProdotto" class="card-img-top" />
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">@Prodotto.NomeProdotto</h5>
+                                <p class="card-text">@Prodotto.DescrizioneProdotto</p>
+                                <p class="card-text @(Prodotto.Disponibilita ? "text-success" : "text-danger")">
+                                    <strong>@(Prodotto.Disponibilita ? "DISPONIBILE" : "NON DISPONIBILE")</strong>
+                                </p>
+                                <p class="card-text">Piattaforma: @Prodotto.NomePiattaforma</p>
+                                <p class="card-text">Genere: @Prodotto.TipoDiGenere</p>
+                                <p class="card-text"><strong>Prezzo:</strong> @Prodotto.Prezzo.ToString("C")</p>
+                                <p class="d-none">@Prodotto.IdProdotto</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-content-center mb-3 px-2">
+                                <form asp-controller="Home" asp-action="CreaOrdine" class="d-flex justify-content-between align-items-center gap-1 crea-ordine-form">
+                                    <input type="hidden" name="idProdotto" value="@Prodotto.IdProdotto" />
+                                    <label>Quantità:</label>
+                                    <input type="number" value="1" id="quantita" name="quantita" class="quantity" />
+                                    <button type="submit" class="btn btn-modifica btn-sm" data-bs-toggle="modal" data-bs-target="#modal-cart-@Prodotto.IdProdotto">
+                                        <i class="bi bi-cart4"></i>
+                                    </button>
+                                </form>
+                                <button type="button" class="btn btn-modifica btn-sm" data-bs-toggle="modal" data-bs-target="#modal-details-@Prodotto.IdProdotto">
+                                    Mostra i Dettagli
                                 </button>
                             </div>
                         </div>
-                        <div class="modal-body">
-                            <h5>@Prodotto.NomeProdotto</h5>
-                            <p>@Prodotto.DescrizioneProdotto</p>
-                            <p>Brand: @Prodotto.Brand</p>
-                            <p>PEGI: @Prodotto.PEGI</p>
-                            <p>Codice: <span class="barcode">@Prodotto.CodiceABarre</span></p>
-                            <p>Genere: @Prodotto.TipoDiGenere</p>
-                            <p>Piattaforma: @Prodotto.NomePiattaforma</p>
-                            <p class="@(Prodotto.Disponibilita ? "text-success" : "text-danger")">
-                                <strong>@(Prodotto.Disponibilita ? "DISPONIBILE" : "NON DISPONIBILE")</strong>
-                            </p>
-                            <p><strong>Prezzo:</strong> @Prodotto.Prezzo.ToString("C")</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <form asp-controller="Home" asp-action="CreaOrdine" class="d-flex justify-content-between align-items-center gap-1">
-                                <input type="hidden" name="idProdotto" value="@Prodotto.IdProdotto" />
-                                <label>Quantità:</label>
-                                <input type="number" value="1" id="quantita" name="quantita" class="quantity" />
-                                <button type="submit" class="btn btn-primary">Acquista</button>
-                            </form>
+                    </div>
+                </div>
+
+                <!-- Modal per dettagli prodotto -->
+                <div class="modal fade" id="modal-details-@Prodotto.IdProdotto" tabindex="-1" aria-labelledby="modalLabel-details-@Prodotto.IdProdotto" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div id="carousel-@Prodotto.IdProdotto" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="@Prodotto.CoverImagePath" class="d-block w-100" alt="cover @Prodotto.NomeProdotto">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="@Prodotto.FirstImagePath" class="d-block w-100" alt="cover @Prodotto.NomeProdotto">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="@Prodotto.SecondImagePath" class="d-block w-100" alt="cover @Prodotto.NomeProdotto">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="@Prodotto.ThirdImagePath" class="d-block w-100" alt="cover @Prodotto.NomeProdotto">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-@Prodotto.IdProdotto" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-@Prodotto.IdProdotto" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <h5>@Prodotto.NomeProdotto</h5>
+                                <p>@Prodotto.DescrizioneProdotto</p>
+                                <p>Brand: @Prodotto.Brand</p>
+                                <p>PEGI: @Prodotto.PEGI</p>
+                                <p>Codice: <span class="barcode">@Prodotto.CodiceABarre</span></p>
+                                <p>Genere: @Prodotto.TipoDiGenere</p>
+                                <p>Piattaforma: @Prodotto.NomePiattaforma</p>
+                                <p class="@(Prodotto.Disponibilita ? "text-success" : "text-danger")">
+                                    <strong>@(Prodotto.Disponibilita ? "DISPONIBILE" : "NON DISPONIBILE")</strong>
+                                </p>
+                                <p><strong>Prezzo:</strong> @Prodotto.Prezzo.ToString("C")</p>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between">
+                            <a type="button" class="btn text-black fs-2" data-bs-dismiss="modal"><i class="bi bi-x-circle"></i></a>
+                                <form asp-controller="Home" asp-action="CreaOrdine" class="d-flex justify-content-between align-items-center gap-1">
+                                    <input type="hidden" name="idProdotto" value="@Prodotto.IdProdotto" />
+                                    <label>Quantità:</label>
+                                    <input type="number" value="1" id="quantita" name="quantita" class="quantity" />
+                                <button type="submit" class="btn btn-modifica btn-sm">Acquista</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        }
+
+                <!-- Modal per conferma inserimento nel carrello -->
+                <div class="modal fade" id="modal-cart-@Prodotto.IdProdotto" tabindex="-1" aria-labelledby="modalLabel-cart-@Prodotto.IdProdotto" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalLabel-cart-@Prodotto.IdProdotto">Articolo inserito nel carrello</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Il prodotto è stato aggiunto al carrello con successo!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-modifica btn-s" data-bs-dismiss="modal">Chiudi</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
     </div>
-</div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".crea-ordine-form").submit(function (event) {
+                event.preventDefault();
+                var form = $(this);
+                $.ajax({
+                    type: form.attr('method'),
+                    url: form.attr('action'),
+                    data: form.serialize(),
+                    success: function (response) {
+                        if (response.success) {
+                            // Mostra il modal di Bootstrap per il carrello
+                            var modalId = form.closest('.card').find('.modal').attr('id');
+                            var myModal = new bootstrap.Modal(document.getElementById(modalId));
+                            myModal.show();
+                        } else {
+                            alert('Errore durante l\'aggiunta al carrello.');
+                        }
+                    },
+                    error: function () {
+                        alert('Errore durante l\'aggiunta al carrello.');
+                    }
+                });
+            });
+        });
+    </script>
