@@ -5,27 +5,54 @@
 
 @if (Model.Ordini.Any())
 {
-    @foreach (var prodotti in Model.Ordini)
-    {
-        <img src="@prodotti.CoverImagePath" />
-        <p>@prodotti.NomeProdotto</p>
-        <p>@prodotti.PrezzoTotale</p>
-        <form asp-controller="Home" asp-action="ModifcaOrDeleteOrdine" class="d-flex justify-content-between align-items-center gap-1">
-            <input type="hidden" name="IdOrdine" value="@prodotti.IdOrdine" />
-            <label>Quantità:</label>
-            <input type="number" value="@prodotti.QuantitaTotale" id="quantita" name="quantita" class="quantity" />
-            <button class="btn btn-primary">Modifica la quantità</button>
-        </form>
-    }
+    <h1 class="text-white">IL TUO CARRELLO:</h1>
+    <div class="container mt-3 bg-white p-3">
+        <table class="table table-striped">
+            <thead>
+                <tr class="border-bottomx">
+                    <th scope="col">Copertina</th>
+                    <th scope="col">Nome Prodotto</th>
+                    <th scope="col">Piattaforma</th>
+                    <th scope="col">Prezzo</th>
+                    <th scope="col">Quantità</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var o in Model.Ordini)
+                {
+                    <tr class="align-middle">
+                        <td><img class="imgTable" src="@o.CoverImagePath" /></td>
+                        <td>@o.NomeProdotto</td>
+                        <td>@o.NomePiattaforma</td>
+                        <td class="col-prezzo">@o.PrezzoTotale.ToString("C")</td>
+                        <td>
+                            <form asp-controller="Home" asp-action="ModifcaOrDeleteOrdine" class="d-flex justify-content-between align-items-center gap-1">
+                                <input type="hidden" name="IdOrdine" value="@o.IdOrdine" />
+                                <label>Quantità:</label>
+                                <input type="number" value="@o.QuantitaTotale" id="quantita" name="quantita" class="quantity" />
+                                <button class="btn btn-primary">Modifica la quantità</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <p>Quantità Totale: @Model.OrdineCompleto.QuantitaTotale</p>
+        <p>Prezzo Totale: @Model.OrdineCompleto.PrezzoTotale.ToString("C")</p>
+        <a asp-controller="Home" asp-action="AcquistaTutto" class="btn btn-success">Compra tutto!!!!!</a>
 
-    <h3>Totale Ordine</h3>
-    <p>Quantità Totale: @Model.OrdineCompleto.QuantitaTotale</p>
-    <p>Prezzo Totale: @Model.OrdineCompleto.PrezzoTotale</p>
+    </div>
 
-    <a asp-controller="Home" asp-action="AcquistaTutto" class="btn btn-primary">Compra tutto!!!!!</a>
+
+   
 }
 else
 {
-    <p>NON CI SONO PRODOTTI. COMPRA.</p>
+    <div class="alert alert-warning mt-3 text-danger text-center" role="alert">
+        <h3>Il tuo carrello è vuoto, torna alla 
+        <a class="nav-link text-danger d-inline p-0" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            per aggiungere i titoli da acquistare!
+        </h3>
+    </div>
 }
 
