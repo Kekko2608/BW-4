@@ -44,8 +44,8 @@ namespace E_Commerce_BW4_Team4.Services
         GROUP BY p.NomeProdotto, p.Brand, pt.NomePiattaforma, p.IdProdotto, o.IdOrdine";
 
             var queryOrdineCompleto = @"
-        SELECT SUM(o.Quantita) as QuantitaTotale, 
-               SUM(p.Prezzo * o.Quantita) as PrezzoTotale 
+        SELECT ISNULL (SUM(o.Quantita),0) as QuantitaTotale, 
+               ISNULL (SUM(p.Prezzo * o.Quantita),0) as PrezzoTotale 
         FROM Ordini as o 
         JOIN Carrello as c ON o.IdCarrello = c.IdCarrello 
         JOIN Prodotti as p ON o.IdProdotti = p.IdProdotto 
@@ -72,7 +72,7 @@ namespace E_Commerce_BW4_Team4.Services
                     if (reader2.Read())
                     {
                         ordineCompleto.QuantitaTotale = reader2.GetInt32(0);
-                        ordineCompleto.PrezzoTotale = reader2.GetDecimal(1);
+                        ordineCompleto.PrezzoTotale =  reader2.GetDecimal(1);
                     }
                 }
             }
@@ -109,14 +109,19 @@ namespace E_Commerce_BW4_Team4.Services
             if (result != 1)
                 throw new Exception("Creazione non completata");
         }
-        public void Delete(int idProdotto)
-        {
-            throw new NotImplementedException();
-        }
+ 
 
         public void DeleteAll()
         {
-            throw new NotImplementedException();
+            var query = "DELETE FROM Ordini";
+            var cmd = GetCommand(query);
+
+            using var conn = GetConnection();
+            conn.Open();
+            var result = cmd.ExecuteNonQuery();
+
+            if (result != 1)
+                throw new Exception("Creazione non completata");
         }
 
 
