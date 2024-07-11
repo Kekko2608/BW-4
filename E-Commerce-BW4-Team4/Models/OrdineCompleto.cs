@@ -2,6 +2,7 @@
 {
     public class OrdineCompleto : ProdottoViewModel
     {
+        public int IdOrdine { get; set; }
         public decimal PrezzoTotale { get; set; }
 
         public decimal QuantitaTotale { get; set; }

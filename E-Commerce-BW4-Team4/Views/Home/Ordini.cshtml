@@ -1,10 +1,31 @@
-﻿@model IEnumerable<OrdineCompleto>
+﻿@model OrdiniViewModel
 @{
     ViewData["Title"] = "Tutti i tuoi ordini";
 }
 
-@foreach (var prodotti in Model)
-{   
-    <img src="@prodotti.CoverImagePath" />
-    <p>@prodotti.NomeProdotto</p>
+@if (Model.Ordini.Any())
+{
+    @foreach (var prodotti in Model.Ordini)
+    {
+        <img src="@prodotti.CoverImagePath" />
+        <p>@prodotti.NomeProdotto</p>
+        <p>@prodotti.PrezzoTotale</p>
+        <form asp-controller="Home" asp-action="ModifcaOrDeleteOrdine" class="d-flex justify-content-between align-items-center gap-1">
+            <input type="hidden" name="IdOrdine" value="@prodotti.IdOrdine" />
+            <label>Quantità:</label>
+            <input type="number" value="@prodotti.QuantitaTotale" id="quantita" name="quantita" class="quantity" />
+            <button class="btn btn-primary">Modifica la quantità</button>
+        </form>
+    }
+
+    <h3>Totale Ordine</h3>
+    <p>Quantità Totale: @Model.OrdineCompleto.QuantitaTotale</p>
+    <p>Prezzo Totale: @Model.OrdineCompleto.PrezzoTotale</p>
+
+    <a asp-controller="Home" asp-action="AcquistaTutto" class="btn btn-primary">Compra tutto!!!!!</a>
 }
+else
+{
+    <p>NON CI SONO PRODOTTI. COMPRA.</p>
+}
+
