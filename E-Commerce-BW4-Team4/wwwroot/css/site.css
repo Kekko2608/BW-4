@@ -87,3 +87,11 @@ header, .footer {
     width: 100%;
     height: 100%;
 }
+
+.imgTable {
+    width: 100px;
+}
+
+.col-prezzo{
+    width: 100px;
+}

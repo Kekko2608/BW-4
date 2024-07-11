@@ -44,7 +44,7 @@ namespace E_Commerce_BW4_Team4.Controllers
         {
             var Username = TempData["Username"] as string;
             ViewBag.Username = Username;
-            return View(_prodottoService.GetAllProducts());
+            return View(_prodottoService.GetAllProductsWithImages());
         }
         //----CRUD DEI PRODOTTI----
         public IActionResult CreaProdotto()
@@ -119,7 +119,6 @@ namespace E_Commerce_BW4_Team4.Controllers
         {
 
             TempData["quantita"] = quantita;
-            var quantità = TempData["quantita"];
             _ordiniService.CreaOrdine(ordine, idProdotto, quantita);
             return RedirectToAction(nameof(Index));
 
@@ -145,7 +144,6 @@ namespace E_Commerce_BW4_Team4.Controllers
         public IActionResult ModifcaOrDeleteOrdine(Ordine ordine, int idOrdine, int quantita)
         {
             TempData["quantita"] = quantita;
-            var quantità = TempData["quantita"];
 
             _ordiniService.ModifcaOrDelete(ordine, idOrdine, quantita);
             return RedirectToAction(nameof(Ordini));

@@ -120,7 +120,7 @@ namespace E_Commerce_BW4_Team4.Services
             conn.Open();
             var result = cmd.ExecuteNonQuery();
 
-            if (result != 1)
+            if (result < 1)
                 throw new Exception("Creazione non completata");
         }
 
