@@ -30,15 +30,17 @@
                                 <input type="hidden" name="IdOrdine" value="@o.IdOrdine" />
                                 <label>Quantità:</label>
                                 <input type="number" value="@o.QuantitaTotale" id="quantita" name="quantita" class="quantity" />
-                                <button class="btn btn-primary">Modifica la quantità</button>
+                                <button class="btn btn-modifica text-light">Modifica la quantità</button>
                             </form>
                         </td>
                     </tr>
                 }
             </tbody>
         </table>
-        <p>Quantità Totale: @Model.OrdineCompleto.QuantitaTotale</p>
-        <p>Prezzo Totale: @Model.OrdineCompleto.PrezzoTotale.ToString("C")</p>
+        <p class="text-end fs-4 fw-3">Quantità Totale: <strong>@Model.OrdineCompleto.QuantitaTotale</strong></p>
+        <p class="text-end fs-4 fw-3">
+            Prezzo Totale: <strong>@Model.OrdineCompleto.PrezzoTotale.ToString("C")</strong>
+        </p>
         <a asp-controller="Home" asp-action="AcquistaTutto" class="btn btn-modifica text-light">Compra tutto!!!!!</a>
 
     </div>

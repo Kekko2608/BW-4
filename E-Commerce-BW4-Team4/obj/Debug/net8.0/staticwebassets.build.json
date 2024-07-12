@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vtvHaKqenDFqjmeVLu+jmM89czVE3nmmE9BtvuS7LBY=",
+  "Hash": "AyjYpKG2+7aLVcJupuKWZFqwXRYTG8RbD9QlWRxKhpU=",
   "Source": "E-Commerce-BW4-Team4",
   "BasePath": "_content/E-Commerce-BW4-Team4",
   "Mode": "Default",
@@ -946,6 +946,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\9d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\cart.svg",
+      "SourceId": "E-Commerce-BW4-Team4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\",
+      "BasePath": "_content/E-Commerce-BW4-Team4",
+      "RelativePath": "img/cart.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cart.svg"
     },
     {
       "Identity": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\icon_epigames_store.png",

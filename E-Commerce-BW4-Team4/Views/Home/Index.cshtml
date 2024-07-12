@@ -4,7 +4,6 @@
 }
 
     <div class="text-center my-3">
-        <h1 class="text-white">Benvenuto in</h1>
         <img src="~/img/logo_epigames_store.svg" alt="logo" class="logo" />
     </div>
     <div class="container">
@@ -33,7 +32,7 @@
                                     <input type="hidden" name="idProdotto" value="@Prodotto.IdProdotto" />
                                     <label>Quantità:</label>
                                     <input type="number" value="1" id="quantita" name="quantita" class="quantity" />
-                                    <button type="submit" class="btn btn-modifica btn-sm" data-bs-toggle="modal" data-bs-target="#modal-cart-@Prodotto.IdProdotto">
+                                <button type="submit" class="btn btn-modifica btn-sm" data-bs-toggle="modal" data-bs-target="#modal-cart-@Prodotto.IdProdotto" @(Prodotto.Disponibilita ? "" : "disabled")>
                                         <i class="bi bi-cart4"></i>
                                     </button>
                                 </form>
@@ -90,11 +89,11 @@
                             </div>
                             <div class="modal-footer d-flex justify-content-between">
                             <a type="button" class="btn text-black fs-2" data-bs-dismiss="modal"><i class="bi bi-x-circle"></i></a>
-                                <form asp-controller="Home" asp-action="CreaOrdine" class="d-flex justify-content-between align-items-center gap-1">
+                            <form asp-controller="Home" asp-action="CreaOrdine" class="d-flex justify-content-between align-items-center gap-1 crea-ordine-form">
                                     <input type="hidden" name="idProdotto" value="@Prodotto.IdProdotto" />
                                     <label>Quantità:</label>
                                     <input type="number" value="1" id="quantita" name="quantita" class="quantity" />
-                                <button type="submit" class="btn btn-modifica btn-sm">Acquista</button>
+                                <button type="submit" class="btn btn-modifica btn-sm" @(Prodotto.Disponibilita ? "" : "disabled")><i class="bi bi-cart4"></i></button>
                                 </form>
                             </div>
                         </div>
@@ -102,17 +101,16 @@
                 </div>
 
                 <!-- Modal per conferma inserimento nel carrello -->
-                <div class="modal fade" id="modal-cart-@Prodotto.IdProdotto" tabindex="-1" aria-labelledby="modalLabel-cart-@Prodotto.IdProdotto" aria-hidden="true">
+                <div class="modal fade custom-modal" id="modal-cart-@Prodotto.IdProdotto" tabindex="-1" aria-labelledby="modalLabel-cart-@Prodotto.IdProdotto" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modalLabel-cart-@Prodotto.IdProdotto">Articolo inserito nel carrello</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="custom-modal-content">
+                        <div class="modal-header border-0">
+                                <h5 class="modal-title text-white " id="modalLabel-cart-@Prodotto.IdProdotto">Articolo inserito nel carrello</h5>
                             </div>
-                            <div class="modal-body">
-                                <p>Il prodotto è stato aggiunto al carrello con successo!</p>
+                            <div class="modal-body border-0">
+                            <img src="~/img/cart.svg" />
                             </div>
-                            <div class="modal-footer">
+                            <div class="modal-footer border-0">
                                 <button type="button" class="btn btn-modifica btn-s" data-bs-dismiss="modal">Chiudi</button>
                             </div>
                         </div>
@@ -123,30 +121,36 @@
     </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".crea-ordine-form").submit(function (event) {
-                event.preventDefault();
-                var form = $(this);
-                $.ajax({
-                    type: form.attr('method'),
-                    url: form.attr('action'),
-                    data: form.serialize(),
-                    success: function (response) {
-                        if (response.success) {
-                            // Mostra il modal di Bootstrap per il carrello
-                            var modalId = form.closest('.card').find('.modal').attr('id');
-                            var myModal = new bootstrap.Modal(document.getElementById(modalId));
-                            myModal.show();
-                        } else {
-                            alert('Errore durante l\'aggiunta al carrello.');
+     <script>
+    $(document).ready(function () {
+        $(".crea-ordine-form").submit(function (event) {
+            event.preventDefault();
+            var form = $(this);
+            $.ajax({
+                type: form.attr('method'),
+                url: form.attr('action'),
+                data: form.serialize(),
+                success: function (response) {
+                    if (response.success) {
+                        var modalId;
+                        if (form.closest('.card').length) {
+                            // Se il form è nella card
+                            modalId = form.closest('.card').find('.modal').attr('id');
+                        } else if (form.closest('.modal').length) {
+                            // Se il form è nel modal dei dettagli
+                            modalId = form.closest('.modal').next('.modal').attr('id');
                         }
-                    },
-                    error: function () {
+                        var myModal = new bootstrap.Modal(document.getElementById(modalId));
+                        myModal.show();
+                    } else {
                         alert('Errore durante l\'aggiunta al carrello.');
                     }
-                });
+                },
+                error: function () {
+                    alert('Errore durante l\'aggiunta al carrello.');
+                }
             });
         });
+    });
+
     </script>

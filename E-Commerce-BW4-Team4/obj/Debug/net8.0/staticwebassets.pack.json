@@ -193,6 +193,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\cart.svg",
+      "PackagePath": "staticwebassets\\img\\cart.svg"
+    },
+    {
       "Id": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\img\\icon_epigames_store.png",
       "PackagePath": "staticwebassets\\img\\icon_epigames_store.png"
     },
