@@ -92,8 +92,8 @@
                             <form asp-controller="Home" asp-action="CreaOrdine" class="d-flex justify-content-between align-items-center gap-1 crea-ordine-form">
                                     <input type="hidden" name="idProdotto" value="@Prodotto.IdProdotto" />
                                     <label>Quantità:</label>
-                                    <input type="number" value="1" id="quantita" name="quantita" class="quantity" />
-                                <button type="submit" class="btn btn-modifica btn-sm" @(Prodotto.Disponibilita ? "" : "disabled")><i class="bi bi-cart4"></i></button>
+                                    <input type="number" value="1" id="quantita" name="quantita" class="quantity" min="1"/>
+                                <button type="submit" class="btn btn-modifica btn-sm">Acquista</button>
                                 </form>
                             </div>
                         </div>
