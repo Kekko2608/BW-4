@@ -118,10 +118,9 @@ namespace E_Commerce_BW4_Team4.Controllers
         public IActionResult CreaOrdine(Ordine ordine, int idProdotto, int quantita)
         {
 
-            TempData["quantita"] = quantita;
-            _ordiniService.CreaOrdine(ordine, idProdotto, quantita);
+            TempData["quantita"] = quantita;      
+                _ordiniService.CreaOrdine(ordine, idProdotto, quantita);
             return Json(new { success = true, message = "Articolo inserito nel carrello" });
-
         }
 
         public IActionResult Ordini()
@@ -138,14 +137,21 @@ namespace E_Commerce_BW4_Team4.Controllers
             return View(viewModel);
      
 
-           // return View(tuttoOrdine);
 
+            
         }
-        public IActionResult ModifcaOrDeleteOrdine(Ordine ordine, int idOrdine, int quantita)
+        public IActionResult ModificaIlCarrello(Ordine ordine, int idOrdine, int quantita)
         {
             TempData["quantita"] = quantita;
 
-            _ordiniService.ModifcaOrDelete(ordine, idOrdine, quantita);
+            _ordiniService.ModificaCarrello(ordine, idOrdine, quantita);
+            return RedirectToAction(nameof(Ordini));
+        }
+
+        public IActionResult EliminaDalCarrello(int idOrdine)
+        {
+
+            _ordiniService.Delete(idOrdine);
             return RedirectToAction(nameof(Ordini));
         }
         public IActionResult AcquistaTutto()

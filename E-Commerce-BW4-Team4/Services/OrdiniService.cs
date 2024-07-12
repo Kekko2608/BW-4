@@ -80,34 +80,82 @@ namespace E_Commerce_BW4_Team4.Services
             return (ordini, ordineCompleto);
         }
         
-        public void CreaOrdine(Ordine ordine, int idProdotto, int Quantita)
+        public void CreaOrdine(Ordine ordine, int idProdotto, int quantita)
         {
-            var query = "INSERT INTO Ordini (IdProdotti, IdCarrello, Quantita) VALUES(@IdProdotti, 1, @Quantita)";
-            var cmd = GetCommand(query);
-            cmd.Parameters.Add(new SqlParameter("@Quantita", Quantita));
-            cmd.Parameters.Add(new SqlParameter("@IdProdotti", idProdotto));
             using var conn = GetConnection();
             conn.Open();
-            var result = cmd.ExecuteNonQuery();
 
-            if (result != 1)
-                throw new Exception("Creazione non completata");
+  
+            var checkQuery = "SELECT IdOrdine, Quantita FROM Ordini WHERE IdProdotti = @IdProdotti AND IdCarrello = 1";
+            var checkCmd = GetCommand(checkQuery); 
+            checkCmd.Parameters.Add(new SqlParameter("@IdProdotti", idProdotto));
+
+            using var reader = checkCmd.ExecuteReader();
+
+            if (reader.Read())
+            {
+              //  if (quantita <= 0)
+               // {
+                 //   throw new Exception("Quantità inserita non corretta.");
+
+               // }
+                int idOrdine = reader.GetInt32(0);
+                int currentQuantity = reader.GetInt32(1);
+
+           
+                reader.Close();
+
+                var updateQuery = "UPDATE Ordini SET Quantita = Quantita + @Quantita WHERE IdProdotti = @IdProdotti AND IdCarrello = 1";
+                var updateCmd = GetCommand(updateQuery); 
+                updateCmd.Parameters.Add(new SqlParameter("@Quantita", quantita));
+                updateCmd.Parameters.Add(new SqlParameter("@IdProdotti", idProdotto));
+
+
+
+                var updateResult = updateCmd.ExecuteNonQuery();
+
+                if (updateResult != 1)
+                    throw new Exception("Modifica non completata");
+
+            }
+            else
+            {
+                
+                reader.Close();
+
+                var insertQuery = "INSERT INTO Ordini (IdProdotti, IdCarrello, Quantita) VALUES(@IdProdotti, 1, @Quantita)";
+                var insertCmd = GetCommand(insertQuery); 
+                insertCmd.Parameters.Add(new SqlParameter("@Quantita", quantita));
+                insertCmd.Parameters.Add(new SqlParameter("@IdProdotti", idProdotto));
+
+                var insertResult = insertCmd.ExecuteNonQuery();
+
+                if (insertResult != 1)
+                    throw new Exception("Creazione non completata");
+            }
         }
-        
+      
 
-        public void ModificaCarrello(Ordine ordine, int quantita)
+
+        public void ModificaCarrello(Ordine ordine, int idOrdine, int quantita)
         {
+            if (quantita <= 0)
+            {
+                throw new Exception("Quantità inserita non corretta.");
+
+            }
             var query = "UPDATE Ordini SET Quantita = @quantita WHERE IdOrdine = @IdOrdine";
             var cmd = GetCommand(query);
-            cmd.Parameters.Add(new SqlParameter("@IdProdotto", quantita));
- 
-
+            cmd.Parameters.Add(new SqlParameter("@IdOrdine", idOrdine));
+            cmd.Parameters.Add(new SqlParameter("@quantita", quantita));
+            
             using var conn = GetConnection();
             conn.Open();
             var result = cmd.ExecuteNonQuery();
-
             if (result != 1)
-                throw new Exception("Creazione non completata");
+                throw new Exception("Modifica non completata");
+
+            
         }
  
 
@@ -125,22 +173,7 @@ namespace E_Commerce_BW4_Team4.Services
         }
 
 
-        public void ModifcaOrDelete(Ordine Ordine, int idOrdine, int quantita)
-        {
-          if(quantita >= 1)
-            {
-                var query = "UPDATE Ordini SET Quantita = @quantita WHERE IdOrdine = @IdOrdine";
-                var cmd = GetCommand(query);
-                cmd.Parameters.Add(new SqlParameter("@IdOrdine", idOrdine));
-                cmd.Parameters.Add(new SqlParameter("@quantita", quantita));
-                using var conn = GetConnection();
-                conn.Open();
-                var result = cmd.ExecuteNonQuery();
-
-                if (result != 1)
-                    throw new Exception("Modifica non completata");
-            } 
-            else if(quantita == 0) 
+        public void Delete(int idOrdine)        
             {
                     var query = "DELETE FROM Ordini WHERE IdOrdine = @IdOrdine";
                     var cmd = GetCommand(query);
@@ -152,6 +185,8 @@ namespace E_Commerce_BW4_Team4.Services
                     if (result != 1)
                     throw new Exception("Eliminazione non completata");
             }
-        }
+
+     
     }
-}
+    }
+
