@@ -33,6 +33,22 @@
       "PackagePath": "staticwebassets\\images\\10d.jpg"
     },
     {
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\11a.jpg",
+      "PackagePath": "staticwebassets\\images\\11a.jpg"
+    },
+    {
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\11b.jpg",
+      "PackagePath": "staticwebassets\\images\\11b.jpg"
+    },
+    {
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\11c.jpg",
+      "PackagePath": "staticwebassets\\images\\11c.jpg"
+    },
+    {
+      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\11d.jpg",
+      "PackagePath": "staticwebassets\\images\\11d.jpg"
+    },
+    {
       "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\12a.jpg",
       "PackagePath": "staticwebassets\\images\\12a.jpg"
     },
@@ -47,22 +63,6 @@
     {
       "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\12d.jpg",
       "PackagePath": "staticwebassets\\images\\12d.jpg"
-    },
-    {
-      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\13a.jpg",
-      "PackagePath": "staticwebassets\\images\\13a.jpg"
-    },
-    {
-      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\13b.jpg",
-      "PackagePath": "staticwebassets\\images\\13b.jpg"
-    },
-    {
-      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\13c.jpg",
-      "PackagePath": "staticwebassets\\images\\13c.jpg"
-    },
-    {
-      "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\13d.jpg",
-      "PackagePath": "staticwebassets\\images\\13d.jpg"
     },
     {
       "Id": "D:\\Github project\\BW-4\\E-Commerce-BW4-Team4\\wwwroot\\images\\1a.jpg",

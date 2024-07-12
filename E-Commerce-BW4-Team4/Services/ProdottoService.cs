@@ -147,6 +147,9 @@ namespace E_Commerce_BW4_Team4.Services
         // DELETE PRODOTTO
         public void Delete(int IdProdotto)
         {
+            // Elimina le immagini associate al prodotto
+            DeleteProductImages(IdProdotto);
+
             var query = "DELETE FROM Prodotti WHERE IdProdotto = @IdProdotto";
             var cmd = GetCommand(query);
             cmd.Parameters.Add(new SqlParameter("@IdProdotto", IdProdotto));
@@ -156,11 +159,23 @@ namespace E_Commerce_BW4_Team4.Services
             var result = cmd.ExecuteNonQuery();
             if (result != 1) throw new Exception("Articolo non eliminato");
         }
-        // CONFERMA DELETE  
 
+        // Metodo per eliminare le immagini associate al prodotto
+        private void DeleteProductImages(int idProdotto)
+        {
+            var imageNames = new[] { "a", "b", "c", "d" };
+            foreach (var name in imageNames)
+            {
+                var imagePath = Path.Combine("wwwroot", "Images", $"{idProdotto}{name}.jpg");
+                if (File.Exists(imagePath))
+                {
+                    File.Delete(imagePath);
+                }
+            }
+        }
 
-        //UPDATE
-        public void Update(Prodotto prodotto)
+            //UPDATE
+            public void Update(Prodotto prodotto)
         {
             var query = "UPDATE Prodotti SET NomeProdotto = @NomeProdotto, DescrizioneProdotto = @DescrizioneProdotto, Brand = @Brand, PEGI = @PEGI, " +
                         "CodiceABarre = @CodiceABarre, Disponibilita = @Disponibilita, Prezzo = @Prezzo, IdPiattaforma = @IdPiattaforma, IdGenere = @IdGenere " +
