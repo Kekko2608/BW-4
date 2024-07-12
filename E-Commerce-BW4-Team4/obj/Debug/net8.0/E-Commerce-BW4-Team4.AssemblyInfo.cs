@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("E-Commerce-BW4-Team4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07f3106846658c6efbf19c5c4665c68d943d9922")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f067b281973c7d8e3fcd5aac0a90f0477e4d89c")]
 [assembly: System.Reflection.AssemblyProductAttribute("E-Commerce-BW4-Team4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("E-Commerce-BW4-Team4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

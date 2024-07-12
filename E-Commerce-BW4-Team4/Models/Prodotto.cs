@@ -13,5 +13,16 @@
         public int Piattaforma { get; set; }
         public int Genere { get; set; }
         public ICollection<Ordine> Ordini { get; set; }
+
+        public string ShortDescription
+        {
+            get
+            {
+                if (DescrizioneProdotto.Length > 75)
+                    return DescrizioneProdotto.Substring(0, 75) + "...";
+                else
+                    return DescrizioneProdotto;
+            }
+        }
     }
 }
