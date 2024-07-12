@@ -93,7 +93,7 @@
                                     <input type="hidden" name="idProdotto" value="@Prodotto.IdProdotto" />
                                     <label>Quantità:</label>
                                     <input type="number" value="1" id="quantita" name="quantita" class="quantity" min="1"/>
-                                <button type="submit" class="btn btn-modifica btn-sm">Acquista</button>
+                                <button type="submit" class="btn btn-modifica btn-sm" @(Prodotto.Disponibilita ? "" : "disabled")><i class="bi bi-cart4"></i></button>
                                 </form>
                             </div>
                         </div>

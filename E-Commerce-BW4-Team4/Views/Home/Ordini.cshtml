@@ -30,10 +30,10 @@
                                 <input type="hidden" name="IdOrdine" value="@o.IdOrdine" />
                                 <label>Quantità:</label>
                                 <input type="number" value="@o.QuantitaTotale" id="quantita" name="quantita" class="quantity" min="1" />
-                                <button class="btn btn-primary">Modifica la quantità</button>
+                                <button class="btn btn-modifica">Modifica la quantità</button>
+                                <a class="btn btn-danger" asp-controller="Home" asp-action="EliminaDalCarrello" asp-route-idOrdine="@o.IdOrdine"><i class="bi bi-trash"></i></a>
                             </form>
 
-                            <a class="btn btn-danger" asp-controller="Home" asp-action="EliminaDalCarrello" asp-route-idOrdine="@o.IdOrdine"><i class="bi bi-trash"></i></a>
                         </td>
                     </tr>
                 }

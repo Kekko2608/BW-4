@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Views\\Home\\Ordini.cshtml",
               "ToolTip": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Ordini.cshtml",
               "RelativeToolTip": "Views\\Home\\Ordini.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAAAHAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-12T07:40:57.04Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAF8AAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T06:00:52.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T06:00:52.937Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-12T05:55:17.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T05:55:17.312Z"
             },
             {
               "$type": "Document",
@@ -91,7 +89,7 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\stefa\\Desktop\\Epic Code\\BW-4\\E-Commerce-BW4-Team4\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFAAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-12T05:50:28.628Z",
               "EditorCaption": ""
